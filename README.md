@@ -38,7 +38,8 @@ Esperamos que todos los colaboradores se adhieran a nuestro código de conducta,
 
 ## Licencia 📄
 
-Este proyecto está licenciado bajo la Licencia MIT - vea el archivo [LICENSE.md](LICENSE) para detalles.
+Este proyecto está licenciado bajo la Licencia MIT - vea el archivo [LICENSE.md](LICENSE.md) para detalles.
+
 
 ---
 
