@@ -255,7 +255,7 @@ body::before {
     background-position: center;
 }
   
-  .services-title {
+.services-title {
     font-size: 80px;
     text-align: center;
     color: transparent; /* Hacemos el texto transparente */
@@ -266,19 +266,19 @@ body::before {
     -webkit-background-clip: text; /* Para compatibilidad con navegadores basados en WebKit como Chrome y Safari */
 }
   
-  .services-description {
+.services-description {
     font-size: 1em;
     text-align: center;
     margin-bottom: 30px;
 }
   
-  .services-grid {
+.services-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
 }
   
-  .service-item {
+.service-item {
     background-color: transparent;
     padding: 50px; /* Ajusta el valor de padding según tus necesidades */
     position: relative;
@@ -286,7 +286,7 @@ body::before {
     margin: 5%;
 }
   
-  .service-title {
+.service-title {
     font-size: 32px;
     color: #ff0000;
     margin-top: 0;
@@ -294,7 +294,7 @@ body::before {
     font-weight: 400;
 }
   
-  .service-description {
+.service-description {
     font-size: 1em;
   
 }
@@ -303,7 +303,7 @@ body::before {
     position: absolute;
     bottom: -10px; /*No tocar*/
     align-items: flex-start;
-    padding: 5px 10px;
+    padding: 5px 0px;
     font-size: 2em;
     color: #fff;
     margin-bottom: 3%;
