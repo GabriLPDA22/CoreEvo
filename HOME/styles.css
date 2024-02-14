@@ -245,14 +245,18 @@ body::before {
 
 /*SERVICIOS*/
 
-.services-container {
-    max-width: 100%;
+.SERVICIOS-SECTION{
     margin: auto;
-    padding: 20px;
+    padding: 100px;
     background-color: #000000;
     color: white;
     background-size: cover;
     background-position: center;
+}
+
+.services-container {
+    max-width: 1200px;
+    margin: auto;
 }
   
 .services-title {
@@ -308,4 +312,59 @@ body::before {
     color: #fff;
     margin-bottom: 3%;
     font-family: "Bebas Neue", sans-serif;
+}
+
+
+
+
+/*Formulario*/
+
+
+/* Ajustes adicionales para el formulario y los elementos dentro de él */
+.campo {
+    margin-bottom: 15px;
+}
+
+.campo input[type="text"],
+.campo input[type="email"],
+.campo input[type="tel"] {
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    font-size: 16px;
+}
+
+.campo input[type="text"]::placeholder,
+.campo input[type="email"]::placeholder,
+.campo input[type="tel"]::placeholder {
+    color: #fff;
+    opacity: 0.7;
+}
+
+.campo input[type="text"]:focus,
+.campo input[type="email"]:focus,
+.campo input[type="tel"]:focus {
+    outline: none;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.Formulario-Boton {
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff0000;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.Formulario-Boton:hover {
+    background-color: #e60000;
+}
+
+.accion {
+    text-align: center;
 }
