@@ -74,7 +74,7 @@ body::before {
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-size: 21px;
-    font-family: Bebas Neue;
+    font-family: "Bebas Neue", sans-serif;
     margin-right: 20px;
     align-items: right;
 }
@@ -93,8 +93,8 @@ body::before {
     justify-content: flex-start;
     align-items: flex-start;
     padding: 20px;
-    margin-top: 8%;
-    margin-bottom: 5%;
+    margin-top: 6%;
+    margin-bottom: 10%;
 }
 
 .welcome-text {
@@ -129,16 +129,18 @@ body::before {
     margin-top: 5px;
     max-width: 100%;
     word-wrap: break-word;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     color: #ffffff;
     font-weight: 100;
     margin-left: 50px;
 }
 
 .button-container {
-    margin-top: 20px;
+    margin-top: 20%;
     text-align: left;
-    margin-left: 10%;
+    position: relative;
+    left: 10%;
+    
 }
 
 .red-button {
@@ -170,26 +172,23 @@ body::before {
 }
 
 .additional-texts h3 {
-    font-size: 154px;
+    font-size: 200px;
     margin: -36px 0;
     text-align: right;
     color: transparent; 
     -webkit-text-stroke: 1px rgb(255, 255, 255);
     font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    letter-spacing: 4px;
+    font-weight: 500;
+    letter-spacing: 75px;
     
 }
-
-
 
 .experience-section {
     display: flex;
     flex-direction: wrap; 
-    padding: 5px;
-    margin-top: 20px;
     overflow-x: auto; /* Agrega una barra de desplazamiento horizontal si es necesario */
-    margin-right: 1072px;
+    margin-right: 800px;
+    margin-bottom: 50px;
 }
 
 
@@ -206,8 +205,8 @@ body::before {
     top: 0;
     left: 35px;
     bottom: 0;
-    width: 2px;
-    background-color: #ff0000;
+    width: 1px;
+    background-color: #E2E2E2;
 
 }
 
