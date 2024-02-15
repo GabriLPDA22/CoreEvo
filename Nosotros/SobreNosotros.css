@@ -1,0 +1,80 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: url(https://www.dir.cat/blog/wp-content/uploads/2020/03/micromachismos-gimnasio.jpg) center/cover no-repeat; /* Ajusta la URL y las propiedades según tu imagen de fondo */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9); /* Cambia el valor (último número) para ajustar la opacidad */
+}
+
+.content {
+  z-index: 1;
+  color: white; 
+}
+
+.imagen-lateral {
+  position: absolute;
+  top: 100px; /* Posición desde la parte superior */
+  right: 175px; /* Posición desde la derecha */
+  z-index: 10;
+}
+
+.imagen-lateral img {
+  width: auto; 
+  height: auto; 
+  max-width: 350px; 
+  max-height: 80vh; 
+}
+
+.rectangulo {
+  position: absolute;
+  width: 325px;
+  height: 375px;
+  border: 1px solid rgb(255, 0, 0);
+  z-index: 1; /* Añadido para asegurarse de que esté encima del overlay y el contenido */
+  top: 150px; 
+  right: 250px; 
+}
+.rectangulo2 {
+  position: absolute;
+  width: 325px;
+  height: 375px;
+  border: 1px solid rgb(83, 83, 83);
+  z-index: 1; /* Añadido para asegurarse de que esté encima del overlay y el contenido */
+  top: 200px; 
+  right: 125px; 
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px; 
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.color-destacado {
+  color: #ff0000; 
+}
+
+.parrafo-con-margen {
+  margin-left: 75px;
+  margin-right: 750px; 
+  margin-top: 125px;
+  text-align: justify;
+  font-family: 'Bebas Neue';
+  /*BEBAS NEUE SOLO SE PUEDE EDITAR EN MAYUSCULAS NO SE QUE FONT LLEVA EL TEXTO HAY QUE AJUSTARLO*/
+}
+ 
+/* FALTA HACER EL RESPOSIVE*/
+
