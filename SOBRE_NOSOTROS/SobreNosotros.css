@@ -26,31 +26,31 @@ body {
 
 .imagen-lateral {
   position: absolute;
-  top: 100px; /* Posición desde la parte superior */
-  right: 175px; /* Posición desde la derecha */
+  top: 150px; /* Posición desde la parte superior */
+  right: 200px; /* Posición desde la derecha */
   z-index: 10;
 }
 
 .imagen-lateral img {
   width: auto; 
   height: auto; 
-  max-width: 350px; 
+  max-width: 300px; 
   max-height: 80vh; 
 }
 
 .rectangulo {
   position: absolute;
   width: 325px;
-  height: 375px;
+  height: 450px;
   border: 1px solid rgb(255, 0, 0);
   z-index: 1; /* Añadido para asegurarse de que esté encima del overlay y el contenido */
-  top: 150px; 
+  top: 100px; 
   right: 250px; 
 }
 .rectangulo2 {
   position: absolute;
   width: 325px;
-  height: 375px;
+  height: 450px;
   border: 1px solid rgb(83, 83, 83);
   z-index: 1; /* Añadido para asegurarse de que esté encima del overlay y el contenido */
   top: 200px; 
