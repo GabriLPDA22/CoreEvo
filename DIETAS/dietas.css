@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: url(https://www.dir.cat/blog/wp-content/uploads/2020/03/micromachismos-gimnasio.jpg) center/cover no-repeat; /* Ajusta la URL y las propiedades según tu imagen de fondo */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9); /* Cambia el valor (último número) para ajustar la opacidad */
+  }
+  
+  .content {
+    z-index: 1;
+    color: white; 
+  }
+  
+  .imagen-lateral-dieta {
+    position: absolute;
+    top: 315px; /* Posición desde la parte superior */
+    right: 300px; /* Posición desde la derecha */
+    z-index: 10;
+  }
+  
+  .imagen-lateral-dieta img {
+    width: auto; 
+    height: auto; 
+    max-width: 550px; 
+    max-height: 80vh; 
+  }
+  
+  .rectangulo {
+    position: absolute;
+    width: 650px;
+    height: 850px;
+    border: 1px solid rgb(255, 0, 0);
+    z-index: 1; /* Añadido para asegurarse de que esté encima del overlay y el contenido */
+    top: 150px; 
+    right: 350px; 
+  }
+  .rectangulo2 {
+    position: absolute;
+    width: 650px;
+    height: 850px;
+    border: 1px solid rgb(83, 83, 83);
+    z-index: 1; /* Añadido para asegurarse de que esté encima del overlay y el contenido */
+    top: 400px; 
+    right: 150px; 
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 50px; 
+    font-family: 'Bebas Neue', sans-serif;
+  }
+  
+  .titulo-blanco {
+    color: rgb(255, 255, 255);
+    text-align: center; /* Centra el texto horizontalmente */
+    position: absolute; /* Posiciona el elemento de forma absoluta */
+    top: 3%; /* Ubica el elemento en el 50% de la parte superior */
+    left: 25%; /* Ubica el elemento en el 50% del margen izquierdo */
+    font-size: 80px;
+  }
+
+  .titulo-rojo {
+    color: rgb(255, 0, 0);
+    text-align: center; /* Centra el texto horizontalmente */
+    position: absolute; /* Posiciona el elemento de forma absoluta */
+    top: 40%; /* Ubica el elemento en el 50% de la parte superior */
+    left: 5%; /* Ubica el elemento en el 50% del margen izquierdo */
+    font-size: 80px;
+  }
+
+  .texto-izquierda {
+    float: left; /* Hace que el texto flote hacia la izquierda */
+    width: 50%; /* Opcional: ajusta el ancho del contenedor del texto */
+    margin-right: 100px;
+    margin-left: 120px;
+    font-size: 30px; /* Aumenta el tamaño de la letra  */
+    margin-top: 200px;
+    text-align: justify; /* Justifica el texto*/
+  font-family: 'Bebas Neue';
+  }
+   .texto-inferior {
+    float: left; /* Hace que el texto flote hacia la izquierda */
+    width: 50%; /* Opcional: ajusta el ancho del contenedor del texto */
+    margin-right: 100px;
+    margin-left: 20px;
+    font-size: 30px; /* Aumenta el tamaño de la letra  */
+    margin-top: 120px;
+    text-align: justify; /* Justifica el texto*/
+  font-family: 'Bebas Neue';
+   }
