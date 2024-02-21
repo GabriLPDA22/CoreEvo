@@ -71,12 +71,6 @@ body {
     right: 260px; 
   }
   
-  .Titulo {
-    text-align: center;
-    margin-top: 50px; 
-    font-family: 'Bebas Neue', sans-serif;
-  }
-  
   .titulo-blanco {
     color: rgb(252, 248, 248);
     text-align: center; /* Centra el texto horizontalmente */
@@ -84,9 +78,12 @@ body {
     top: 3%; /* Ubica el elemento en el 50% de la parte superior */
     left: 20%; /* Ubica el elemento en el 50% del margen izquierdo */
     font-size: 80px;
+    text-align: center;
+    margin-top: 50px; 
+    font-family: 'Bebas Neue', sans-serif;
   }
     
-  .texto-izquierda {
+  .Texto-Izquierda {
     float: left; /* Hace que el texto flote hacia la izquierda */
     width: 50%; /* Opcional: ajusta el ancho del contenedor del texto */
     margin-right: 100px;
