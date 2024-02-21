@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    height: 100vh;
+    height: 150vh;
     background: url(https://www.dir.cat/blog/wp-content/uploads/2020/03/micromachismos-gimnasio.jpg) center/cover no-repeat; /* Ajusta la URL y las propiedades según tu imagen de fondo */
     display: flex;
     justify-content: center;
@@ -71,13 +71,13 @@ body {
     right: 260px; 
   }
   
-  h1 {
+  .Titulo {
     text-align: center;
     margin-top: 50px; 
     font-family: 'Bebas Neue', sans-serif;
   }
   
-  .titulo-rojo {
+  .titulo-blanco {
     color: rgb(252, 248, 248);
     text-align: center; /* Centra el texto horizontalmente */
     position: absolute; /* Posiciona el elemento de forma absoluta */
