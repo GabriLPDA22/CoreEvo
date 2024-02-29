@@ -59,8 +59,6 @@ body::before {
 }
 
 
-
-
 .imagenpart1{
   position: relative;
 }
@@ -166,4 +164,90 @@ body::before {
   font-size: 150%;
   color: white;
 }
+
+.imagenpart4{
+  position: relative;
+}
+
+.img {
+  width: 400px;
+  height: 500px;
+  border: red 2px solid;
+}
+
+.puntuacion4{
+  background-color: black;
+  opacity: 0.8;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: -155px;
+  width: 100%;
+  height: 150px;
+  display: none;
+  position: absolute;
+}
+
+.imagenpart4:hover .puntuacion4{
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.imagenpart4:hover .puntuacion4 .textop{
+  font-size: 140%;
+  color: white; 
+}
+  
+
+.imagenpart5 {
+position: relative;
+}
+
+.img {
+width: 400px;
+height: 500px;
+border: red 2px solid;
+}
+
+.puntuacion5{
+background-color: black;
+opacity: 0.8;
+justify-content: center;
+align-items: center;
+gap: 15px;
+margin-top: -155px;
+width: 100%;
+height: 150px;
+display: none;
+position: absolute;
+}
+
+.imagenpart5:hover .puntuacion5{
+display: flex;
+flex-direction: column;
+cursor: pointer;
+}
+
+.imagenpart5:hover .puntuacion5 .textop{
+font-size: 140%;
+color: white; 
+}
+
+
+.carrusel {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  white-space: nowrap; /* Añade esta línea para evitar que los elementos del carrusel se desplacen a la siguiente línea */
+}
+
+.carrusel-item {
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+}
+
+
+
+
 
