@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  height: 150vh;
+  height: 100vh;
   background: url(https://www.dir.cat/blog/wp-content/uploads/2020/03/micromachismos-gimnasio.jpg) center/cover no-repeat; /* Ajusta la URL y las propiedades según tu imagen de fondo */
   display: flex;
   justify-content: center;
@@ -25,8 +25,8 @@ body {
 
 .imagen-lateral-bici {
   position: absolute;
-  top: 160px; /* Posición desde la parte superior */
-  right: 590px; /* Posición desde la derecha */
+  top: 11%; /* Posición desde la parte superior */
+  right: 12%; /* Posición desde la derecha */
   z-index: 10;
   
 }
@@ -34,65 +34,70 @@ body {
 .imagen-lateral-bici img {
   width: auto; 
   height: auto; 
-  max-width: 400px; 
+  max-width: 55%; 
   max-height: 80vh; 
 }
 
 .imagen-lateral-pesa {
   position: absolute;
-  top: 670px; /* Posición desde la parte superior */
-  right: 280px; /* Posición desde la derecha */
+  top: 50%; /* Posición desde la parte superior */
+  right: -5%; /* Posición desde la derecha */
   z-index: 10;
 }
 
 .imagen-lateral-pesa img {
-  width: auto; 
+  max-width: 100%; 
   height: auto; 
-  max-width: 400px; /*ajusto tamaño*/
+  max-width: 55%; /*ajusto tamaño*/
   max-height: 80vh; /*ajusto tamaño*/
 }
 
 .rectangulo {
   position: absolute;
-  width: 650px;
-  height: 850px;
+  width: 23%;
+  height: 65%;
   border: 1px solid rgb(255, 0, 0);
   z-index: 1; /* Añadido para asegurarse de que esté encima del overlay y el contenido */
-  top: 150px; 
-  right: 350px; 
+  top: 10%; 
+  right: 13%; 
 }
 .rectangulo2 {
   position: absolute;
-  width: 650px;
-  height: 850px;
+  width: 23%;
+  height: 65%;
   border: 1px solid rgb(83, 83, 83);
   z-index: 1; /* Añadido para asegurarse de que esté encima del overlay y el contenido */
-  top: 400px; 
-  right: 260px; 
+  top: 30%; 
+  right: 7%; 
 }
-
+h1 {
+  text-align: center;
+  margin-top: 2%; 
+  font-family: 'Bebas Neue', sans-serif;
+}
 .titulo-blanco {
 color: rgb(252, 248, 248);
 text-align: center; /* Centra el texto horizontalmente */
 position: absolute; /* Posiciona el elemento de forma absoluta */
-top: 3%; /* Ubica el elemento en el 50% de la parte superior */
-left: 20%; /* Ubica el elemento en el 50% del margen izquierdo */
+top: 2%; /* Ubica el elemento en el 50% de la parte superior */
+left: 22%; /* Ubica el elemento en el 50% del margen izquierdo */
 font-size: 80px;
-text-align: center;
-margin-top: 50px; 
 font-family: 'Bebas Neue', sans-serif;
 }
 
 .Texto-Izquierda {
-float: left; /* Hace que el texto flote hacia la izquierda */
-width: 50%; /* Opcional: ajusta el ancho del contenedor del texto */
-margin-right: 100px;
-margin-left: 100px;
-font-size: 20px; /* Aumenta el tamaño de la letra  */
-margin-top: 300px;
-text-align: justify; /* Justifica el texto*/
-font-family: 'Poppins', sans-serif;
+  color: rgb(252, 248, 248);
+  float: left; /* Hace que el texto flote hacia la izquierda */
+  width: 50%; /* Opcional: ajusta el ancho del contenedor del texto */
+  font-size: 30px; /* Aumenta el tamaño de la letra */
+  margin-top: 8%;
+  text-align: justify; /* Justifica el texto */
+  font-family: 'Poppins', sans-serif;
+  z-index: 1;
+  margin-right: 1%;
+  margin-right: 40%;
 }
+
 
 
 

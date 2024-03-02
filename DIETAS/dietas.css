@@ -25,8 +25,8 @@ body {
   
   .imagen-lateral-dieta {
     position: absolute;
-    top: 315px; /* Posición desde la parte superior */
-    right: 300px; /* Posición desde la derecha */
+    top: 23%; /* Posición desde la parte superior */
+    right: 11%; /* Posición desde la derecha */
     z-index: 10;
   }
   
@@ -39,26 +39,26 @@ body {
   
   .rectangulo {
     position: absolute;
-    width: 650px;
-    height: 850px;
+    width: 23%;
+    height: 65%;
     border: 1px solid rgb(255, 0, 0);
     z-index: 1; /* Añadido para asegurarse de que esté encima del overlay y el contenido */
-    top: 150px; 
-    right: 350px; 
+    top: 10%; 
+    right: 13%;  
   }
   .rectangulo2 {
     position: absolute;
-    width: 650px;
-    height: 850px;
+    width: 23%;
+    height: 65%;
     border: 1px solid rgb(83, 83, 83);
     z-index: 1; /* Añadido para asegurarse de que esté encima del overlay y el contenido */
-    top: 400px; 
-    right: 150px; 
+    top: 30%; 
+    right: 7%;  
   }
   
   h1 {
     text-align: center;
-    margin-top: 50px; 
+    margin-top: 2%; 
     font-family: 'Bebas Neue', sans-serif;
   }
   
@@ -83,20 +83,20 @@ body {
   .texto-izquierda {
     float: left; /* Hace que el texto flote hacia la izquierda */
     width: 50%; /* Opcional: ajusta el ancho del contenedor del texto */
-    margin-right: 100px;
-    margin-left: 120px;
+    margin-right: 10%;
+    margin-left: 5%;
     font-size: 30px; /* Aumenta el tamaño de la letra  */
-    margin-top: 200px;
+    margin-top: 8%;
     text-align: justify; /* Justifica el texto*/
   font-family: 'Bebas Neue';
   }
    .texto-inferior {
     float: left; /* Hace que el texto flote hacia la izquierda */
     width: 50%; /* Opcional: ajusta el ancho del contenedor del texto */
-    margin-right: 100px;
-    margin-left: 20px;
+    margin-right: 10%;
+    margin-left: 1%;
     font-size: 30px; /* Aumenta el tamaño de la letra  */
-    margin-top: 120px;
+    margin-top: 8%;
     text-align: justify; /* Justifica el texto*/
   font-family: 'Bebas Neue';
    }
