@@ -67,6 +67,7 @@ body::before {
   width: 400px;
   height: 500px;
   border: red 2px solid;
+  margin-left: 40px;
 }
 
 .puntuacion1{
@@ -93,6 +94,15 @@ body::before {
   color: white; 
 }
 
+.imagenpart1-back{
+  font-size: 100%;
+  background-color: black;
+  opacity: 0.8;
+}
+
+.textoreves{
+  color: white;
+}
 
 
 .imagenpart2{
@@ -122,8 +132,6 @@ body::before {
   font-size: 140%;
   color: white; 
 }
-
-
 
 .imagenpart3{
   position: relative;
@@ -165,89 +173,33 @@ body::before {
   color: white;
 }
 
-.imagenpart4{
-  position: relative;
-}
-
-.img {
-  width: 400px;
-  height: 500px;
-  border: red 2px solid;
-}
-
-.puntuacion4{
-  background-color: black;
-  opacity: 0.8;
-  justify-content: center;
-  align-items: center;
-  gap: 15px;
-  margin-top: -155px;
-  width: 100%;
-  height: 150px;
-  display: none;
-  position: absolute;
-}
-
-.imagenpart4:hover .puntuacion4{
+.action {
   display: flex;
-  flex-direction: column;
-  cursor: pointer;
-}
-
-.imagenpart4:hover .puntuacion4 .textop{
-  font-size: 140%;
-  color: white; 
-}
-  
-
-.imagenpart5 {
-position: relative;
-}
-
-.img {
-width: 400px;
-height: 500px;
-border: red 2px solid;
-}
-
-.puntuacion5{
-background-color: black;
-opacity: 0.8;
-justify-content: center;
-align-items: center;
-gap: 15px;
-margin-top: -155px;
-width: 100%;
-height: 150px;
-display: none;
-position: absolute;
-}
-
-.imagenpart5:hover .puntuacion5{
-display: flex;
-flex-direction: column;
-cursor: pointer;
-}
-
-.imagenpart5:hover .puntuacion5 .textop{
-font-size: 140%;
-color: white; 
-}
-
-
-.carrusel {
-  display: flex;
-  overflow-x: auto;
   scroll-snap-type: x mandatory;
   white-space: nowrap; /* Añade esta línea para evitar que los elementos del carrusel se desplacen a la siguiente línea */
 }
 
-.carrusel-item {
-  flex: 0 0 auto;
-  scroll-snap-align: start;
+/*  adsasdas */
+
+
+.card-container > div {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
 }
 
+.imagenpart1, .imagenpart2, .imagenpart3, 
+.imagenpart1-back, .imagenpart2-back, .imagenpart3-back {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 
-
-
-
+.card-container.is-flipped > div {
+  transform: rotateY(180deg);
+}
