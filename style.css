@@ -3,7 +3,19 @@ body {
     color: white;
     font-family: "Poppins", sans-serif;
 }
-
+.encabezado{
+    width: auto;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 40px;
+}
+.titulo-instalaciones{
+    color: red;
+    margin: 0;
+    padding: 0;
+}
 
 
 .navbar {
@@ -21,6 +33,7 @@ body {
   border-bottom: 1px solid #ffffff;
    
 }
+
 
 /* REDES SOCIALES */
 
