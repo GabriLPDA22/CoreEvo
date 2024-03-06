@@ -1,4 +1,11 @@
-body {
+ 
+  body, html {
+    margin: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+  }
+
+  body {
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -8,7 +15,6 @@ body {
     align-items: flex-start;
     position: relative;
   }
-  
   .overlay {
     position: absolute;
     top: 0;
@@ -16,25 +22,53 @@ body {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.9); /* Cambia el valor (último número) para ajustar la opacidad */
+    z-index: -1;
   }
-  
-  .content {
-    z-index: 1;
-    color: white; 
+  .container {
+    display: flex;
+    height: 100%;
   }
-  
+  .container-izq {
+    color: white;
+    flex-basis: 50%; /* Ocupa el 50% del contenedor principal */
+    padding: 20px; /* Espaciado interior para el texto */
+  }
+  h1 {
+    text-align: center;
+    margin-top: 2%; 
+    font-family: 'Bebas Neue', sans-serif;
+   }
+
+   .p {
+    float: left; /* Hace que el texto flote hacia la izquierda */
+    width: 50%; /* Opcional: ajusta el ancho del contenedor del texto */
+    margin-right: 10%;
+    margin-left: 5%;
+    font-size: 30px; /* Aumenta el tamaño de la letra  */
+    margin-top: 8%;
+    text-align: justify; /* Justifica el texto*/
+  font-family: 'Bebas Neue';
+  }
+  h2 {
+    color: red;
+  }
+   
+  .container-derch {
+    flex-basis: 50%; /* Ocupa el 50% del contenedor principal */
+    background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+  }
   .imagen-lateral-dieta {
+    background-image: url('./fotodieta/fotodieta.jpg');
     position: absolute;
-    top: 23%; /* Posición desde la parte superior */
-    right: 11%; /* Posición desde la derecha */
-    z-index: 10;
-  }
-  
-  .imagen-lateral-dieta img {
-    width: auto; 
-    height: auto; 
-    max-width: 550px; 
-    max-height: 80vh; 
+    width: 20%;
+    height: 60%;
+    z-index: 1; /* Añadido para asegurarse de que esté encima del overlay y el contenido */
+    top: 20%; 
+    right: 11%;  
+    background-size: cover;
+    background-position: center;
+   
+    
   }
   
   .rectangulo {
@@ -55,48 +89,16 @@ body {
     top: 30%; 
     right: 7%;  
   }
-  
-  h1 {
+  .boton {
+    background-color: red; /* Color de fondo para el botón */
+    color: white;
+    border: none;
+    padding: 
+    10px 20px;
     text-align: center;
-    margin-top: 2%; 
-    font-family: 'Bebas Neue', sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
   }
-  
-  .titulo-blanco {
-    color: rgb(255, 255, 255);
-    text-align: center; /* Centra el texto horizontalmente */
-    position: absolute; /* Posiciona el elemento de forma absoluta */
-    top: 3%; /* Ubica el elemento en el 50% de la parte superior */
-    left: 25%; /* Ubica el elemento en el 50% del margen izquierdo */
-    font-size: 80px;
-  }
-
-  .titulo-rojo {
-    color: rgb(255, 0, 0);
-    text-align: center; /* Centra el texto horizontalmente */
-    position: absolute; /* Posiciona el elemento de forma absoluta */
-    top: 40%; /* Ubica el elemento en el 50% de la parte superior */
-    left: 5%; /* Ubica el elemento en el 50% del margen izquierdo */
-    font-size: 80px;
-  }
-
-  .texto-izquierda {
-    float: left; /* Hace que el texto flote hacia la izquierda */
-    width: 50%; /* Opcional: ajusta el ancho del contenedor del texto */
-    margin-right: 10%;
-    margin-left: 5%;
-    font-size: 30px; /* Aumenta el tamaño de la letra  */
-    margin-top: 8%;
-    text-align: justify; /* Justifica el texto*/
-  font-family: 'Bebas Neue';
-  }
-   .texto-inferior {
-    float: left; /* Hace que el texto flote hacia la izquierda */
-    width: 50%; /* Opcional: ajusta el ancho del contenedor del texto */
-    margin-right: 10%;
-    margin-left: 1%;
-    font-size: 30px; /* Aumenta el tamaño de la letra  */
-    margin-top: 8%;
-    text-align: justify; /* Justifica el texto*/
-  font-family: 'Bebas Neue';
-   }
