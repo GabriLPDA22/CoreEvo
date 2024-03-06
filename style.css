@@ -78,3 +78,19 @@ body {
 .nav-item.active {
   color: red;
 }
+.primer-parrafo, .segundo-parrafo, .tercer-parrafo {
+    display: flex;
+    align-items: center; /* Asegúrate de que la imagen y el texto estén alineados en el centro verticalmente */
+    justify-content: center; /* Centrar los elementos horizontalmente */
+    font-size: 20px;
+    margin: 40px;
+    margin-bottom: 2em;
+    text-align: left; /* Alinear el texto a la izquierda */
+    gap: 20px; /* Agrega espacio entre la imagen y el texto */
+  }
+.primer-parrafo p, .segundo-parrafo p , .tercer-parrafo p{
+    height: 15em;
+    width: 50em;
+    font-size: 1em;
+    text-align: justify;
+}
