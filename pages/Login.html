@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/assets/css/login.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+  <title>Login</title>
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <div class="left-section">
+      <div class="social-circle">
+        <a href="#" class="nav-item"><img src="/assets/images/tik-tok.png" alt="tiktok" width="30px" height="30px"></a>
+      </div>
+      <div class="social-circle">
+        <a href="#" class="nav-item"><img src="/assets/images/instagram.png" alt="insta" width="30px" height="30px"></a>
+      </div>
+      <div class="social-circle">
+        <a href="#" class="nav-item"><img src="/assets/images/whatsapp.png" alt="wahatsapp" width="30px"
+            height="30px"></a>
+      </div>
+      <div class="social-circle">
+        <a href="#" class="nav-item"><img src="/assets/images/twitter.png" alt="twitter" width="30px" height="30px"></a>
+      </div>
+    </div>
+
+
+    <div class="right-section">
+
+      <div class="middle-section">
+        <a href="/pages/Home.html" class="nav-item">Home</a>
+        <a href="/pages/Entrenadores.html" class="nav-item">Entrenadores</a>
+        <a href="/pages/Sobrenosotros.html" class="nav-item">Contáctanos</a>
+
+        <!-- Icono de usuario para Log In -->
+        <a href="/pages/Login.html" class="nav-item"><svg xmlns="http://www.w3.org/2000/svg" height="1em"
+            viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+            <style>
+              svg {
+                fill: #ffffff
+              }
+
+            </style>
+            <path
+              d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z" />
+          </svg></a>
+
+        <!-- Icono de cerrar sesión para Log Out -->
+        <a href="/pages/Logout.html" class="nav-item"><svg xmlns="http://www.w3.org/2000/svg" height="1em"
+            viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+            <style>
+              svg {
+                fill: #ffffff
+              }
+
+            </style>
+            <path
+              d="M377.9 105.9L500.7 228.7c7.2 7.2 11.3 17.1 11.3 27.3s-4.1 20.1-11.3 27.3L377.9 406.1c-6.4 6.4-15 9.9-24 9.9c-18.7 0-33.9-15.2-33.9-33.9l0-62.1-128 0c-17.7 0-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32l128 0 0-62.1c0-18.7 15.2-33.9 33.9-33.9c9 0 17.6 3.6 24 9.9zM160 96L96 96c-17.7 0-32 14.3-32 32l0 256c0 17.7 14.3 32 32 32l64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-64 0c-53 0-96-43-96-96L0 128C0 75 43 32 96 32l64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32z" />
+          </svg></i></a>
+
+      </div>
+    </div>
+
+
+    </div>
+  </nav>
+
+  <div class="flex-container">
+    <div class="image-container">
+      <div class="Imagen"></div>
+    </div>
+
+    <div class="login-container">
+      <h2>INICIO DE SESIÓN</h2>
+      <div class="input-group">
+        <label for="email">CORREO</label>
+        <input type="email" id="email" name="email" placeholder="ESCRIBE TU CORREO">
+      </div>
+      <div class="input-group">
+        <label for="password">CONTRASEÑA</label>
+        <input type="password" id="password" name="password" placeholder="ESCRIBE TU CONTRASEÑA">
+      </div>
+      <div class="fila-flex">
+        <div class="checkbox">
+          <input type="checkbox" id="checkbox">
+          <label for="checkbox">Recordar Contraseña</label>
+        </div>
+        <a class="forgot-password">¿OLVIDASTE CONTRASEÑA?</a>
+      </div>
+      <button type="submit" class="btn">INICIAR SESIÓN</button>
+    </div>
+  </div>
+</body>
+
+</html>

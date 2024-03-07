@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 body {
   margin: 0;
   padding: 0;
@@ -26,6 +28,8 @@ body::before {
 
 
 .navbar {
+  position: fixed;
+  /* Cambiado de absolute para fijar la navbar */
   top: 0;
   left: 0;
   width: 100%;
@@ -34,11 +38,11 @@ body::before {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: transparent;
+  background-color: #000;
+  /* Cambiado a un color sólido para visualizar la navbar */
   color: white;
   z-index: 1000;
   border-bottom: 1px solid #ffffff;
-
 }
 
 /* REDES SOCIALES */
@@ -179,9 +183,8 @@ body::before {
   color: transparent;
   -webkit-text-stroke: 1px rgb(255, 255, 255);
   font-family: 'Poppins', sans-serif;
-  font-weight: 700;
+  font-weight: 900;
   letter-spacing: 4px;
-
 }
 
 
@@ -307,17 +310,21 @@ body::before {
 
 .service-description {
   font-size: 1em;
-
+  color: #ffffff;
+  line-height: 20px;
 }
+
+a.service-item {
+  text-decoration: none;
+}  
 
 .service-number {
   position: absolute;
-  bottom: -10px;
-  /*No tocar*/
-  align-items: flex-start;
-  padding: 5px 0px;
-  font-size: 2em;
-  color: #fff;
-  margin-bottom: 3%;
-  font-family: "Bebas Neue", sans-serif;
+    bottom: -10px;
+    align-items: flex-start;
+    /* padding: 5px 0px; */
+    font-size: 2em;
+    color: #fff;
+    margin-bottom: 3%;
+    font-family: "Bebas Neue", sans-serif;
 }

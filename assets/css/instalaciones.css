@@ -82,28 +82,59 @@ body {
   color: red;
 }
 
-.primer-parrafo,
-.segundo-parrafo,
-.tercer-parrafo {
+.container {
   display: flex;
-  align-items: center;
-  /* Asegúrate de que la imagen y el texto estén alineados en el centro verticalmente */
-  justify-content: center;
-  /* Centrar los elementos horizontalmente */
-  font-size: 20px;
-  margin: 40px;
-  margin-bottom: 2em;
-  text-align: left;
-  /* Alinear el texto a la izquierda */
-  gap: 20px;
-  /* Agrega espacio entre la imagen y el texto */
+  flex-direction: column;
+  padding-left: 10%; /* Ajusta el padding según tus necesidades */
+  padding-right: 10%;
 }
 
-.primer-parrafo p,
-.segundo-parrafo p,
-.tercer-parrafo p {
-  height: 15em;
-  width: 50em;
-  font-size: 1em;
-  text-align: justify;
+.row {
+  display: flex;
+  margin-bottom: 20px; /* Ajusta el margin-bottom según necesites espacio entre las filas */
 }
+
+.columna-imagen {
+  flex: 1;
+  display: flex;
+  justify-content: center; /* Centra la imagen en su columna */
+  align-items: center;
+  height: 220px; /* Establece una altura para las columnas de imágenes */
+}
+
+.columna-texto {
+  flex: 1;
+  margin-left: 20px; /* Ajusta según la separación deseada entre texto e imagen */
+}
+
+.foto-1, .foto-2, .foto-3 {
+  width: 80%; /* Las imágenes ocuparán el ancho completo de su contenedor */
+  height: 100%; /* Las imágenes ocuparán la altura completa de su contenedor */
+  background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+  background-repeat: no-repeat;
+  background-position: center; /* Centra la imagen en su contenedor */
+}
+
+/* Asegúrate de que las rutas de las imágenes sean correctas */
+.foto-1 {
+  background-image: url('/assets/images/foto-1.jpg');
+}
+
+.foto-2 {
+  background-image: url('/assets/images/foto-2.jpg');
+}
+
+.foto-3 {
+  background-image: url('/assets/images/foto-3.jpg');
+}
+
+/* Estilos para el texto */
+.columna-texto p {
+  text-align: justify;
+  font-size: 30px;
+  line-height: 1.5; /* Ajusta el interlineado para una mejor legibilidad */
+  margin: 0;
+}
+
+
+

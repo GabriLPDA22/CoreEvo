@@ -106,6 +106,7 @@ body::before {
   align-items: center;
   margin-top: 50px;
   gap: 10px;
+  margin-bottom: auto;
 }
 
 .texto1 {
@@ -136,11 +137,12 @@ body::before {
 
 .action {
   display: flex;
+  margin-bottom: 20px;
 }
 
 .card {
   width: 24rem;
-  height: 36rem;
+  height: 32rem;
   border-radius: 10px;
   overflow: hidden;
   cursor: pointer;
