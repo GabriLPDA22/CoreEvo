@@ -37,20 +37,22 @@
     text-align: center;
     margin-top: 2%; 
     font-family: 'Bebas Neue', sans-serif;
+    font-size: 50px;
    }
 
-   .p {
+   p {
     float: left; /* Hace que el texto flote hacia la izquierda */
-    width: 50%; /* Opcional: ajusta el ancho del contenedor del texto */
     margin-right: 10%;
     margin-left: 5%;
-    font-size: 30px; /* Aumenta el tamaño de la letra  */
-    margin-top: 8%;
+    font-size: 26px; /* Aumenta el tamaño de la letra  */
     text-align: justify; /* Justifica el texto*/
-  font-family: 'Bebas Neue';
+
   }
   h2 {
     color: red;
+    font-size: 50px;
+    margin-top: 30%;
+    text-align: center;
   }
    
   .container-derch {
@@ -67,8 +69,10 @@
     right: 11%;  
     background-size: cover;
     background-position: center;
-   
-    
+  }
+
+  ul {
+    font-size: 25px;
   }
   
   .rectangulo {
@@ -93,12 +97,12 @@
     background-color: red; /* Color de fondo para el botón */
     color: white;
     border: none;
-    padding: 
-    10px 20px;
+    padding: 35px 55px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: 40px 20px;
     cursor: pointer;
+    margin-top: 15%;
   }

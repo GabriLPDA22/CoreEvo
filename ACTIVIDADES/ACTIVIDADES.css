@@ -1,3 +1,9 @@
+body, html {
+  margin: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -8,7 +14,6 @@ body {
   align-items: flex-start;
   position: relative;
 }
-
 .overlay {
   position: absolute;
   top: 0;
@@ -16,40 +21,63 @@ body {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.9); /* Cambia el valor (último número) para ajustar la opacidad */
+  z-index: -1;
 }
-
-.content {
-  z-index: 1;
-  color: white; 
+.container {
+  display: flex;
+  height: 100%;
 }
+.container-izq {
+  color: white;
+  flex-basis: 50%; /* Ocupa el 50% del contenedor principal */
+  padding: 20px; /* Espaciado interior para el texto */
+}
+h1 {
+  margin-top: 2%; 
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 90px;
+  margin-left: 55%;
+ }
+ 
+ p {
+  float: left; /* Hace que el texto flote hacia la izquierda */
+  margin-right: 10%;
+  margin-left: 15%;
+  font-size: 35px; /* Aumenta el tamaño de la letra  */
+  text-align: justify; /* Justifica el texto*/
 
+}
+ 
+.container-derch {
+  flex-basis: 50%; /* Ocupa el 50% del contenedor principal */
+  background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+}
 .imagen-lateral-bici {
+  background-image: url('./imagenes/fotobici.jpg');
   position: absolute;
-  top: 11%; /* Posición desde la parte superior */
-  right: 12%; /* Posición desde la derecha */
-  z-index: 10;
-  
-}
-
-.imagen-lateral-bici img {
-  width: auto; 
-  height: auto; 
-  max-width: 55%; 
-  max-height: 80vh; 
+  width: 15%;
+  height: 55%;
+  z-index: 1; /* Añadido para asegurarse de que esté encima del overlay y el contenido */
+  top: 11%; 
+  right: 20%;  
+  background-size: cover;
+  background-position: center;
 }
 
 .imagen-lateral-pesa {
+  background-image: url('./imagenes/fotopesa.jpg');
   position: absolute;
-  top: 50%; /* Posición desde la parte superior */
-  right: -5%; /* Posición desde la derecha */
-  z-index: 10;
+  width: 15%;
+  height: 55%;
+  z-index: 1; /* Añadido para asegurarse de que esté encima del overlay y el contenido */
+  top: 39%; 
+  right: 8%;  
+  background-size: cover;
+  background-position: center;
 }
 
-.imagen-lateral-pesa img {
-  max-width: 100%; 
-  height: auto; 
-  max-width: 55%; /*ajusto tamaño*/
-  max-height: 80vh; /*ajusto tamaño*/
+ul {
+  font-size: 25px;
 }
 
 .rectangulo {
@@ -59,7 +87,7 @@ body {
   border: 1px solid rgb(255, 0, 0);
   z-index: 1; /* Añadido para asegurarse de que esté encima del overlay y el contenido */
   top: 10%; 
-  right: 13%; 
+  right: 13%;  
 }
 .rectangulo2 {
   position: absolute;
@@ -68,37 +96,5 @@ body {
   border: 1px solid rgb(83, 83, 83);
   z-index: 1; /* Añadido para asegurarse de que esté encima del overlay y el contenido */
   top: 30%; 
-  right: 7%; 
+  right: 7%;  
 }
-h1 {
-  text-align: center;
-  margin-top: 2%; 
-  font-family: 'Bebas Neue', sans-serif;
-}
-.titulo-blanco {
-color: rgb(252, 248, 248);
-text-align: center; /* Centra el texto horizontalmente */
-position: absolute; /* Posiciona el elemento de forma absoluta */
-top: 2%; /* Ubica el elemento en el 50% de la parte superior */
-left: 22%; /* Ubica el elemento en el 50% del margen izquierdo */
-font-size: 80px;
-font-family: 'Bebas Neue', sans-serif;
-}
-
-.Texto-Izquierda {
-  color: rgb(252, 248, 248);
-  float: left; /* Hace que el texto flote hacia la izquierda */
-  width: 50%; /* Opcional: ajusta el ancho del contenedor del texto */
-  font-size: 30px; /* Aumenta el tamaño de la letra */
-  margin-top: 8%;
-  text-align: justify; /* Justifica el texto */
-  font-family: 'Poppins', sans-serif;
-  z-index: 1;
-  margin-right: 1%;
-  margin-right: 40%;
-}
-
-
-
-
-  
