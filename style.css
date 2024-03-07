@@ -1,0 +1,180 @@
+body {
+  background-color: #000000;
+  font-family: Arial, sans-serif;
+  color: white;
+  margin: 0; /* Add this to remove default margins */
+}
+
+.navbar {
+  position: fixed;
+  /* Cambiado de absolute para fijar la navbar */
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2px 5px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  /* Cambiado a un color sólido para visualizar la navbar */
+  color: white;
+  z-index: 1000;
+  border-bottom: 1px solid #ffffff;
+}
+
+
+/* REDES SOCIALES */
+
+.left-section {
+  min-width: 15px;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 5%;
+}
+
+.left-section .social-circle {
+  margin-top: 2%;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+  /* Ajusta el margen entre los círculos según tus preferencias */
+}
+
+.left-section .social-circle a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+
+.left-section .social-circle i {
+  margin-top: 3px;
+}
+
+
+.nav-item {
+  padding: 10px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 21px;
+  font-family: Bebas Neue;
+  margin-right: 20px;
+  align-items: right;
+}
+
+.nav-item.active {
+  color: red;
+}
+
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh; /* Full view height */
+}
+
+.image-container, .login-container {
+  flex: 1; /* Each container will take up half the width */
+}
+
+.Imagen {
+  width: 100%;
+  height: 100%;
+  background-image: url('/Foto_login.3jpg.jpg');
+  background-size: cover;
+  background-position: center ;
+}
+
+.login-container {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 40px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 800px; /* Limita el ancho del contenedor para que los inputs no sean demasiado anchos */
+  margin: auto; /* Centra el contenedor */
+}
+h2 {
+  color: transparent;
+  -webkit-text-stroke: 1px #e90606; /* Ajusta el grosor del trazo */
+  text-shadow: 2px 2px 0px #ff0000; /* Sombra de texto */
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  letter-spacing: 10px;
+  font-size: 100px;
+  line-height: 100px;
+  text-align: center;
+  margin: 20px 10% 20px 10%; /* combina los márgenes superior e inferior con los márgenes laterales */
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+.input-group label {
+  color: #ff0000;
+  display: block;
+}
+.input-group input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ff0000;
+  background: transparent;
+  color: white;
+  margin-bottom: 50px;
+}
+.btn {
+  background-color: #ff0000;
+  color: white;
+  padding: 10px;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid #ff0000; /* Añade un borde si lo deseas */
+  background-color: transparent; /* Cambia el fondo a transparente */
+  
+}
+
+.forgot-password {
+  color: #ff0000;
+  text-align: center;
+  display: block;
+} 
+
+.remember{
+  color: #ff0000;
+  text-align: center;
+  display: block;
+  margin-top: 10px;
+}
+
+.fila-flex {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  flex-direction: row;
+}
+
+/* Estilo para las casillas de verificación y sus etiquetas */
+.checkbox input[type="checkbox"] {
+  vertical-align: middle; /* Alinea verticalmente con el texto */
+  margin-right: 5px; /* Espacio a la derecha de la casilla de verificación */
+}
+
+.checkbox label, .forgot-password {
+  display: inline-block; /* Para poder aplicar alineación vertical */
+  vertical-align: middle; /* Alinea verticalmente con la casilla de verificación */
+  cursor: pointer; /* Indica que se puede interactuar con la etiqueta */
+  font-size: 14px; /* Tamaño de la fuente de la etiqueta */
+  border-radius: rgb(255, 0, 0) 5px;
+ 
+}
+
+.forgot-password {
+  align-self: flex-end; /* Alinea al inicio del contenedor flex */
+  margin-bottom: auto; /* Añade un margen inferior para separar del siguiente elemento */
+}
