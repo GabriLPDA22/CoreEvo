@@ -1,0 +1,200 @@
+body,
+html {
+  margin: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: url(https://www.dir.cat/blog/wp-content/uploads/2020/03/micromachismos-gimnasio.jpg) center/cover no-repeat;
+  /* Ajusta la URL y las propiedades según tu imagen de fondo */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+}
+
+.encabezado {
+  width: auto;
+  height: auto;
+  padding: 20px;
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 40px;
+}
+
+.titulo-instalaciones {
+  color: red;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  position: fixed;
+  /* Cambiado de absolute para fijar la navbar */
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2px 5px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  /* Cambiado a un color sólido para visualizar la navbar */
+  color: white;
+  z-index: 1000;
+  border-bottom: 1px solid #ffffff;
+}
+
+
+/* REDES SOCIALES */
+
+.left-section {
+  min-width: 15px;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 5%;
+}
+
+.left-section .social-circle {
+  margin-top: 2%;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+  /* Ajusta el margen entre los círculos según tus preferencias */
+}
+
+.left-section .social-circle a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+
+.left-section .social-circle i {
+  margin-top: 3px;
+}
+
+
+.nav-item {
+  padding: 10px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 21px;
+  font-family: Bebas Neue;
+  margin-right: 20px;
+  align-items: right;
+}
+
+.nav-item.active {
+  color: red;
+}
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  /* Cambia el valor (último número) para ajustar la opacidad */
+  z-index: -1;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+}
+
+.container-izq {
+  color: white;
+  flex-basis: 50%;
+  /* Ocupa el 50% del contenedor principal */
+  padding: 20px;
+  /* Espaciado interior para el texto */
+}
+
+h1 {
+  margin-top: 10%;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 90px;
+  margin-left: 20%;
+}
+
+p {
+  float: left;
+  /* Hace que el texto flote hacia la izquierda */
+  margin-right: 10%;
+  margin-left: 15%;
+  font-size: 30px;
+  /* Aumenta el tamaño de la letra  */
+  text-align: justify;
+  /* Justifica el texto*/
+
+}
+
+.container-derch {
+  flex-basis: 50%;
+  /* Ocupa el 50% del contenedor principal */
+  background-size: cover;
+  /* Asegura que la imagen cubra todo el contenedor */
+}
+
+.imagen-lateral-bici {
+  background-image: url('/assets/images/fotobici.jpg');
+  position: absolute;
+  width: 15%;
+  height: 55%;
+  z-index: 1;
+  /* Añadido para asegurarse de que esté encima del overlay y el contenido */
+  top: 11%;
+  right: 20%;
+  background-size: cover;
+  background-position: center;
+}
+
+.imagen-lateral-pesa {
+  background-image: url('/assets/images/fotopesa.jpg');
+  position: absolute;
+  width: 15%;
+  height: 55%;
+  z-index: 1;
+  /* Añadido para asegurarse de que esté encima del overlay y el contenido */
+  top: 39%;
+  right: 8%;
+  background-size: cover;
+  background-position: center;
+}
+
+ul {
+  font-size: 25px;
+}
+
+.rectangulo {
+  position: absolute;
+  width: 23%;
+  height: 65%;
+  border: 1px solid rgb(255, 0, 0);
+  z-index: 1;
+  /* Añadido para asegurarse de que esté encima del overlay y el contenido */
+  top: 10%;
+  right: 13%;
+}
+
+.rectangulo2 {
+  position: absolute;
+  width: 23%;
+  height: 65%;
+  border: 1px solid rgb(83, 83, 83);
+  z-index: 1;
+  /* Añadido para asegurarse de que esté encima del overlay y el contenido */
+  top: 30%;
+  right: 7%;
+}

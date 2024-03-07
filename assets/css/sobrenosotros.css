@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: url(https://www.dir.cat/blog/wp-content/uploads/2020/03/micromachismos-gimnasio.jpg) center/cover no-repeat;
+  /* Ajusta la URL y las propiedades según tu imagen de fondo */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+}
+
+.navbar {
+  position: fixed;
+  /* Cambiado de absolute para fijar la navbar */
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2px 5px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  /* Cambiado a un color sólido para visualizar la navbar */
+  color: white;
+  z-index: 1000;
+  border-bottom: 1px solid #ffffff;
+}
+
+
+/* REDES SOCIALES */
+
+.left-section {
+  min-width: 15px;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 5%;
+}
+
+.left-section .social-circle {
+  margin-top: 2%;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+  /* Ajusta el margen entre los círculos según tus preferencias */
+}
+
+.left-section .social-circle a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+
+.left-section .social-circle i {
+  margin-top: 3px;
+}
+
+
+.nav-item {
+  padding: 10px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 21px;
+  font-family: Bebas Neue;
+  margin-right: 20px;
+  align-items: right;
+}
+
+.nav-item.active {
+  color: red;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  /* Cambia el valor (último número) para ajustar la opacidad */
+}
+
+.content {
+  z-index: 1;
+  color: white;
+}
+
+.imagen-lateral {
+  position: absolute;
+  top: 150px;
+  /* Posición desde la parte superior */
+  right: 200px;
+  /* Posición desde la derecha */
+  z-index: 10;
+}
+
+.imagen-lateral img {
+  width: auto;
+  height: auto;
+  max-width: 300px;
+  max-height: 80vh;
+}
+
+.rectangulo {
+  position: absolute;
+  width: 325px;
+  height: 450px;
+  border: 1px solid rgb(255, 0, 0);
+  z-index: 1;
+  /* Añadido para asegurarse de que esté encima del overlay y el contenido */
+  top: 100px;
+  right: 250px;
+}
+
+.rectangulo2 {
+  position: absolute;
+  width: 325px;
+  height: 450px;
+  border: 1px solid rgb(83, 83, 83);
+  z-index: 1;
+  /* Añadido para asegurarse de que esté encima del overlay y el contenido */
+  top: 200px;
+  right: 125px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 200px;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.color-destacado {
+  color: #ff0000;
+}
+
+.parrafo-con-margen {
+  margin-left: 75px;
+  margin-right: 750px;
+  margin-top: 125px;
+  text-align: justify;
+  font-family: 'Bebas Neue';
+  /*BEBAS NEUE SOLO SE PUEDE EDITAR EN MAYUSCULAS NO SE QUE FONT LLEVA EL TEXTO HAY QUE AJUSTARLO*/
+}
