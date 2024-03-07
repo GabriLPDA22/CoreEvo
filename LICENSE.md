@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) [2024] [Gabriel Saiz]
+Copyright (c) [2024] [Gabriel Saiz,AlexiAna,AlfonsoCoro,VictorSierra,Reda]
 
 Por la presente se otorga permiso, de forma gratuita, a cualquier persona que obtenga una copia
 de este software y de los archivos de documentación asociados (el "Software"), para tratar
