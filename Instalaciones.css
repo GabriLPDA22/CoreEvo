@@ -1,0 +1,133 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+.encabezado{
+    width: auto;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 40px;
+}
+.titulo-instalaciones{
+    color: red;
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar {
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2px 5px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  color: white;
+  z-index: 1000;
+  border-bottom: 1px solid #ffffff;
+   
+}
+
+
+/* REDES SOCIALES */
+
+.left-section {
+  min-width: 15px;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 5%;
+}
+
+.left-section .social-circle {
+  margin-top: 2%;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  margin-right: 5px; /* Ajusta el margen entre los círculos según tus preferencias */
+}
+
+.left-section .social-circle a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+
+.left-section .social-circle i {
+  margin-top: 3px;
+}
+
+
+.nav-item {
+  padding: 10px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 21px;
+  font-family: Bebas Neue;
+  margin-right: 20px;
+  align-items: right;
+}
+
+.nav-item.active {
+  color: red;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.columna-imagen {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 100px;
+  height: 220px;
+}
+
+.columna-texto {
+  flex: 1;
+  margin-left: 60px;
+}
+
+.foto-1, .foto-2, .foto-3 {
+  width: 80%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.foto-1 {
+  background-image: url(./foto-1.jpg);
+}
+
+.foto-2 {
+  background-image: url(./foto-2.jpg);
+}
+
+.foto-3 {
+  background-image: url(./foto-3.jpg);
+}
+
+/* Estilos para el texto */
+.columna-texto p {
+  text-align: justify;
+  font-size: 25px;
+  line-height: 1.5; 
+  margin: 0;
+}
