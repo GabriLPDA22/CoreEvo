@@ -1,0 +1,311 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    background-image: url(img/HOME2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: rgb(0, 0, 0);
+    position: relative; 
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Cambia el último valor (0.5) para ajustar la opacidad */
+    z-index: -1; /* Asegúrate de que la capa esté detrás del contenido principal */
+}
+
+
+
+.navbar {
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2px 5px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    color: white;
+    z-index: 1000;
+    border-bottom: 1px solid #ffffff;
+     
+}
+
+/* REDES SOCIALES */
+
+.left-section {
+    min-width: 15px;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 5%;
+}
+
+.left-section .social-circle {
+    margin-top: 2%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    margin-right: 5px; /* Ajusta el margen entre los círculos según tus preferencias */
+}
+
+.left-section .social-circle a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.left-section .social-circle i {
+    margin-top: 3px;
+}
+
+
+.nav-item {
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 21px;
+    font-family: Bebas Neue;
+    margin-right: 20px;
+    align-items: right;
+}
+
+.nav-item.active {
+    color: red;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+}
+
+.home-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+
+.welcome-text {
+    max-width: 800px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    
+}
+
+.welcome-text h1 {
+    text-transform: uppercase;
+    font-size: 50px;
+    margin-top: 10%;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    margin-left: 50px;
+    margin-bottom: 0%;
+}
+
+.welcome-text .core {
+    color: rgb(255, 0, 0);
+}
+
+.welcome-text .red {
+    color: red;
+}
+
+.welcome-text h2 {
+    font-size: 20px;
+    margin-top: 5px;
+    max-width: 100%;
+    word-wrap: break-word;
+    font-family: Poppins;
+    color: #ffffff;
+    font-weight: 100;
+    margin-left: 50px;
+}
+
+.button-container {
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 10%;
+}
+
+.red-button {
+    background-color: transparent;
+    color: red;
+    border: 5px solid red;
+    padding: 5px 30px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "Bebas Neue", sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.red-button:hover {
+    background-color: red;
+    color: white;
+}
+
+
+/* Estilos para LEVEL y UP */
+
+
+.additional-texts {
+    position: absolute;
+    right: 20px;
+    margin-bottom: 10%;
+    margin-right: 5%;
+}
+
+.additional-texts h3 {
+    font-size: 154px;
+    margin: -36px 0;
+    text-align: right;
+    color: transparent; 
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    letter-spacing: 4px;
+    
+}
+
+
+
+.experience-section {
+    display: flex;
+    flex-direction: wrap; 
+    padding: 5px;
+    margin-top: 20px;
+    overflow-x: auto; /* Agrega una barra de desplazamiento horizontal si es necesario */
+    margin-right: 1072px;
+}
+
+
+.experience-item {
+    text-align: left; /* Alinea el texto a la izquierda */
+    margin-bottom: 10px; /* Reduce el margen inferior entre los elementos */
+    position: relative;
+    padding-left: 10%;
+}
+
+.experience-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 35px;
+    bottom: 0;
+    width: 2px;
+    background-color: #ff0000;
+
+}
+
+.experience-item:first-child::before {
+    display: none;
+    
+}
+
+.number {
+    font-size: 36px; 
+    font-weight: bold;
+    margin: 10px 0;
+    color: #ff4500;
+}
+
+
+.description {
+    font-size: 16px; 
+    color: #ffffff;
+    max-width: 10em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-top: 5px;
+}
+
+
+/* Para agregar un salto de línea */
+.description br {
+    display: block;
+    content: "";
+    margin-top: 0;
+}
+
+
+/*SERVICIOS*/
+
+.services-container {
+    max-width: 100%;
+    margin: auto;
+    padding: 20px;
+    background-color: #000000;
+    color: white;
+    background-size: cover;
+    background-position: center;
+}
+  
+.services-title {
+    font-size: 80px;
+    text-align: center;
+    color: transparent; /* Hacemos el texto transparente */
+    margin-bottom: 10px;
+    font-family: "Bebas Neue", sans-serif;
+    background: linear-gradient(to right, #ffffff 50%, #ff0000 50%); /* Gradiente que cambia de rojo a blanco en la mitad */
+    background-clip: text; /* Aplicamos el fondo solo al área ocupada por el texto */
+    -webkit-background-clip: text; /* Para compatibilidad con navegadores basados en WebKit como Chrome y Safari */
+}
+  
+.services-description {
+    font-size: 1em;
+    text-align: center;
+    margin-bottom: 30px;
+}
+  
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+  
+.service-item {
+    background-color: transparent;
+    padding: 50px; /* Ajusta el valor de padding según tus necesidades */
+    position: relative;
+    border: 1px solid red;
+    margin: 5%;
+}
+  
+.service-title {
+    font-size: 32px;
+    color: #ff0000;
+    margin-top: 0;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+}
+  
+.service-description {
+    font-size: 1em;
+  
+}
+  
+  .service-number {
+    position: absolute;
+    bottom: -10px; /*No tocar*/
+    align-items: flex-start;
+    padding: 5px 0px;
+    font-size: 2em;
+    color: #fff;
+    margin-bottom: 3%;
+    font-family: "Bebas Neue", sans-serif;
+}

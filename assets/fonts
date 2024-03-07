@@ -1,0 +1,30 @@
+/* En tu archivo CSS (por ejemplo, styles.css) */
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('fonts/BebasNeue-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 700;
+    src: url('fonts/Roboto-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-weight: 900;
+    src: url('fonts/Poppins-Black.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.titulo {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.negrita {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900; /* Black */
+}

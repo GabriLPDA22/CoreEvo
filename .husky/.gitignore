@@ -1,0 +1,33 @@
+# Dependencias
+node_modules/
+
+# Archivos de configuración del entorno
+.env
+.env.local
+.env.*.local
+
+# Directorios de producción
+/dist
+/build
+/out
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Carpetas y archivos del editor de código/IDE
+.vscode
+.idea
+*.sublime-workspace
+
+# Archivos de configuración de formateo de código
+.prettierrc
+.prettierignore
+
+# Archivos de configuración de Husky
+.husky/
+
+# Otras carpetas y archivos
+*.log
+*.tmp
+*.temp

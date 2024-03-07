@@ -1,0 +1,11 @@
+#!/bin/sh
+# Pre-commit hooks
+
+# Detener el commit si hay errores de linting
+npm run lint
+
+# Detener el commit si las pruebas fallan
+npm test
+
+# Añadir los cambios de los archivos si se han corregido durante el linting
+git add .
