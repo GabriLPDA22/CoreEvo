@@ -2,23 +2,40 @@
 
 Bienvenido al repositorio oficial de la página web de CoreEvolution Gym. Somos una comunidad dedicada al fitness y al bienestar, comprometida con la creación de un ambiente motivador y de apoyo para todos nuestros miembros. Nuestra misión es ofrecer instalaciones de vanguardia, programas de entrenamiento personalizados y asesoramiento nutricional experto. 🌟
 
-## Descripción 📝
+![Banner de CoreEvolution Gym](URL_DEL_BANNER)
 
-CoreEvolution Gym ofrece una experiencia de entrenamiento integral que se adapta a las necesidades de cada individuo. Desde entrenamiento de fuerza y cardio hasta clases de yoga y pilates, nos esforzamos por proporcionar una amplia gama de servicios para apoyar un estilo de vida saludable y activo.
+## 📖 Tabla de Contenidos
 
-Nuestro sitio web es el centro digital donde los miembros y los interesados pueden obtener información sobre nuestros servicios, instalaciones, horarios de clases y eventos especiales. También proporcionamos consejos de salud y fitness, blogs y recursos para mantener a nuestra comunidad informada y comprometida. 💡
+- [Características](#características)
+- [Capturas de Pantalla](#capturas-de-pantalla)
+- [Cómo Contribuir](#cómo-contribuir)
+- [Stack Tecnológico](#stack-tecnológico)
+- [Licencia](#licencia)
+- [Colaboradores](#colaboradores)
 
-## Características ✨
+## 🌟 Características
 
-- **Home**: Descubre lo que hace único a CoreEvolution Gym. Navega por nuestras historias de éxito y explora nuestras instalaciones. 🏠
-- **Servicios**: Conoce nuestros planes de entrenamiento personalizados, asesoramiento nutricional y variedad de clases. 💪
-- **Entrenadores**: Conecta con nuestro equipo de entrenadores certificados y experimentados. 👥
-- **Instalaciones**: Mira nuestras instalaciones de última generación, equipadas con la mejor tecnología. 🏢
-- **Contáctanos**: Encuentra toda la información para ponerte en contacto con nosotros y cómo llegar. 📬
+## 📸 Capturas de Pantalla
 
-## Colaboradores 👋
+## 🤝 Cómo Contribuir
 
-Nos enorgullece contar con un equipo de colaboradores apasionados que contribuyen al crecimiento y mejora continua de nuestro sitio web y servicios del gimnasio:
+Instrucciones sobre cómo otros desarrolladores pueden contribuir a tu proyecto.
+
+1. Haz un fork del Proyecto
+2. Clona tu fork (`git clone url_de_tu_fork`)
+3. Añade el repositorio original como remoto (`git remote add upstream url_del_repositorio_original`)
+4. Crea tu Rama de Funcionalidad (`git checkout -b feature/TuFuncionalidad`)
+5. Haz tus cambios y commit (`git commit -m 'Añadir algunaFuncionalidad'`)
+6. Haz Push a la Rama (`git push origin feature/TuFuncionalidad`)
+7. Abre un Pull Request
+
+## 📄 Licencia
+
+Este proyecto está licenciado bajo la Licencia MIT - vea el archivo [LICENSE.md](LICENSE.md) para detalles.
+
+## 👋 Colaboradores
+
+Agradecemos a los siguientes colaboradores:
 
 - [Alexlana21](https://github.com/Alexlana21)
 - [CoroAlfonso](https://github.com/CoroAlfonso)
@@ -26,31 +43,17 @@ Nos enorgullece contar con un equipo de colaboradores apasionados que contribuye
 - [victorsierra](https://github.com/victorsierra)
 - [GabriLPDA22](https://github.com/GabriLPDA22)
 
-Agradecemos a cada uno de ellos por su dedicación y esfuerzo. 💖
 
+## 🛠️ Stack Tecnológico
 
-### Cómo Contribuir 🤝
+En este proyecto hemos utilizado estas tecnologías:
 
-Si deseas contribuir al proyecto, te invitamos a seguir estos pasos:
-
-1. **Fork el Repositorio**: Haz un 'fork' del proyecto a tu cuenta personal de GitHub. 🍴
-2. **Clona el Repositorio**: Clona el repositorio en tu máquina local para trabajar en él. 👨‍💻
-3. **Crea una Rama**: Crea una rama para cada característica o mejora que estés trabajando. 🔀
-4. **Haz tus Cambios**: Implementa tus cambios y mejoras en tu rama. ✍️
-5. **Commit tus Cambios**: Haz 'commit' de tus cambios con mensajes de commit claros y descriptivos. 📝
-6. **Push a tu Fork**: Haz 'push' de tus cambios a tu fork en GitHub. ⬆️
-7. **Abre una Pull Request**: Envía una 'pull request' para que tus cambios sean considerados para la fusión con el proyecto principal. 🤲
-
-### Normas de Conducta 📜
-
-Esperamos que todos los colaboradores se adhieran a nuestro código de conducta, que promueve un ambiente de trabajo respetuoso y productivo.
-
-## Licencia 📄
-
-Este proyecto está licenciado bajo la Licencia MIT - vea el archivo [LICENSE.md](LICENSE.md) para detalles.
-
+- ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white) - Estructura de las páginas web.
+- ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white) - Estilos de las páginas.
+- ![JavaScript](https://img.shields.io/badge/javascript-%23F7DF1E.svg?&style=for-the-badge&logo=javascript&logoColor=black) - Funcionalidad del cliente.
+- ![Git](https://img.shields.io/badge/git-%23F05032.svg?&style=for-the-badge&logo=git&logoColor=white) - Control de versiones.
+- ![GitHub](https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white) - Hosting de repositorios.
 
 ---
 
-Agradecemos tu interés en CoreEvolution Gym y esperamos verte tanto en el gimnasio como en nuestro código. 💖
-
+⬆️ [volver arriba](#coreevolution-gym-)
