@@ -20,6 +20,8 @@ Nuestro sitio web es el centro digital donde los miembros y los interesados pued
 
 Nos enorgullece contar con un equipo de colaboradores apasionados que contribuyen al crecimiento y mejora continua de nuestro sitio web y servicios del gimnasio. Si estás interesado en ser parte de este proyecto, por favor lee la sección de contribución a continuación.
 
+[![Contribuidores](https://contrib.rocks/image?repo=GabriLPDA22/CoreEvo)](https://github.com/GabriLPDA22/CoreEvo/graphs/contributors)
+
 ### Cómo Contribuir 🤝
 
 Si deseas contribuir al proyecto, te invitamos a seguir estos pasos:
