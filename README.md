@@ -18,9 +18,16 @@ Nuestro sitio web es el centro digital donde los miembros y los interesados pued
 
 ## Colaboradores 👋
 
-Nos enorgullece contar con un equipo de colaboradores apasionados que contribuyen al crecimiento y mejora continua de nuestro sitio web y servicios del gimnasio. Si estás interesado en ser parte de este proyecto, por favor lee la sección de contribución a continuación.
+Nos enorgullece contar con un equipo de colaboradores apasionados que contribuyen al crecimiento y mejora continua de nuestro sitio web y servicios del gimnasio:
 
-[![Contribuidores](https://contrib.rocks/image?repo=GabriLPDA22/CoreEvo)](https://github.com/GabriLPDA22/CoreEvo/graphs/contributors)
+- [Alexlana21](https://github.com/Alexlana21)
+- [CoroAlfonso](https://github.com/CoroAlfonso)
+- [Narwhal21](https://github.com/Narwhal21)
+- [victorsierra](https://github.com/victorsierra)
+- [GabriLPDA22](https://github.com/GabriLPDA22)
+
+Agradecemos a cada uno de ellos por su dedicación y esfuerzo. 💖
+
 
 ### Cómo Contribuir 🤝
 
