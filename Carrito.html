@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="Tienda.css">
+  <title>CoreEvolution</title>
+</head>
+
+<body>
+  <header>
+    <div class="container-hero">
+      <div class="container hero">
+        <div class="customer-support">
+          <i class="fa-solid fa-headset"></i>
+          <div class="content-customer-support">
+            <span class="text">Soporte al cliente</span>
+            <span class="number">xxx-xxx-xxx</span>
+          </div>
+        </div>
+
+        <div class="container-logo">
+          <i class="fa-solid fa-dumbbell"></i>
+          <h1 class="logo"><a href="/">CoreEvolution</a></h1>
+        </div>
+
+        <div class="container-user">
+          <i class="fa-solid fa-user"></i>
+          </i><a href="Carrito.html" class="fa-solid fa-basket-shopping"></a></i>
+          <div class="content-shopping-cart">
+            <span class="text">Carrito</span>
+            <span class="number">(2)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-navbar">
+      <nav class="navbar container">
+        <i class="fa-solid fa-bars"></i>
+        <ul class="menu">
+          <li><a href="Home.html">Home</a></li>
+          <li><a href="Tienda.html">Tienda</a></li>
+          <li><a href="Entrenadores.html">Entrenadores</a></li>
+          <li><a href="Sobrenosotros.html">Contacto</a></li>
+        </ul>
+
+        <form class="search-form">
+          <input type="search" placeholder="Buscar..." />
+          <button class="btn-search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </form>
+      </nav>
+    </div>
+  </header>
+
+  <section class="contenedor-seccion">
+    <section class="mi-carrito">
+      <div class="productos-carrito">
+        <div class="fila">
+          <div class="col descripcion">
+            <strong>Descripción</strong>
+          </div>
+          <div class="col cantidad">
+            <strong>Cantidad</strong>
+          </div>
+          <div class="col eliminar">
+            <strong>Eliminar</strong>
+          </div>
+          <div class="col precio">
+            <strong>Precio</strong>
+          </div>
+        </div>
+        <div class="fila">
+          <div class="col descripcion">
+            <img src="./imagenes/proteina.jpg" alt="">
+            <span>Proteinda sabor fresa</span>
+          </div>
+          <div class="col cantidad">
+            <button> + </button>
+            <span class="total-cantidad">1</span>
+            <button> - </button>
+          </div>
+          <div class="col eliminar">
+            <span> <i class="fa-solid fa-xmark"></i> </span>
+          </div>
+          <div class="col precio">
+            <span>5.60€</span>
+          </div>
+        </div>
+
+        <!-- Segundo productos-->
+        <div class="fila">
+          <div class="col descripcion">
+            <img src="imagenes/Barras proteina.jpg" alt="">
+            <span>Barrita de Proteina</span>
+          </div>
+          <div class="col cantidad">
+            <button> + </button>
+            <span class="total-cantidad">4</span>
+            <button> - </button>
+          </div>
+          <div class="col eliminar">
+            <span> <i class="fa-solid fa-xmark"></i> </span>
+          </div>
+          <div class="col precio">
+            <span>12.80€</span>
+          </div>
+        </div>
+        <!--Parte pagar-->
+        <div class="finalizar-compra">
+          <h3>Total Compra</h3>
+          <div class="monto">18.4€</div>
+          <button class="btn-pagar">PAGAR</button>
+        </div>
+      </div>
+    </section>
+
+  </section>
+  </div>
+
+  <script src="carrito.js"></script>
+</body>
+
+</html>
