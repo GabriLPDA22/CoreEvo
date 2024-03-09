@@ -310,85 +310,99 @@ body::before {
     font-family: "Bebas Neue", sans-serif;
 }
 /*Esto es la inscripcion(Vamos a empezar a entrenar ya)*/
+
 .container {    
   display: flex;
   height: 100vh;
 }
 
-.imagen-inscripcion {
-  flex: 1;
-  background-image: url('/VAMOSAEMPEZARYA/foto/fotoInscripcion.jpg'); 
-    width: 60%;
-    height: 95%;
-    z-index: 1; /* Añadido para asegurarse de que esté encima del overlay y el contenido */
-    top: 80%; 
-    margin-right: 5%;
-    margin-left: 5%;
-    margin-top: 1%;
-    margin-bottom: 50%;
-    background-size: cover;
+.container-inscripcion {
+    display: flex;
+    background-color: #000;
+  }
+  .container-izq {
+    color: white;
+    flex-basis: 50%; /* Ocupa el 50% del contenedor principal */
+    padding: 20px; /* Espaciado interior para el texto */
+  }
   
-}
+  .imagen-inscripcion {
+    flex: 2;
+    background-image: url('/VAMOSAEMPEZARYA/foto/fotoInscripcion.jpg'); 
+      height: 780px;
+      z-index: 1; /* Añadido para asegurarse de que esté encima del overlay y el contenido */
+      top: 100%; 
+      background-size: cover;
+      background-position:center;
+  }
+  
+  .h1-inscripcion  {
+    text-align: center;
+    margin-top: 5%; 
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 50px;
+    color: #fff;
+   }
+  
+   .color-destacado{
+    color: red;
+   }
+  
+  
+   .p-inscripcion {
+    float: left; /* Hace que el texto flote hacia la izquierda */
+    margin-right: 10%;
+    margin-left: 5%;
+    font-size: 26px; /* Aumenta el tamaño de la letra  */
+    text-align: justify; /* Justifica el texto*/
+    color: #fff;
+  }
+  
+  .h2-inscripcion {
+    color: red;
+    font-size: 50px;
+    margin-top: 5%;
+    text-align: center;
+  }
+  
+  .A-ENTRENAR-YA {
+    color: red;
+  }
+   
+  .container-derch {
+    flex-basis: 50%; /* Ocupa el 50% del contenedor principal */
+    background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+  }
+  
+  .buttons-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #fff;
+    color: #000;
+  }
 
-.content-container {
-  flex: 1;
-  background-color: #000;
-  color: #fff;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-right: 5%;
-}
-
-h1 {
-  font-size: 50px;
-  margin: 0;
-}
-
-h2 {
-  font-size: 50px;
-  margin: 0;
-}
-
-.A-ENTRENAR-YA {
-  color: red;
-}
-
-p {
-  font-size: 18px;
-  text-align: justify ;
-}
-
-form {
-  margin-top: 20px;
-}
-
-input {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: none;
-  border-bottom: 2px solid #fff;
-  background-color: transparent;
-  color: #fff;
-}
-
-.buttons-container {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
-}
-
-button {
-  padding: 10px 20px;
-  border: 2px solid #fff;
-  background-color: transparent;
-  color: #fff;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #fff;
-  color: #000;
-}
+  .celdas {
+    padding-right: 40px;
+  }
