@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="/assets/css/login.css">
+  <title>CoreEvo | Login & Registration</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav class="nav">
+      <div class="nav-logo">
+        <p><a href="/pages/Home.html">COREEVOLUTION</a></p>
+      </div>
+      <div class="nav-button">
+        <button class="btn white-btn" id="loginBtn" onclick="login()">Iniciar Sesion</button>
+        <button class="btn" id="registerBtn" onclick="register()">Regsitrarse</button>
+      </div>
+      <div class="nav-menu-btn">
+        <i class="bx bx-menu" onclick="myMenuFunction()"></i>
+      </div>
+    </nav>
+    <!----------------------------- Form box ----------------------------------->
+    <div class="form-box">
+
+      <!------------------- login form -------------------------->
+      <div class="login-container" id="login">
+        <div class="top">
+          <span>No tienes cuenta? <a href="#" onclick="register()">Registrate</a></span>
+          <header>Inicio Sesion</header>
+        </div>
+        <div class="input-box">
+          <input type="text" class="input-field" placeholder="Usuario or Gmail">
+          <i class="bx bx-user"></i>
+        </div>
+        <div class="input-box">
+          <input type="password" class="input-field" placeholder="Contraseña">
+          <i class="bx bx-lock-alt"></i>
+        </div>
+        <div class="input-box">
+          <input type="submit" class="submit" value="Iniciar Sesion">
+        </div>
+        <div class="two-col">
+          <div class="one">
+            <input type="checkbox" id="Verificar">
+            <label for="login-check"> Recuerdame</label>
+          </div>
+          <div class="two">
+            <label><a href="#">Olvidaste tu contraseña?</a></label>
+          </div>
+        </div>
+      </div>
+      <!------------------- registration form -------------------------->
+      <div class="register-container" id="register">
+        <div class="top">
+          <span>Tienes una cuenta? <a href="#" onclick="login()">Iniciar sesion</a></span>
+          <header>Registrate</header>
+        </div>
+        <div class="two-forms">
+          <div class="input-box">
+            <input type="text" class="input-field" placeholder="Nombre">
+            <i class="bx bx-user"></i>
+          </div>
+          <div class="input-box">
+            <input type="text" class="input-field" placeholder="Apellido">
+            <i class="bx bx-user"></i>
+          </div>
+        </div>
+        <div class="input-box">
+          <input type="text" class="input-field" placeholder="Gmail">
+          <i class="bx bx-envelope"></i>
+        </div>
+        <div class="input-box">
+          <input type="password" class="input-field" placeholder="Contraseña">
+          <i class="bx bx-lock-alt"></i>
+        </div>
+        <div class="input-box">
+          <input type="submit" class="submit" value="Regsitrarse">
+        </div>
+        <div class="two-col">
+          <div class="one">
+            <input type="checkbox" id="Verificar">
+            <label for="register-check"> Recuerdame</label>
+          </div>
+          <div class="two">
+            <label><a href="#">Terminos y condiciones</a></label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="/assets/js/Log.js"></script>
+</body>
+
+</html>

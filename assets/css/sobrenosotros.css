@@ -80,69 +80,81 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.9);
-  /* Cambia el valor (último número) para ajustar la opacidad */
+  background-color: rgba(0, 0, 0, 0.9); /* Cambia el valor (último número) para ajustar la opacidad */
+  z-index: -1;
 }
-
-.content {
-  z-index: 1;
+.container {
+  display: flex;
+  height: 100%;
+}
+.container-izq {
   color: white;
+  flex-basis: 50%; /* Ocupa el 50% del contenedor principal */
+  padding: 20px; /* Espaciado interior para el texto */
+}
+h1 {
+  text-align: center;
+  margin-top: 5%; 
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 50px;
+ }
+
+ .color-destacado{
+  color: red;
+ }
+
+
+ p {
+  float: left; /* Hace que el texto flote hacia la izquierda */
+  margin-right: 10%;
+  margin-left: 5%;
+  font-size: 26px; /* Aumenta el tamaño de la letra  */
+  text-align: justify; /* Justifica el texto*/
+
 }
 
-.imagen-lateral {
+
+
+h2 {
+  color: red;
+  font-size: 50px;
+  margin-top: 30%;
+  text-align: center;
+}
+ 
+.container-derch {
+  flex-basis: 50%; /* Ocupa el 50% del contenedor principal */
+  background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+}
+.imagen-fotonosotros {
+  background-image: url('/assets/images/FotoTodos.jpeg');
   position: absolute;
-  top: 150px;
-  /* Posición desde la parte superior */
-  right: 200px;
-  /* Posición desde la derecha */
-  z-index: 10;
+  width: 20%;
+  height: 60%;
+  z-index: 1; /* Añadido para asegurarse de que esté encima del overlay y el contenido */
+  top: 20%; 
+  right: 11%;  
+  background-size: cover;
+  background-position: center;
 }
 
-.imagen-lateral img {
-  width: auto;
-  height: auto;
-  max-width: 300px;
-  max-height: 80vh;
-}
 
 .rectangulo {
   position: absolute;
-  width: 325px;
-  height: 450px;
+  width: 23%;
+  height: 65%;
   border: 1px solid rgb(255, 0, 0);
-  z-index: 1;
-  /* Añadido para asegurarse de que esté encima del overlay y el contenido */
-  top: 100px;
-  right: 250px;
+  z-index: 1; /* Añadido para asegurarse de que esté encima del overlay y el contenido */
+  top: 10%; 
+  right: 13%;  
 }
-
 .rectangulo2 {
   position: absolute;
-  width: 325px;
-  height: 450px;
+  width: 23%;
+  height: 65%;
   border: 1px solid rgb(83, 83, 83);
-  z-index: 1;
-  /* Añadido para asegurarse de que esté encima del overlay y el contenido */
-  top: 200px;
-  right: 125px;
-}
-
-h1 {
-  text-align: center;
-  margin-top: 200px;
-  font-family: 'Bebas Neue', sans-serif;
-}
-
-.color-destacado {
-  color: #ff0000;
-}
-
-.parrafo-con-margen {
-  margin-left: 75px;
-  margin-right: 750px;
-  margin-top: 125px;
-  text-align: justify;
-  font-family: 'Bebas Neue';
-  /*BEBAS NEUE SOLO SE PUEDE EDITAR EN MAYUSCULAS NO SE QUE FONT LLEVA EL TEXTO HAY QUE AJUSTARLO*/
+  z-index: 1; /* Añadido para asegurarse de que esté encima del overlay y el contenido */
+  top: 30%; 
+  right: 7%;  
 }
 
