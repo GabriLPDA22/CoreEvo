@@ -105,7 +105,7 @@ body {
 }
 
 .foto-1, .foto-2, .foto-3 {
-  width: 80%;
+  width: 60%;
   height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -123,11 +123,35 @@ body {
 .foto-3 {
   background-image: url(./foto-3.jpg);
 }
-
-/* Estilos para el texto */
 .columna-texto p {
   text-align: justify;
-  font-size: 25px;
+  font-size: 30px;
   line-height: 1.5; 
   margin: 0;
+}
+@media (max-width: 1440px){
+  .container{
+    width: 100%;
+    height: 100%;
+  }
+  .encabezado{
+    width: 115%;
+  }
+  .foto-1, .foto-2, .foto-3 {
+    width: 100%;
+    height: 100%;
+  }
+  .columna-texto p{
+    font-size: 1.2em;
+  }
+}
+@media (max-width: 1024px){
+  .container{
+    width: 100%;
+    height: 100%;
+  }
+  .encabezado{
+    width: 115%;
+  }
+
 }
