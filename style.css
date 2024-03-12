@@ -82,7 +82,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 512px;
+    width: 535px;
     height: 420px;
     overflow: hidden;
     z-index: 2;
@@ -193,12 +193,12 @@ header{
     }
     .nav-menu{
         position: absolute;
-        top: -800px;
+        top: -750px;
         display: flex;
         justify-content: center;
         background: rgba(255, 255, 255, 0.2);
-        width: 100%;
-        height: 90vh;
+        width: 90%;
+        height: 85vh;
         backdrop-filter: blur(20px);
         transition: .3s;
     }
@@ -228,7 +228,7 @@ header{
     }
     .form-box{
         width: 100%;
-        height: 500px;
+        height: 450px;
     }
     .register-container, .login-container{
         width: 100%;
@@ -238,4 +238,16 @@ header{
         flex-direction: column;
         gap: 0;
     }
+    .top span{
+        color: #fff;
+        font-size: small;
+        padding: 10px 0;
+        display: flex;
+        justify-content: center;
+    }
+    .top span a{
+        font-weight: 500;
+        color: #fff;
+        margin-left: 5px;
+}
 }
