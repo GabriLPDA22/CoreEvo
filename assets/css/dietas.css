@@ -51,6 +51,7 @@ body {
 }
 
 
+
 /* REDES SOCIALES */
 
 .left-section {
@@ -206,3 +207,68 @@ ul {
   background: transparent;
   border-radius: 5%;
 }
+
+  /*MEDIDA 768px */
+  @media (max-width: 768px) {
+    body {
+      height: 90vh;
+    }
+
+    .navbar{
+      display: none;
+    }
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 111%;
+      background-color: rgba(0, 0, 0, 0.9); 
+      z-index: -1;
+    }
+    .container {
+      flex-direction: column;
+      align-items: center;
+    }
+    .container-izq {
+      width: 100%;
+      padding: 5px; 
+     
+    }
+    h1 {  
+      font-size: 60px; 
+      margin: 0 auto;
+      text-align: center; 
+    }
+    p {
+      margin-top: 45px;
+      float: none; /* Anula el flotamiento del texto */
+      margin: 25 auto; /* Centra el párrafo horizontalmente */
+      width: 70%; /* Controla el ancho del párrafo */
+      font-size: 18px; /* Ajusta el tamaño del texto para que sea legible */
+      width: 91%;
+    }
+    h2 {
+      color: red;
+      font-size: 50px;
+      margin-top: 8%;
+      text-align: center;
+    }
+    ul {
+      font-size: 18px;
+      margin-left: 26px;
+    }
+    .container-derch {
+      flex-direction: column;
+      align-items: center;
+    }
+    .imagen-lateral-dieta {
+     display: none;
+    }
+  
+    .rectangulo, .rectangulo2 {
+      display: none;
+    }
+  }
+
+

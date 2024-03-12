@@ -30,6 +30,8 @@ body {
   border-bottom: 1px solid #ffffff;
 }
 
+
+
 /* REDES SOCIALES */
 
 .left-section {
@@ -212,3 +214,46 @@ body {
     font-size: 19px;
 }
 
+@media (max-width: 1024px) {
+
+    /*SECCION PRIMEA x NAVEGACION*/
+    
+    body{
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      color: rgb(0, 0, 0);
+      max-height: 500vh; 
+      background-color: #000000;
+    }
+    
+
+    
+    .additional-texts{
+      display: none;
+    }
+
+    .stars{
+        display: none;
+    }
+
+
+}   
+
+@media (max-width: 768px){
+    .navbar-responsive{
+        display: flex;
+    }
+
+    .navbar{display: none;}
+    
+    .products_body {
+        display: grid;
+        grid-template-columns: 1fr; /* Ajusta a 3 columnas en lugar de 1 */
+        justify-content: center;
+    }
+
+    .txt_products{
+        margin-top: 20px;
+    }
+}
