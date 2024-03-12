@@ -9,6 +9,7 @@ body {
   background-position: center;
   color: rgb(0, 0, 0);
   max-height: 100vh; /* Asegurarse de que al menos sea tan alto como la ventana gráfica */
+  cursor: pointer;
 }
 
 
