@@ -49,6 +49,7 @@ html {
 	display: flex;
 	align-items: center;
 	gap: 2rem;
+	cursor: pointer;
 }
 
 .customer-support i {
