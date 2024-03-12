@@ -49,6 +49,7 @@ html {
 	display: flex;
 	align-items: center;
 	gap: 2rem;
+	cursor: pointer;
 }
 
 .customer-support i {
@@ -247,6 +248,7 @@ html {
 	grid-template-columns: repeat(4, 1fr);
 	gap: 3rem;
 	padding: 3rem 0;
+	cursor: pointer;
 }
 
 .card-feature {
@@ -564,11 +566,13 @@ html {
   ul {
     list-style-type: none;
     padding: 0;
+		cursor: pointer;
   }
   
   ul li {
     color: inherit;
     text-decoration: none;
+		cursor: pointer;
   }
   
   @media (max-width: 768px) {

@@ -550,6 +550,7 @@ text-align: justify;
   margin: 0;
   outline: 3px solid red;
   outline-offset: 15px;
+  cursor: pointer;
 }
 
 /*FOOTER*/
@@ -585,11 +586,13 @@ text-align: justify;
 ul {
   list-style-type: none;
   padding: 0;
+  cursor: pointer;
 }
 
 ul li {
   color: inherit;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .contact-info,
