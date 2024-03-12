@@ -247,6 +247,7 @@ html {
 	grid-template-columns: repeat(4, 1fr);
 	gap: 3rem;
 	padding: 3rem 0;
+	cursor: pointer;
 }
 
 .card-feature {
@@ -564,11 +565,13 @@ html {
   ul {
     list-style-type: none;
     padding: 0;
+		cursor: pointer;
   }
   
   ul li {
     color: inherit;
     text-decoration: none;
+		cursor: pointer;
   }
   
   @media (max-width: 768px) {
