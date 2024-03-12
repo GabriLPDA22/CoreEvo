@@ -148,3 +148,20 @@ body {
     font-size: 19px;
 }
 
+@media screen and (max-width: 768px) {
+    .products_body {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .wrapper {
+        width: 100%; 
+        margin: 20px 0; 
+    }
+
+    .left{
+        display: none;
+    }
+}
+
