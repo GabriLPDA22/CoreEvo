@@ -8,7 +8,7 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
-  background: url(https://www.dir.cat/blog/wp-content/uploads/2020/03/micromachismos-gimnasio.jpg) center/cover no-repeat; /* Ajusta la URL y las propiedades según tu imagen de fondo */
+  background: url(https://www.dir.cat/blog/wp-content/uploads/2020/03/micromachismos-gimnasio.jpg) center/cover no-repeat; 
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -20,7 +20,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.9); /* Cambia el valor (último número) para ajustar la opacidad */
+  background-color: rgba(0, 0, 0, 0.9); 
   z-index: -1;
 }
 .container {
@@ -29,8 +29,8 @@ body {
 }
 .container-izq {
   color: white;
-  flex-basis: 50%; /* Ocupa el 50% del contenedor principal */
-  padding: 20px; /* Espaciado interior para el texto */
+  flex-basis: 50%; 
+  padding: 20px; 
 }
 h1 {
   margin-top: 2%; 
@@ -40,17 +40,17 @@ h1 {
  }
  
  p {
-  float: left; /* Hace que el texto flote hacia la izquierda */
+  float: left; 
   margin-right: 10%;
   margin-left: 15%;
-  font-size: 35px; /* Aumenta el tamaño de la letra  */
-  text-align: justify; /* Justifica el texto*/
+  font-size: 35px; 
+  text-align: justify; 
 
 }
  
 .container-derch {
-  flex-basis: 50%; /* Ocupa el 50% del contenedor principal */
-  background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+  flex-basis: 50%; 
+  background-size: cover; 
 }
 .imagen-lateral-bici {
   background-image: url('./imagenes/fotobici.jpg');
@@ -97,4 +97,123 @@ ul {
   z-index: 1; /* Añadido para asegurarse de que esté encima del overlay y el contenido */
   top: 30%; 
   right: 7%;  
+}
+
+
+/*MEDIDA 768px */
+@media (max-width: 768px) {
+  body {
+    height: 90vh;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 111%;
+    background-color: rgba(0, 0, 0, 0.9); 
+    z-index: -1;
+  }
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .container-izq {
+    width: 100%;
+    padding: 5px; 
+   
+  }
+  h1 {  
+    font-size: 60px; 
+    margin: 0 auto;
+    text-align: center; 
+  }
+  p {
+    margin-top: 45px;
+    float: none; /* Anula el flotamiento del texto */
+    margin: 25 auto; /* Centra el párrafo horizontalmente */
+    width: 70%; /* Controla el ancho del párrafo */
+    font-size: 18px; /* Ajusta el tamaño del texto para que sea legible */
+  }
+  .container-derch {
+    flex-direction: column;
+    align-items: center;
+  }
+  .imagen-lateral-bici {
+    background-image: url('./imagenes/fotobici.jpg');
+    position: absolute;
+    width: 40%;
+    height: 55%;
+    z-index: 1; /* Añadido para asegurarse de que esté encima del overlay y el contenido */
+    top: 39%; 
+    right: 50%;  
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .imagen-lateral-pesa {
+    background-image: url('./imagenes/fotopesa.jpg');
+    position: absolute;
+    width: 40%;
+    height: 55%;
+    z-index: 1; /* Añadido para asegurarse de que esté encima del overlay y el contenido */
+    top: 39%; 
+    right: 8%;  
+    background-size: cover;
+    background-position: center;
+  }
+
+  .rectangulo, .rectangulo2 {
+    display: none;
+  }
+}
+/*MEDIDA 425px */
+@media (max-width: 425px) {
+  body {
+    height: 106vh;
+  }
+  .container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  h1 {
+    font-size: 50px; 
+    margin-left: 10px; 
+    text-align: center; 
+  }
+  p {
+    font-size: 17px; 
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+  .imagen-lateral-bici {
+    background-image: url('./imagenes/fotobici.jpg');
+    position: absolute;
+    width: 35%;
+    height: 45%;
+    z-index: 1; /* Añadido para asegurarse de que esté encima del overlay y el contenido */
+    top: 45%; 
+    right: 50%;  
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .imagen-lateral-pesa {
+    background-image: url('./imagenes/fotopesa.jpg');
+    position: absolute;
+    width: 35%;
+    height: 45%;
+    z-index: 1; /* Añadido para asegurarse de que esté encima del overlay y el contenido */
+    top: 45%; 
+    right: 8%;  
+    background-size: cover;
+    background-position: center;
+  }
+  .container-izq {
+    flex-basis: auto; /* Establece la base flexible a automático */
+    width: 100%; /* Utiliza el ancho completo para el texto */
+    padding: 10px; /* Reduce el padding para dispositivos más pequeños */
+    margin: 0; /* Asegúrate de que no hay margen en los lados */
+    order: 1; /* Asegúrate de que el texto se muestre primero */
+  }
 }
