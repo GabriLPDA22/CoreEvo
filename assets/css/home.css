@@ -139,9 +139,10 @@ body::before {
   margin-top: 5px;
   max-width: 100%;
   word-wrap: break-word;
-  font-family: Poppins;
-  color: #ffffff;
+  font-family: "Poppins", sans-serif;
   font-weight: 100;
+  font-style: normal;
+  color: #ffffff;
   margin-left: 50px;
 }
 
@@ -180,14 +181,16 @@ body::before {
 }
 
 .additional-texts h3 {
-  font-size: 154px;
+  font-size: 220px;
   margin: -36px 0;
   text-align: right;
   color: transparent;
   -webkit-text-stroke: 1px rgb(255, 255, 255);
-  font-family: 'Poppins', sans-serif;
-  font-weight: 900;
-  letter-spacing: 4px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style:initial;
+  letter-spacing: 26%;
+  stroke: 3;
 }
 
 
@@ -200,6 +203,8 @@ body::before {
   overflow-x: auto;
   /* Agrega una barra de desplazamiento horizontal si es necesario */
   margin-right: 1072px;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -230,7 +235,7 @@ body::before {
 .number {
   font-size: 36px;
   font-weight: bold;
-  margin: 10px 0;
+  margin: 10px 10px;
   color: #ff4500;
 }
 
@@ -243,6 +248,7 @@ body::before {
   text-overflow: ellipsis;
   white-space: nowrap;
   margin-top: 5px;
+  font-family: "Poppins", sans-serif;
 }
 
 
@@ -283,9 +289,10 @@ body::before {
 }
 
 .services-description {
-  font-size: 1em;
+  font-size: 2em;
   text-align: center;
   margin-bottom: 30px;
+  font-family: "Poppins", sans-serif;
 }
 
 .services-grid {
@@ -315,10 +322,14 @@ body::before {
   font-size: 1em;
   color: #ffffff;
   line-height: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: lighter;
 }
 
 a.service-item {
   text-decoration: none;
+
+
 }  
 
 .service-number {
@@ -347,7 +358,7 @@ a.service-item {
 .imagen-inscripcion {
   flex: 2;
   background-image: url('/assets/images/fotoInscripcion.jpg'); 
-    height: 560px;
+    height: 820px;
     z-index: 1; /* Añadido para asegurarse de que esté encima del overlay y el contenido */
     top: 100%; 
     background-size: cover;
@@ -355,12 +366,12 @@ a.service-item {
 }
 
 .h1-inscripcion  {
-  text-align: center;
+  text-align: left;
   margin-top: 5%; 
   font-family: 'Bebas Neue', sans-serif;
-  font-size: 50px;
+  font-size: 150px;
   color: #fff;
-  line-height: 50px;
+  line-height: 140px;
  }
 
  .color-destacado{
@@ -374,9 +385,8 @@ a.service-item {
  .p-inscripcion {
   float: left; /* Hace que el texto flote hacia la izquierda */
   margin-right: 10%;
-  margin-left: 5%;
   font-size: 26px; /* Aumenta el tamaño de la letra  */
-  text-align: justify; /* Justifica el texto*/
+  text-align: left; /* Justifica el texto*/
   color: #fff;
  }
 
