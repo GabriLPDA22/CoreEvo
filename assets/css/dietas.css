@@ -123,9 +123,9 @@ body {
 
 h1 {
   text-align: center;
-  margin-top: 4%;
   font-family: 'Bebas Neue', sans-serif;
   font-size: 50px;
+  margin-bottom: -10px;
 }
 
 p {
@@ -230,7 +230,6 @@ ul {
   .container-izq {
     width: 100%;
     padding: 5px;
-
   }
 
   h1 {
@@ -241,11 +240,6 @@ ul {
 
   p {
     margin-top: 45px;
-    float: none;
-    margin: 25 auto;
-    width: 70%;
-    font-size: 18px;
-    width: 91%;
   }
 
   h2 {
@@ -272,5 +266,36 @@ ul {
   .rectangulo,
   .rectangulo2 {
     display: none;
+  }
+}
+
+
+/*medidas 1024px */
+
+@media (max-width: 1024px) {
+  p {
+    margin-bottom: 2px;
+    float: none;
+    width: 70%;
+    font-size: 12px;
+    width: 91%;
+  }
+
+  .texto {
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    margin-top: 40px;
+
+  }
+
+  h2 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  ul {
+    font-size: 12px;
   }
 }
