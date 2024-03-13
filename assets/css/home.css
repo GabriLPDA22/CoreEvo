@@ -375,14 +375,11 @@ a.service-item {
   font-family: 'Bebas Neue', sans-serif;
   font-size: 150px;
   color: #fff;
-<<<<<<< HEAD
   line-height: 50px;
-}
-=======
   line-height: 140px;
   font-weight: 500;
- }
->>>>>>> fc7a8fe24056bd83b94397080af66b368c7fecf0
+}
+
 
 .color-destacado {
   color: red;
@@ -402,13 +399,10 @@ a.service-item {
   text-align: justify;
   /* Justifica el texto*/
   color: #fff;
-<<<<<<< HEAD
-}
-=======
   font-family: "Poppins", sans-serif;
- }
->>>>>>> fc7a8fe24056bd83b94397080af66b368c7fecf0
+}
 
+  
 .container-derch {
   flex-basis: 50%;
   /* Ocupa el 50% del contenedor principal */
@@ -1589,7 +1583,7 @@ ul li {
 }
 
 @media (max-width: 425px) {
-<<<<<<< HEAD
+
   /*SECCION PRIMEA x NAVEGACION*/
 
   body {
@@ -2057,7 +2051,7 @@ ul li {
     text-align: center;
     /* Asegura que el texto esté centrado */
   }
-=======
+
     /*SECCION PRIMEA x NAVEGACION*/
 
 body{
@@ -2499,8 +2493,8 @@ ul li {
   align-items: center;
   text-align: center; /* Asegura que el texto esté centrado */
 }
->>>>>>> fc7a8fe24056bd83b94397080af66b368c7fecf0
 }
+
 
 
 @media (max-width: 375px) {
