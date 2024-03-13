@@ -1,12 +1,12 @@
 <a name="top"></a>
+
 # CoreEvolution Gym 🏋️‍♂️
 
 Bienvenido al repositorio oficial de la página web de CoreEvolution Gym...
 
-
 Bienvenido al repositorio oficial de la página web de CoreEvolution Gym. Somos una comunidad dedicada al fitness y al bienestar, comprometida con la creación de un ambiente motivador y de apoyo para todos nuestros miembros. Nuestra misión es ofrecer instalaciones de vanguardia, programas de entrenamiento personalizados y asesoramiento nutricional experto. 🌟
 
-![Banner de CoreEvolution Gym](URL_DEL_BANNER)
+![Banner de CoreEvolution Gym](/assets/images/Banner.png)
 
 ## 📖 Tabla de Contenidos
 
@@ -20,6 +20,8 @@ Bienvenido al repositorio oficial de la página web de CoreEvolution Gym. Somos 
 ## 🌟 Características
 
 ## 📸 Capturas de Pantalla
+
+![MovilGYM](/assets/images/Movil.png)
 
 ## 🤝 Cómo Contribuir
 
@@ -47,7 +49,6 @@ Agradecemos a los siguientes colaboradores:
 - [victorsierra](https://github.com/victorsierra)
 - [GabriLPDA22](https://github.com/GabriLPDA22)
 
-
 ## 🛠️ Stack Tecnológico
 
 En este proyecto hemos utilizado estas tecnologías:
@@ -61,4 +62,3 @@ En este proyecto hemos utilizado estas tecnologías:
 ---
 
 <p align="right">(<a href="#top">volver arriba</a>)</p>
-
