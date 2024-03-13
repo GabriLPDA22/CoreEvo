@@ -101,6 +101,10 @@ body {
     font-family: "Bebas Neue", sans-serif;
 }
 
+.text a {
+    text-decoration: none;
+}
+
 
 .stars {
     margin-top: 7px;
@@ -227,6 +231,7 @@ body {
     font-size: 19px;
 }
 
+
 @media (max-width: 1024px) {
 
     /*SECCION PRIMEA x NAVEGACION*/
@@ -257,6 +262,10 @@ body {
 @media (max-width: 768px) {
     .navbar-responsive {
         display: flex;
+    }
+
+    .text h1 {
+        color: #7f0000;
     }
 
     body {
