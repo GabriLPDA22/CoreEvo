@@ -19,9 +19,15 @@ Bienvenido al repositorio oficial de la página web de CoreEvolution Gym. Somos 
 
 ## 🌟 Características
 
+- **Tienda**: Descubre nuestra amplia gama de productos y consigue todo lo que necesitas con facilidad.
+- **Actividades**: Participa en una variedad de actividades organizadas para nuestra comunidad.
+- **Instalaciones**: Explora nuestras instalaciones de primera clase y descubre lo que nos hace únicos.
+
 ## 📸 Capturas de Pantalla
 
 ![MovilGYM](/assets/images/Movil.png)
+
+![PcGYM](/assets/images/Portatil.png)
 
 ## 🤝 Cómo Contribuir
 
