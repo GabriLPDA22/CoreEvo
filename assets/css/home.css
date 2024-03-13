@@ -2969,7 +2969,7 @@ ul li {
 @media (max-width:320px) {
   .foto-ubicacion {
     background-image: url(/assets/images/foto-ubicacion.jpg);
-    width: 15em;
+    width: 14em;
     height: 20em;
 
   }
