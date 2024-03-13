@@ -29,6 +29,8 @@ Bienvenido al repositorio oficial de la página web de CoreEvolution Gym. Somos 
 
 ![PcGYM](/assets/images/Portatil.png)
 
+![IpadGYM](/assets/images/Ipad.png)
+
 ## 🤝 Cómo Contribuir
 
 Instrucciones sobre cómo otros desarrolladores pueden contribuir a tu proyecto.
