@@ -622,7 +622,7 @@ button:hover {
 
 .menu-footer {
   display: grid;
-  grid-template-columns: repeat(3, 1fr) 30rem;
+  grid-template-columns: repeat(4, 1fr) 30rem;
   gap: 3rem;
   justify-items: center;
 }
