@@ -65,7 +65,7 @@ body::before {
   display: flex;
   align-items: center;
   margin-right: 5px;
-  /* Ajusta el margen entre los círculos según tus preferencias */
+  /* Ajustar el margen entre los círculos según tus preferencias */
 }
 
 .left-section .social-circle a {
@@ -84,7 +84,7 @@ body::before {
   text-decoration: none;
   color: rgb(255, 255, 255);
   font-size: 21px;
-  font-family: Bebas Neue;
+  font-family: "Bebas Neue", sans-serif;
   margin-right: 20px;
   align-items: right;
 }
@@ -372,6 +372,7 @@ a.service-item {
   font-size: 150px;
   color: #fff;
   line-height: 140px;
+  font-weight: 500;
  }
 
  .color-destacado{
@@ -388,6 +389,7 @@ a.service-item {
   font-size: 26px; /* Aumenta el tamaño de la letra  */
   text-align: left; /* Justifica el texto*/
   color: #fff;
+  font-family: "Poppins", sans-serif;
  }
 
 .container-derch {
@@ -455,6 +457,7 @@ button:hover {
   justify-content: center;
   font-size: 20px;
   margin: 40px;
+  font-family: "Poppins", sans-serif;
 }
 .columna-fotos{
   position: absolute;
@@ -591,18 +594,20 @@ text-align: justify;
 	font-size: 1.6rem;
 	text-transform: uppercase;
   color: red;
-  font-weight: bold;
+  font-family: "Poppins", sans-serif;
 }
 ul {
   list-style-type: none;
   padding: 0;
   cursor: pointer;
+  
 }
 
 ul li {
   color: inherit;
   text-decoration: none;
   cursor: pointer;
+  font-family: "Poppins", sans-serif;
 }
 
 .contact-info,
@@ -1519,7 +1524,7 @@ body{
   display: flex;
   align-items: center;
   margin-right: 5px;
-  /* Ajusta el margen entre los círculos según tus preferencias */
+  /* Ajustar el margen entre los círculos según tus preferencias */
 }
 
 .left-section .social-circle a {
@@ -1820,6 +1825,8 @@ display: none;
 .h1-inscripcion{
   line-height: 50px;
   font-size: 50px;
+  justify-content: center;
+  text-align: center;
 }
 
 .A-ENTRENAR-YA{
@@ -1829,10 +1836,9 @@ display: none;
 
 .p-inscripcion {
   /* float: left; */
-  margin-right: 10%;
-  /* margin-left: 5%; */
+  margin-left: 5%;
   font-size: 20px;
-  text-align: left;
+  text-align: center;
   color: #fff;
 }
 
