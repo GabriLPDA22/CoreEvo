@@ -361,7 +361,7 @@ a.service-item {
 .imagen-inscripcion {
   flex: 2;
   background-image: url('/assets/images/fotoInscripcion.jpg');
-  height: 560px;
+  height: 900px;
   z-index: 1;
   /* Añadido para asegurarse de que esté encima del overlay y el contenido */
   top: 100%;
@@ -2969,7 +2969,7 @@ ul li {
 @media (max-width:320px) {
   .foto-ubicacion {
     background-image: url(/assets/images/foto-ubicacion.jpg);
-    width: 14em;
+    width: 10em;
     height: 20em;
 
   }
