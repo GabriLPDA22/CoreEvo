@@ -402,7 +402,7 @@ a.service-item {
   font-family: "Poppins", sans-serif;
 }
 
-  
+
 .container-derch {
   flex-basis: 50%;
   /* Ocupa el 50% del contenedor principal */
@@ -594,7 +594,6 @@ button:hover {
 }
 
 .foto-ubicacion {
-  background-image: url(/assets/images/foto-ubicacion.jpg);
   width: 30em;
   height: 30em;
   background-size: cover;
@@ -640,7 +639,7 @@ ul {
   list-style-type: none;
   padding: 0;
   cursor: pointer;
-  
+
 }
 
 ul li {
@@ -1992,11 +1991,8 @@ ul li {
 
   /*UBICACION*/
 
-  .foto-ubicacion {
-    background-image: url(/assets/images/foto-ubicacion.jpg);
-    outline: 3px solid red;
-    outline-offset: 15px;
-    width: 22em;
+  .foto-ubicacion iframe {
+    width: 20em;
     height: 30em;
   }
 
@@ -2052,447 +2048,62 @@ ul li {
     /* Asegura que el texto esté centrado */
   }
 
-    /*SECCION PRIMEA x NAVEGACION*/
-
-body{
-  background-image: url(/assets/images/HOME.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  color: rgb(0, 0, 0);
-  max-height: 70vh;
-   
-}
-
-.navbar-responsive{
-  display: block;
-}
-
-.left-section {
-  min-width: 15px;
-  display: flex;
-  justify-content: right;
-  margin-right: 5%;
-}
-
-.left-section .social-circle {
-  margin-top: 2%;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  margin-right: 5px;
-  /* Ajustar el margen entre los círculos según tus preferencias */
-}
-
-.left-section .social-circle a {
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-  font-size: 20px;
-}
-
-.left-section .social-circle i {
-  margin-top: 3px;
-}
-
-.navbar-responsive nav {
-  background: #000000;
-  border-bottom: 1px solid #ddd;
-  height: 60px;
-  position: relative;
-}
-
-.navbar-responsive .nav-links {
-  display: block;
-  position: absolute;
-  top: 60px;
-  left: 0;
-  width: 100%;
-}
-
-.navbar-responsive .nav-links::before {
-  background: rgba(0, 0, 0, 0.5);
-  content: '';
-  height: 100vh;
-  left: 0;
-  top: 0;
-  position: absolute;
-  opacity: 0;
-  visibility: hidden;
-  width: 100%;
-  transition: all 0.3s;
-}
-
-.navbar-responsive .nav-links li {
-  border-bottom: 1px solid #ddd;
-  opacity: 0;
-  visibility: hidden;
-  transform: translateY(-20px);
-  transition: all 0.3s;
-}
-
-.navbar-responsive .nav-links li a {
-  background: #000000;
-  color: #ffffff;
-  display: block;
-  font-size: 18px;
-  font-weight: 700;
-  padding: 12px 20px;
-  text-align: left;
-  width: 100%;
-  transition: all 0.3s;
-  font-family: "Bebas Neue", sans-serif;
-}
-
-.navbar-responsive .nav-links li a:hover {
-  color: coral;
-}
-
-input[type="checkbox"] {
-  position: absolute;
-  opacity: 0;
-  visibility: hidden;
-}
-
-input[type="checkbox"]:checked + label {
-  border: 4px solid silver;
-  border-radius: 50%;
-  height: 28px;
-  top: 16px;
-  left: 18px;
-  width: 28px;
-  transform: rotate(-135deg);
-}
-
-input[type="checkbox"]:checked + label::before,
-input[type="checkbox"]:checked + label::after {
-  background: silver;
-  top: 8px;
-  left: 4px;
-  width: 12px;
-}
-
-input[type="checkbox"]:checked + label:hover {
-  border-color: rgb(250, 0, 0);
-}
-
-input[type="checkbox"]:checked + label:hover::before,
-input[type="checkbox"]:checked + label:hover::after {
-  background: rgb(255, 0, 0);
-}
-
-input[type="checkbox"]:checked ~ .nav-links::before {
-  opacity: 1;
-  visibility: visible;
-}
-
-input[type="checkbox"]:checked ~ .nav-links li {
-  opacity: 1;
-  visibility: visible;
-  transform: translateY(0);
-}
-
-label {
-  background: none transparent;
-  border: 4px solid rgb(255, 80, 80);
-  border-left: 0 solid transparent;
-  border-right: 0 solid transparent;
-  cursor: pointer;
-  display: block;
-  height: 24px;
-  position: absolute;
-  top: 18px;
-  left: 20px;
-  width: 24px;
-  transition: all 0.2s;
-}
-
-label::before {
-  background: rgb(255, 80, 80);
-  content: '';
-  height: 4px;
-  left: 0;
-  position: absolute;
-  top: 6px;
-  width: 24px;
-  transition: all 0.2s;
-}
-
-label::after {
-  background: rgb(255, 0, 0);
-  content: '';
-  height: 4px;
-  left: 0;
-  position: absolute;
-  top: 14px; /* Ajusta esto si es necesario para alinear con el pseudo-elemento ::before */
-  opacity: 0;
-  visibility: hidden;
-  width: 100%;
-  transform: rotate(90deg);
-  transition: all .2s;
-}
-
-/* Estilos para el label cuando el checkbox está marcado */
-input[type="checkbox"]:checked + label::after {
-  opacity: 1;
-  visibility: visible;
-  transform: rotate(45deg); /* Rotar para formar una 'X' con ::before */
-}
-
-/* Estilos adicionales para la navegación */
-.navbar-responsive {
-  position: relative;
-}
-
-.navbar-responsive nav {
-  width: 100%;
-  /* Asegúrate de que el nav sea visible y accesible */
-}
-
-
-
-.navbar-responsive .nav-links {
-  /* Estilos para la lista de navegación, incluyendo la transición y visibilidad */
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: none; /* Ocultar por defecto */
-}
-
-.navbar-responsive input[type="checkbox"]:checked ~ .nav-links {
-  display: block; /* Mostrar cuando el checkbox esté marcado */
-}
-
-
-.navbar{
-  display: none;
-}
-
-.additional-texts{
-  display: none;
-}
-
-.home-container {
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: 0;
-  padding: 10px;
-}
-
-.welcome-text {
-  text-align: center;
-  margin-left: 0;
-}
-
-.welcome-text h1 {
-  margin-top: 5%;
-  margin-left: 0;
-  font-size: 50px; /* Tamaño de fuente ajustado para pantallas pequeñas */
-}
-
-.welcome-text h2 {
-  margin-left: 0;
-  font-size: 16px; /* Tamaño de fuente ajustado para pantallas pequeñas */
-}
-
-.button-container {
-  margin-top: 20px;
-  text-align: center;
-  margin-left: 0;
-}
-
-.additional-texts {
-  flex-direction: row;
-  justify-content: center;
-}
-
-.red-button {
-  font-size: 20px; /* Tamaño de fuente ajustado para pantallas pequeñas */
-}
-
-.experience-section {
-display: none;
-}
-
-.container-responsive {
-  display: flex; /* Muestra el menú responsive */
-  flex-direction: column;
-  align-items: center;
-  background-color: #000; /* Fondo del menú desplegable */
-  position: absolute;
-  top: 60px; /* Ajustar si es necesario */
-  width: 100%;
-  display: none;
-}
-
-.container-responsive a {
-  text-align: center;
-  padding: 10px;
-  border-top: 1px solid #fff; /* Líneas entre opciones */
-}
-
-/*SEVICIOS*/
-
-.services-grid{
-  display: grid;
-  gap: 20px;
-  grid-template-columns: repeat(1, 1fr);
-}
-
-.service-item{
-  padding: 10px;
-  max-width: 100%;
-}
-
-.service-title{
-  margin-top: 10px;
-}
-
-.service-description{
-  padding: 10px 10px 10px;
-  margin-bottom: 20%;
-  line-height: 30px;
-}
-
-.service-number{
-  padding: auto;
-  margin-left: 10px;
-  margin-bottom: 36px;
-}
-
-/*FORMULARIO*/
-
-.container-inscripcion {
-  display: flex;
-  background-color: #000;
-  margin-top: 40px;
-  flex-direction: column-reverse;
-}
-
-.imagen-inscripcion {
-  flex: 2;
-  background-image: url(/assets/images/fotoInscripcion.jpg);
-  height: 600px;
-  z-index: 1;
-  top: 100%;
-  background-size: cover;
-  background-position: center;
-}
-
-.h1-inscripcion{
-  line-height: 50px;
-  font-size: 50px;
-  justify-content: center;
-  text-align: center;
-}
-
-.A-ENTRENAR-YA{
-  color: #ff0000;
-  font-size: 50px;
- }
-
-.p-inscripcion {
-  /* float: left; */
-  margin-left: 5%;
-  font-size: 20px;
-  text-align: center;
-  color: #fff;
-}
-
-.button {
-  padding: 7px 20px;
-  border: 2px solid #fff;
-  background-color: transparent;
-  color: #fff;
-  cursor: pointer;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.buttons-container {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-/*CLIENTES*/
-
-.columna-texto {
-  font-size: 20px;
-  margin: 40px;
-  color: #ffffff;
-}
-
-.primer-parrafo p, .segundo-parrafo p, .tercer-parrafo p {
-  max-width: 100%;
-  margin: 0;
-  text-align: center;
-}
-
-.foto-luis {
-  display: none;
-}
-
-.foto-jaime{
-
-  display: none;
-
-}
-.foto-gabs{
-  display: none;
-}
-
-/*UBICACION*/
-
-.foto-ubicacion {
-  background-image: url(/assets/images/foto-ubicacion.jpg);
-  outline: 3px solid red;
-  outline-offset: 15px;
-  width: 22em;
-  height: 30em;
-}
-
-/*FOTER*/
-.menu-footer {
-  display: grid;
-  grid-template-columns: 1fr; /* Ajusta a 3 columnas en lugar de 1 */
-  justify-content: center;
-  align-items: start; /* Alinea los elementos al inicio */
-  gap: 3rem;
-  padding: 2rem; /* Agrega padding para que no esté pegado a los bordes */
-}
-
-.title-footer {
-  font-size: 1.4rem; /* Aumenta un poco el tamaño si es necesario */
-  text-align: center; /* Asegúrate de que el texto esté centrado */
-  margin-bottom: 1rem; /* Agrega un margen abajo para separarlo de la lista */
-}
-
-ul {
-  list-style: none; /* Remueve los bullets de la lista */
-  padding: 0; /* Remueve el padding por defecto de las listas */
-  margin: 0; /* Remueve el margen por defecto de las listas */
-}
-
-ul li {
-  font-size: 1.2rem;
-  text-align: center; /* Asegura que el texto esté centrado */
-  margin-bottom: 0.5rem; /* Agrega un pequeño margen entre elementos de la lista */
-}
-
-/* Agrupa las clases que comparten las mismas propiedades para evitar repetición */
-.contact-info,
-.information,
-.my-account,
-.familia-coreevolution {
-  display: flex; /* Usa flexbox para mejor control del layout */
-  flex-direction: column;
-  align-items: center;
-  text-align: center; /* Asegura que el texto esté centrado */
-}
+  .foto-ubicacion {
+    width: 20em;
+    height: 30em;
+  }
+
+  /*FOTER*/
+  .menu-footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* Ajusta a 3 columnas en lugar de 1 */
+    justify-content: center;
+    align-items: start;
+    /* Alinea los elementos al inicio */
+    gap: 3rem;
+    padding: 2rem;
+    /* Agrega padding para que no esté pegado a los bordes */
+  }
+
+  .title-footer {
+    font-size: 1.4rem;
+    /* Aumenta un poco el tamaño si es necesario */
+    text-align: center;
+    /* Asegúrate de que el texto esté centrado */
+    margin-bottom: 1rem;
+    /* Agrega un margen abajo para separarlo de la lista */
+  }
+
+  ul {
+    list-style: none;
+    /* Remueve los bullets de la lista */
+    padding: 0;
+    /* Remueve el padding por defecto de las listas */
+    margin: 0;
+    /* Remueve el margen por defecto de las listas */
+  }
+
+  ul li {
+    font-size: 1.2rem;
+    text-align: center;
+    /* Asegura que el texto esté centrado */
+    margin-bottom: 0.5rem;
+    /* Agrega un pequeño margen entre elementos de la lista */
+  }
+
+  /* Agrupa las clases que comparten las mismas propiedades para evitar repetición */
+  .contact-info,
+  .information,
+  .my-account,
+  .familia-coreevolution {
+    display: flex;
+    /* Usa flexbox para mejor control del layout */
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* Asegura que el texto esté centrado */
+  }
 }
 
 
@@ -2907,7 +2518,10 @@ ul li {
   /*UBICACION*/
 
   .foto-ubicacion {
-    background-image: url(/assets/images/foto-ubicacion.jpg);
+    height: 20em;
+  }
+
+  .foto-ubicacion iframe {
     width: 20em;
     height: 20em;
 
@@ -2968,9 +2582,12 @@ ul li {
 
 @media (max-width:320px) {
   .foto-ubicacion {
-    background-image: url(/assets/images/foto-ubicacion.jpg);
-    width: 10em;
-    height: 20em;
+    width: 15em;
+    height: 17em;
+  }
 
+  .foto-ubicacion iframe {
+    width: 15em;
+    height: 17em;
   }
 }
