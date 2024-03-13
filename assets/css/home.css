@@ -2,13 +2,15 @@
 
 body {
   margin: 0;
-  box-sizing: border-box; /* cambiado de content-box a border-box */
+  box-sizing: border-box;
+  /* cambiado de content-box a border-box */
   background-image: url('/assets/images/HOME2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   color: rgb(0, 0, 0);
-  max-height: 100vh; /* Asegurarse de que al menos sea tan alto como la ventana gráfica */
+  max-height: 100vh;
+  /* Asegurarse de que al menos sea tan alto como la ventana gráfica */
 
 }
 
@@ -26,7 +28,7 @@ body::before {
   /* Asegúrate de que la capa esté detrás del contenido principal */
 }
 
-.navbar-responsive{
+.navbar-responsive {
   display: none;
 }
 
@@ -84,7 +86,7 @@ body::before {
   text-decoration: none;
   color: rgb(255, 255, 255);
   font-size: 21px;
-  font-family: Bebas Neue;
+  font-family: "Bebas Neue", sans-serif;
   margin-right: 20px;
   align-items: right;
 }
@@ -319,17 +321,17 @@ body::before {
 
 a.service-item {
   text-decoration: none;
-}  
+}
 
 .service-number {
   position: absolute;
-    bottom: -10px;
-    align-items: flex-start;
-    /* padding: 5px 0px; */
-    font-size: 2em;
-    color: #fff;
-    margin-bottom: 3%;
-    font-family: "Bebas Neue", sans-serif;
+  bottom: -10px;
+  align-items: flex-start;
+  /* padding: 5px 0px; */
+  font-size: 2em;
+  color: #fff;
+  margin-bottom: 3%;
+  font-family: "Bebas Neue", sans-serif;
 }
 
 /*Formulario*/
@@ -338,51 +340,60 @@ a.service-item {
   background-color: #000;
   margin-top: 40px;
 }
+
 .container-izq {
   color: white;
-  flex-basis: 50%; /* Ocupa el 50% del contenedor principal */
-  padding: 20px; /* Espaciado interior para el texto */
+  flex-basis: 50%;
+  /* Ocupa el 50% del contenedor principal */
+  padding: 20px;
+  /* Espaciado interior para el texto */
 }
 
 .imagen-inscripcion {
   flex: 2;
-  background-image: url('/assets/images/fotoInscripcion.jpg'); 
-    height: 560px;
-    z-index: 1; /* Añadido para asegurarse de que esté encima del overlay y el contenido */
-    top: 100%; 
-    background-size: cover;
-    background-position:center;
+  background-image: url('/assets/images/fotoInscripcion.jpg');
+  height: 560px;
+  z-index: 1;
+  /* Añadido para asegurarse de que esté encima del overlay y el contenido */
+  top: 100%;
+  background-size: cover;
+  background-position: center;
 }
 
-.h1-inscripcion  {
+.h1-inscripcion {
   text-align: center;
-  margin-top: 5%; 
+  margin-top: 5%;
   font-family: 'Bebas Neue', sans-serif;
   font-size: 50px;
   color: #fff;
   line-height: 50px;
- }
+}
 
- .color-destacado{
+.color-destacado {
   color: red;
- }
+}
 
- .A-ENTRENAR-YA{
+.A-ENTRENAR-YA {
   color: #ff0000;
- }
+}
 
- .p-inscripcion {
-  float: left; /* Hace que el texto flote hacia la izquierda */
+.p-inscripcion {
+  float: left;
+  /* Hace que el texto flote hacia la izquierda */
   margin-right: 10%;
   margin-left: 5%;
-  font-size: 26px; /* Aumenta el tamaño de la letra  */
-  text-align: justify; /* Justifica el texto*/
+  font-size: 26px;
+  /* Aumenta el tamaño de la letra  */
+  text-align: justify;
+  /* Justifica el texto*/
   color: #fff;
- }
+}
 
 .container-derch {
-  flex-basis: 50%; /* Ocupa el 50% del contenedor principal */
-  background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+  flex-basis: 50%;
+  /* Ocupa el 50% del contenedor principal */
+  background-size: cover;
+  /* Asegura que la imagen cubra todo el contenedor */
 }
 
 input {
@@ -421,32 +432,36 @@ button:hover {
 
 /*OPINIONES*/
 
-.container-opiniones{
+.container-opiniones {
   background-color: #000;
   margin-top: 40px;
 }
 
-.color-clientes{
+.color-clientes {
   color: #ff0000;
 }
 
-.encabezado{
+.encabezado {
   width: auto;
   height: auto;
   padding: 20px;
   text-align: center;
   font-family: "Bebas Neue", sans-serif;
   font-size: 40px;
-  color:#fff ;
+  color: #fff;
   background-color: #000;
 }
-.primer-parrafo, .segundo-parrafo, .tercer-parrafo{
+
+.primer-parrafo,
+.segundo-parrafo,
+.tercer-parrafo {
   display: flex;
   justify-content: center;
   font-size: 20px;
   margin: 40px;
 }
-.columna-fotos{
+
+.columna-fotos {
   position: absolute;
   width: 100px;
   height: 800px;
@@ -457,68 +472,90 @@ button:hover {
   place-content: space-between;
   float: left;
   /*border-radius: 300px; */
-  
+
 }
-.columna-texto{
+
+.columna-texto {
   font-size: 20px;
   margin: 40px;
   color: #ffffff;
   padding-bottom: 20px;
 }
+
 .foto-luis {
-width: 100px;
-height: 100px;
-background-image: url(/assets/images/Foto\ Luis.jpg);
-background-size: cover;
-background-position: center;
-border-radius: 100%;
-margin-right: 80px; /* Agrega un margen a la derecha de la imagen */
+  width: 100px;
+  height: 100px;
+  background-image: url(/assets/images/Foto\ Luis.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 100%;
+  margin-right: 80px;
+  /* Agrega un margen a la derecha de la imagen */
 }
-.foto-jaime{
+
+.foto-jaime {
   width: 100px;
   height: 100px;
   background-image: url(/assets/images/Foto\ Escarcheto.jpg);
   background-size: cover;
   background-position: center;
   border-radius: 100%;
-  margin-right: 80px; /* Agrega un margen a la derecha de la imagen */
+  margin-right: 80px;
+  /* Agrega un margen a la derecha de la imagen */
 }
-.foto-gabs{
+
+.foto-gabs {
   width: 100px;
   height: 100px;
   background-image: url(/assets/images/Foto\ gabs.jpg);
   background-size: cover;
   background-position: center;
   border-radius: 100%;
-  margin-right: 80px; /* Agrega un margen a la derecha de la imagen */
+  margin-right: 80px;
+  /* Agrega un margen a la derecha de la imagen */
 }
-.primer-parrafo, .segundo-parrafo, .tercer-parrafo {
-display: flex;
-align-items: center; /* Asegúrate de que la imagen y el texto estén alineados en el centro verticalmente */
-justify-content: center; /* Centrar los elementos horizontalmente */
-font-size: 20px;
-margin: 40px;
-text-align: left; /* Alinear el texto a la izquierda */
-gap: 20px; /* Agrega espacio entre la imagen y el texto */
+
+.primer-parrafo,
+.segundo-parrafo,
+.tercer-parrafo {
+  display: flex;
+  align-items: center;
+  /* Asegúrate de que la imagen y el texto estén alineados en el centro verticalmente */
+  justify-content: center;
+  /* Centrar los elementos horizontalmente */
+  font-size: 20px;
+  margin: 40px;
+  text-align: left;
+  /* Alinear el texto a la izquierda */
+  gap: 20px;
+  /* Agrega espacio entre la imagen y el texto */
 }
 
 
 
 /* Si quieres que la imagen siempre esté a la izquierda del texto, independientemente de la dirección del texto */
-.primer-parrafo, .segundo-parrafo, .tercer-parrafo {
-flex-direction: row; /* Coloca los elementos en una fila */
+.primer-parrafo,
+.segundo-parrafo,
+.tercer-parrafo {
+  flex-direction: row;
+  /* Coloca los elementos en una fila */
 }
 
 /* Ajusta el tamaño del párrafo para no utilizar anchuras fijas que no son responsivas */
-.primer-parrafo p, .segundo-parrafo p, .tercer-parrafo p {
-max-width: 80%; /* O un valor que se adapte bien a tu diseño */
-margin: 0; /* Elimina los márgenes por defecto del párrafo */
-text-align: justify;
+.primer-parrafo p,
+.segundo-parrafo p,
+.tercer-parrafo p {
+  max-width: 80%;
+  /* O un valor que se adapte bien a tu diseño */
+  margin: 0;
+  /* Elimina los márgenes por defecto del párrafo */
+  text-align: justify;
 }
 
 /*UBICACION*/
 
-.encabezado-Ubicacion, .gym-abajo{
+.encabezado-Ubicacion,
+.gym-abajo {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -541,7 +578,7 @@ text-align: justify;
   flex-direction: column;
 }
 
-.foto-ubicacion{
+.foto-ubicacion {
   background-image: url(/assets/images/foto-ubicacion.jpg);
   width: 30em;
   height: 30em;
@@ -560,29 +597,30 @@ text-align: justify;
 }
 
 .container-footer {
-	display: flex;
+  display: flex;
   align-items: center;
   flex-direction: column;
-	gap: 5rem;
-	padding: 3rem;
+  gap: 5rem;
+  padding: 3rem;
   border: 4px solid red;
   background-color: #000;
 }
 
 .menu-footer {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr) 30rem;
-	gap: 3rem;
-	justify-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) 30rem;
+  gap: 3rem;
+  justify-items: center;
 }
 
 .title-footer {
-	font-weight: 600;
-	font-size: 1.6rem;
-	text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.6rem;
+  text-transform: uppercase;
   color: red;
   font-weight: bold;
 }
+
 ul {
   list-style-type: none;
   padding: 0;
@@ -599,1768 +637,1872 @@ ul li {
 .information,
 .my-account,
 .familia-coreevolution {
-	display: flex;
-	flex-direction: column;
-	gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .contact-info ul,
 .information ul,
 .my-account ul,
 .familia-coreevolution ul {
-	display: flex;
-	flex-direction: column;
-	gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .contact-info ul li,
 .information ul li,
 .my-account ul li,
 .familia-coreevolution ul li {
-	list-style: none;
-	color: #fff;
-	font-size: 1.4rem;
-	font-weight: 300;
+  list-style: none;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 300;
 }
 
 
 @media (max-width: 768px) {
 
-/*SECCION PRIMEA x NAVEGACION*/
-
-body{
-  background-image: url(/assets/images/HOME.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  color: rgb(0, 0, 0);
-  max-height: 20vh; 
-}
-
-.navbar-responsive{
-  display: block;
-}
-
-.left-section {
-  min-width: 15px;
-  display: flex;
-  justify-content: right;
-  margin-right: 5%;
-}
-
-.left-section .social-circle {
-  margin-top: 2%;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  margin-right: 5px;
-  /* Ajusta el margen entre los círculos según tus preferencias */
-}
-
-.left-section .social-circle a {
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-  font-size: 20px;
-}
-
-.left-section .social-circle i {
-  margin-top: 3px;
-}
-
-.navbar-responsive nav {
-  background: #000000;
-  border-bottom: 1px solid #ddd;
-  height: 60px;
-  position: relative;
-}
-
-.navbar-responsive .nav-links {
-  display: block;
-  position: absolute;
-  top: 60px;
-  left: 0;
-  width: 100%;
-}
-
-.navbar-responsive .nav-links::before {
-  background: rgba(0, 0, 0, 0.5);
-  content: '';
-  height: 100vh;
-  left: 0;
-  top: 0;
-  position: absolute;
-  opacity: 0;
-  visibility: hidden;
-  width: 100%;
-  transition: all 0.3s;
-}
-
-.navbar-responsive .nav-links li {
-  border-bottom: 1px solid #ddd;
-  opacity: 0;
-  visibility: hidden;
-  transform: translateY(-20px);
-  transition: all 0.3s;
-}
-
-.navbar-responsive .nav-links li a {
-  background: #000000;
-  color: #ffffff;
-  display: block;
-  font-size: 18px;
-  font-weight: 700;
-  padding: 12px 20px;
-  text-align: left;
-  width: 100%;
-  transition: all 0.3s;
-  font-family: "Bebas Neue", sans-serif;
-}
-
-.navbar-responsive .nav-links li a:hover {
-  color: coral;
-}
-
-input[type="checkbox"] {
-  position: absolute;
-  opacity: 0;
-  visibility: hidden;
-}
-
-input[type="checkbox"]:checked + label {
-  border: 4px solid silver;
-  border-radius: 50%;
-  height: 28px;
-  top: 16px;
-  left: 18px;
-  width: 28px;
-  transform: rotate(-135deg);
-}
-
-input[type="checkbox"]:checked + label::before,
-input[type="checkbox"]:checked + label::after {
-  background: silver;
-  top: 8px;
-  left: 4px;
-  width: 12px;
-}
-
-input[type="checkbox"]:checked + label:hover {
-  border-color: rgb(250, 0, 0);
-}
-
-input[type="checkbox"]:checked + label:hover::before,
-input[type="checkbox"]:checked + label:hover::after {
-  background: rgb(255, 0, 0);
-}
-
-input[type="checkbox"]:checked ~ .nav-links::before {
-  opacity: 1;
-  visibility: visible;
-}
-
-input[type="checkbox"]:checked ~ .nav-links li {
-  opacity: 1;
-  visibility: visible;
-  transform: translateY(0);
-}
-
-label {
-  background: none transparent;
-  border: 4px solid rgb(255, 80, 80);
-  border-left: 0 solid transparent;
-  border-right: 0 solid transparent;
-  cursor: pointer;
-  display: block;
-  height: 24px;
-  position: absolute;
-  top: 18px;
-  left: 20px;
-  width: 24px;
-  transition: all 0.2s;
-}
-
-label::before {
-  background: rgb(255, 80, 80);
-  content: '';
-  height: 4px;
-  left: 0;
-  position: absolute;
-  top: 6px;
-  width: 24px;
-  transition: all 0.2s;
-}
-
-label::after {
-  background: rgb(255, 0, 0);
-  content: '';
-  height: 4px;
-  left: 0;
-  position: absolute;
-  top: 14px; /* Ajusta esto si es necesario para alinear con el pseudo-elemento ::before */
-  opacity: 0;
-  visibility: hidden;
-  width: 100%;
-  transform: rotate(90deg);
-  transition: all .2s;
-}
-
-/* Estilos para el label cuando el checkbox está marcado */
-input[type="checkbox"]:checked + label::after {
-  opacity: 1;
-  visibility: visible;
-  transform: rotate(45deg); /* Rotar para formar una 'X' con ::before */
-}
-
-/* Estilos adicionales para la navegación */
-.navbar-responsive {
-  position: relative;
-}
-
-.navbar-responsive nav {
-  width: 100%;
-  /* Asegúrate de que el nav sea visible y accesible */
-}
-
-
-
-.navbar-responsive .nav-links {
-  /* Estilos para la lista de navegación, incluyendo la transición y visibilidad */
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: none; /* Ocultar por defecto */
-}
-
-.navbar-responsive input[type="checkbox"]:checked ~ .nav-links {
-  display: block; /* Mostrar cuando el checkbox esté marcado */
-}
-
-
-.navbar{
-  display: none;
-}
-
-.additional-texts{
-  display: none;
-}
-
-.home-container {
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: 0;
-  padding: 10px;
-}
-
-.welcome-text {
-  text-align: center;
-  margin-left: 0;
-}
-
-.welcome-text h1 {
-  margin-top: 5%;
-  margin-left: 0;
-  font-size: 50px; /* Tamaño de fuente ajustado para pantallas pequeñas */
-}
-
-.welcome-text h2 {
-  margin-left: 0;
-  font-size: 16px; /* Tamaño de fuente ajustado para pantallas pequeñas */
-}
-
-.button-container {
-  margin-top: 20px;
-  text-align: center;
-  margin-left: 0;
-}
-
-.additional-texts {
-  flex-direction: row;
-  justify-content: center;
-}
-
-.red-button {
-  font-size: 20px; /* Tamaño de fuente ajustado para pantallas pequeñas */
-}
-
-.experience-section {
-display: none;
-}
-
-.container-responsive {
-  display: flex; /* Muestra el menú responsive */
-  flex-direction: column;
-  align-items: center;
-  background-color: #000; /* Fondo del menú desplegable */
-  position: absolute;
-  top: 60px; /* Ajustar si es necesario */
-  width: 100%;
-  display: none;
-}
-
-.container-responsive a {
-  text-align: center;
-  padding: 10px;
-  border-top: 1px solid #fff; /* Líneas entre opciones */
-}
-
-/*SEVICIOS*/
-.service-item{
-  padding: 10px;
-  max-width: 100%;
-}
-
-.service-title{
-  margin-top: 10px;
-}
-
-.service-description{
-  padding: 10px 10px 10px;
-  margin-bottom: 20%;
-  line-height: 30px;
-}
-
-.service-number{
-  padding: auto;
-  margin-left: 10px;
-  margin-bottom: 36px;
-}
-
-/*FORMULARIO*/
-
-.imagen-inscripcion {
-  flex: 2;
-  background-image: url(/assets/images/fotoInscripcion.jpg);
-  height: 600px;
-  z-index: 1;
-  top: 100%;
-  background-size: cover;
-  background-position: center;
-}
-
-.h1-inscripcion{
-  line-height: 50px;
-  font-size: 50px;
-}
-
-.A-ENTRENAR-YA{
-  color: #ff0000;
-  font-size: 50px;
- }
-
-.p-inscripcion {
-  /* float: left; */
-  margin-right: 10%;
-  /* margin-left: 5%; */
-  font-size: 20px;
-  text-align: left;
-  color: #fff;
-}
-
-button {
-  padding: 7px 20px;
-  border: 2px solid #fff;
-  background-color: transparent;
-  color: #fff;
-  cursor: pointer;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.buttons-container {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-/*CLIENTES*/
-
-.foto-luis {
-  width: 100px;
-  height: 100px;
-  background-image: url(/assets/images/Foto\ Luis.jpg);
-  background-size: cover;
-  background-position: center;
-  border-radius: 100%;
-  margin-right: auto;
-
-}
-
-.foto-jaime{
-  width: 100px;
-  height: 100px;
-  background-image: url(/assets/images/Foto\ Escarcheto.jpg);
-  background-size: cover;
-  background-position: center;
-  border-radius: 100%;
-  margin-right: auto;
- 
-}
-.foto-gabs{
-  width: 100px;
-  height: 100px;
-  background-image: url(/assets/images/Foto\ gabs.jpg);
-  background-size: cover;
-  background-position: center;
-  border-radius: 100%;
-  margin-right: auto;
-}
-
-
-/*FOTER*/
-.menu-footer {
-  display: grid;
-  grid-template-columns: 1fr; /* Ajusta a 3 columnas en lugar de 1 */
-  justify-content: center;
-  align-items: start; /* Alinea los elementos al inicio */
-  gap: 3rem;
-  padding: 2rem; /* Agrega padding para que no esté pegado a los bordes */
-}
-
-.title-footer {
-  font-size: 1.4rem; /* Aumenta un poco el tamaño si es necesario */
-  text-align: center; /* Asegúrate de que el texto esté centrado */
-  margin-bottom: 1rem; /* Agrega un margen abajo para separarlo de la lista */
-}
-
-ul {
-  list-style: none; /* Remueve los bullets de la lista */
-  padding: 0; /* Remueve el padding por defecto de las listas */
-  margin: 0; /* Remueve el margen por defecto de las listas */
-}
-
-ul li {
-  font-size: 1.2rem;
-  text-align: center; /* Asegura que el texto esté centrado */
-  margin-bottom: 0.5rem; /* Agrega un pequeño margen entre elementos de la lista */
-}
-
-/* Agrupa las clases que comparten las mismas propiedades para evitar repetición */
-.contact-info,
-.information,
-.my-account,
-.familia-coreevolution {
-  display: flex; /* Usa flexbox para mejor control del layout */
-  flex-direction: column;
-  align-items: center;
-  text-align: center; /* Asegura que el texto esté centrado */
-}
-
-}
-
-
-@media (max-width: 1024px){
   /*SECCION PRIMEA x NAVEGACION*/
 
-body{
-  background-image: url(/assets/images/HOME.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  color: rgb(0, 0, 0);
-  max-height: 20vh; 
+  body {
+    background-image: url(/assets/images/HOME.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: rgb(0, 0, 0);
+    max-height: 20vh;
+  }
+
+  .navbar-responsive {
+    display: block;
+  }
+
+  .left-section {
+    min-width: 15px;
+    display: flex;
+    justify-content: right;
+    margin-right: 5%;
+  }
+
+  .left-section .social-circle {
+    margin-top: 2%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+    /* Ajusta el margen entre los círculos según tus preferencias */
+  }
+
+  .left-section .social-circle a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+  }
+
+  .left-section .social-circle i {
+    margin-top: 3px;
+  }
+
+  .navbar-responsive nav {
+    background: #000000;
+    border-bottom: 1px solid #ddd;
+    height: 60px;
+    position: relative;
+  }
+
+  .navbar-responsive .nav-links {
+    display: block;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+  }
+
+  .navbar-responsive .nav-links::before {
+    background: rgba(0, 0, 0, 0.5);
+    content: '';
+    height: 100vh;
+    left: 0;
+    top: 0;
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    width: 100%;
+    transition: all 0.3s;
+  }
+
+  .navbar-responsive .nav-links li {
+    border-bottom: 1px solid #ddd;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-20px);
+    transition: all 0.3s;
+  }
+
+  .navbar-responsive .nav-links li a {
+    background: #000000;
+    color: #ffffff;
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 12px 20px;
+    text-align: left;
+    width: 100%;
+    transition: all 0.3s;
+    font-family: "Bebas Neue", sans-serif;
+  }
+
+  .navbar-responsive .nav-links li a:hover {
+    color: coral;
+  }
+
+  input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  input[type="checkbox"]:checked+label {
+    border: 4px solid silver;
+    border-radius: 50%;
+    height: 28px;
+    top: 16px;
+    left: 18px;
+    width: 28px;
+    transform: rotate(-135deg);
+  }
+
+  input[type="checkbox"]:checked+label::before,
+  input[type="checkbox"]:checked+label::after {
+    background: silver;
+    top: 8px;
+    left: 4px;
+    width: 12px;
+  }
+
+  input[type="checkbox"]:checked+label:hover {
+    border-color: rgb(250, 0, 0);
+  }
+
+  input[type="checkbox"]:checked+label:hover::before,
+  input[type="checkbox"]:checked+label:hover::after {
+    background: rgb(255, 0, 0);
+  }
+
+  input[type="checkbox"]:checked~.nav-links::before {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  input[type="checkbox"]:checked~.nav-links li {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+  label {
+    background: none transparent;
+    border: 4px solid rgb(255, 80, 80);
+    border-left: 0 solid transparent;
+    border-right: 0 solid transparent;
+    cursor: pointer;
+    display: block;
+    height: 24px;
+    position: absolute;
+    top: 18px;
+    left: 20px;
+    width: 24px;
+    transition: all 0.2s;
+  }
+
+  label::before {
+    background: rgb(255, 80, 80);
+    content: '';
+    height: 4px;
+    left: 0;
+    position: absolute;
+    top: 6px;
+    width: 24px;
+    transition: all 0.2s;
+  }
+
+  label::after {
+    background: rgb(255, 0, 0);
+    content: '';
+    height: 4px;
+    left: 0;
+    position: absolute;
+    top: 14px;
+    /* Ajusta esto si es necesario para alinear con el pseudo-elemento ::before */
+    opacity: 0;
+    visibility: hidden;
+    width: 100%;
+    transform: rotate(90deg);
+    transition: all .2s;
+  }
+
+  /* Estilos para el label cuando el checkbox está marcado */
+  input[type="checkbox"]:checked+label::after {
+    opacity: 1;
+    visibility: visible;
+    transform: rotate(45deg);
+    /* Rotar para formar una 'X' con ::before */
+  }
+
+  /* Estilos adicionales para la navegación */
+  .navbar-responsive {
+    position: relative;
+  }
+
+  .navbar-responsive nav {
+    width: 100%;
+    /* Asegúrate de que el nav sea visible y accesible */
+  }
+
+
+
+  .navbar-responsive .nav-links {
+    /* Estilos para la lista de navegación, incluyendo la transición y visibilidad */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+    /* Ocultar por defecto */
+  }
+
+  .navbar-responsive input[type="checkbox"]:checked~.nav-links {
+    display: block;
+    /* Mostrar cuando el checkbox esté marcado */
+  }
+
+
+  .navbar {
+    display: none;
+  }
+
+  .additional-texts {
+    display: none;
+  }
+
+  .home-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    padding: 10px;
+  }
+
+  .welcome-text {
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .welcome-text h1 {
+    margin-top: 5%;
+    margin-left: 0;
+    font-size: 50px;
+    /* Tamaño de fuente ajustado para pantallas pequeñas */
+  }
+
+  .welcome-text h2 {
+    margin-left: 0;
+    font-size: 16px;
+    /* Tamaño de fuente ajustado para pantallas pequeñas */
+  }
+
+  .button-container {
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .additional-texts {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .red-button {
+    font-size: 20px;
+    /* Tamaño de fuente ajustado para pantallas pequeñas */
+  }
+
+  .experience-section {
+    display: none;
+  }
+
+  .container-responsive {
+    display: flex;
+    /* Muestra el menú responsive */
+    flex-direction: column;
+    align-items: center;
+    background-color: #000;
+    /* Fondo del menú desplegable */
+    position: absolute;
+    top: 60px;
+    /* Ajustar si es necesario */
+    width: 100%;
+    display: none;
+  }
+
+  .container-responsive a {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #fff;
+    /* Líneas entre opciones */
+  }
+
+  /*SEVICIOS*/
+  .service-item {
+    padding: 10px;
+    max-width: 100%;
+  }
+
+  .service-title {
+    margin-top: 10px;
+  }
+
+  .service-description {
+    padding: 10px 10px 10px;
+    margin-bottom: 20%;
+    line-height: 30px;
+  }
+
+  .service-number {
+    padding: auto;
+    margin-left: 10px;
+    margin-bottom: 36px;
+  }
+
+  /*FORMULARIO*/
+
+  .imagen-inscripcion {
+    flex: 2;
+    background-image: url(/assets/images/fotoInscripcion.jpg);
+    height: 600px;
+    z-index: 1;
+    top: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .h1-inscripcion {
+    line-height: 50px;
+    font-size: 50px;
+  }
+
+  .A-ENTRENAR-YA {
+    color: #ff0000;
+    font-size: 50px;
+  }
+
+  .p-inscripcion {
+    /* float: left; */
+    margin-right: 10%;
+    /* margin-left: 5%; */
+    font-size: 20px;
+    text-align: left;
+    color: #fff;
+  }
+
+  button {
+    padding: 7px 20px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .buttons-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  /*CLIENTES*/
+
+  .foto-luis {
+    width: 100px;
+    height: 100px;
+    background-image: url(/assets/images/Foto\ Luis.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
+    margin-right: auto;
+
+  }
+
+  .foto-jaime {
+    width: 100px;
+    height: 100px;
+    background-image: url(/assets/images/Foto\ Escarcheto.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
+    margin-right: auto;
+
+  }
+
+  .foto-gabs {
+    width: 100px;
+    height: 100px;
+    background-image: url(/assets/images/Foto\ gabs.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
+    margin-right: auto;
+  }
+
+
+  /*FOTER*/
+  .menu-footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* Ajusta a 3 columnas en lugar de 1 */
+    justify-content: center;
+    align-items: start;
+    /* Alinea los elementos al inicio */
+    gap: 3rem;
+    padding: 2rem;
+    /* Agrega padding para que no esté pegado a los bordes */
+  }
+
+  .title-footer {
+    font-size: 1.4rem;
+    /* Aumenta un poco el tamaño si es necesario */
+    text-align: center;
+    /* Asegúrate de que el texto esté centrado */
+    margin-bottom: 1rem;
+    /* Agrega un margen abajo para separarlo de la lista */
+  }
+
+  ul {
+    list-style: none;
+    /* Remueve los bullets de la lista */
+    padding: 0;
+    /* Remueve el padding por defecto de las listas */
+    margin: 0;
+    /* Remueve el margen por defecto de las listas */
+  }
+
+  ul li {
+    font-size: 1.2rem;
+    text-align: center;
+    /* Asegura que el texto esté centrado */
+    margin-bottom: 0.5rem;
+    /* Agrega un pequeño margen entre elementos de la lista */
+  }
+
+  /* Agrupa las clases que comparten las mismas propiedades para evitar repetición */
+  .contact-info,
+  .information,
+  .my-account,
+  .familia-coreevolution {
+    display: flex;
+    /* Usa flexbox para mejor control del layout */
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* Asegura que el texto esté centrado */
+  }
+
 }
 
-.navbar-responsive{
-  display: block;
-}
 
-.left-section {
-  min-width: 15px;
-  display: flex;
-  justify-content: right;
-  margin-right: 5%;
-}
+@media (max-width: 1024px) {
+  /*SECCION PRIMEA x NAVEGACION*/
 
-.left-section .social-circle {
-  margin-top: 2%;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  margin-right: 5px;
-  /* Ajusta el margen entre los círculos según tus preferencias */
-}
+  body {
+    background-image: url(/assets/images/HOME.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: rgb(0, 0, 0);
+    max-height: 20vh;
+  }
 
-.left-section .social-circle a {
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-  font-size: 20px;
-}
+  .navbar-responsive {
+    display: block;
+  }
 
-.left-section .social-circle i {
-  margin-top: 3px;
-}
+  .left-section {
+    min-width: 15px;
+    display: flex;
+    justify-content: right;
+    margin-right: 5%;
+  }
 
-.navbar-responsive nav {
-  background: #000000;
-  border-bottom: 1px solid #ddd;
-  height: 60px;
-  position: relative;
-}
+  .left-section .social-circle {
+    margin-top: 2%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+    /* Ajusta el margen entre los círculos según tus preferencias */
+  }
 
-.navbar-responsive .nav-links {
-  display: block;
-  position: absolute;
-  top: 60px;
-  left: 0;
-  width: 100%;
-}
+  .left-section .social-circle a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+  }
 
-.navbar-responsive .nav-links::before {
-  background: rgba(0, 0, 0, 0.5);
-  content: '';
-  height: 100vh;
-  left: 0;
-  top: 0;
-  position: absolute;
-  opacity: 0;
-  visibility: hidden;
-  width: 100%;
-  transition: all 0.3s;
-}
+  .left-section .social-circle i {
+    margin-top: 3px;
+  }
 
-.navbar-responsive .nav-links li {
-  border-bottom: 1px solid #ddd;
-  opacity: 0;
-  visibility: hidden;
-  transform: translateY(-20px);
-  transition: all 0.3s;
-}
+  .navbar-responsive nav {
+    background: #000000;
+    border-bottom: 1px solid #ddd;
+    height: 60px;
+    position: relative;
+  }
 
-.navbar-responsive .nav-links li a {
-  background: #000000;
-  color: #ffffff;
-  display: block;
-  font-size: 18px;
-  font-weight: 700;
-  padding: 12px 20px;
-  text-align: left;
-  width: 100%;
-  transition: all 0.3s;
-  font-family: "Bebas Neue", sans-serif;
-}
+  .navbar-responsive .nav-links {
+    display: block;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+  }
 
-.navbar-responsive .nav-links li a:hover {
-  color: coral;
-}
+  .navbar-responsive .nav-links::before {
+    background: rgba(0, 0, 0, 0.5);
+    content: '';
+    height: 100vh;
+    left: 0;
+    top: 0;
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    width: 100%;
+    transition: all 0.3s;
+  }
 
-input[type="checkbox"] {
-  position: absolute;
-  opacity: 0;
-  visibility: hidden;
-}
+  .navbar-responsive .nav-links li {
+    border-bottom: 1px solid #ddd;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-20px);
+    transition: all 0.3s;
+  }
 
-input[type="checkbox"]:checked + label {
-  border: 4px solid silver;
-  border-radius: 50%;
-  height: 28px;
-  top: 16px;
-  left: 18px;
-  width: 28px;
-  transform: rotate(-135deg);
-}
+  .navbar-responsive .nav-links li a {
+    background: #000000;
+    color: #ffffff;
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 12px 20px;
+    text-align: left;
+    width: 100%;
+    transition: all 0.3s;
+    font-family: "Bebas Neue", sans-serif;
+  }
 
-input[type="checkbox"]:checked + label::before,
-input[type="checkbox"]:checked + label::after {
-  background: silver;
-  top: 8px;
-  left: 4px;
-  width: 12px;
-}
+  .navbar-responsive .nav-links li a:hover {
+    color: coral;
+  }
 
-input[type="checkbox"]:checked + label:hover {
-  border-color: rgb(250, 0, 0);
-}
+  input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+  }
 
-input[type="checkbox"]:checked + label:hover::before,
-input[type="checkbox"]:checked + label:hover::after {
-  background: rgb(255, 0, 0);
-}
+  input[type="checkbox"]:checked+label {
+    border: 4px solid silver;
+    border-radius: 50%;
+    height: 28px;
+    top: 16px;
+    left: 18px;
+    width: 28px;
+    transform: rotate(-135deg);
+  }
 
-input[type="checkbox"]:checked ~ .nav-links::before {
-  opacity: 1;
-  visibility: visible;
-}
+  input[type="checkbox"]:checked+label::before,
+  input[type="checkbox"]:checked+label::after {
+    background: silver;
+    top: 8px;
+    left: 4px;
+    width: 12px;
+  }
 
-input[type="checkbox"]:checked ~ .nav-links li {
-  opacity: 1;
-  visibility: visible;
-  transform: translateY(0);
-}
+  input[type="checkbox"]:checked+label:hover {
+    border-color: rgb(250, 0, 0);
+  }
 
-label {
-  background: none transparent;
-  border: 4px solid rgb(255, 80, 80);
-  border-left: 0 solid transparent;
-  border-right: 0 solid transparent;
-  cursor: pointer;
-  display: block;
-  height: 24px;
-  position: absolute;
-  top: 18px;
-  left: 20px;
-  width: 24px;
-  transition: all 0.2s;
-}
+  input[type="checkbox"]:checked+label:hover::before,
+  input[type="checkbox"]:checked+label:hover::after {
+    background: rgb(255, 0, 0);
+  }
 
-label::before {
-  background: rgb(255, 80, 80);
-  content: '';
-  height: 4px;
-  left: 0;
-  position: absolute;
-  top: 6px;
-  width: 24px;
-  transition: all 0.2s;
-}
+  input[type="checkbox"]:checked~.nav-links::before {
+    opacity: 1;
+    visibility: visible;
+  }
 
-label::after {
-  background: rgb(255, 0, 0);
-  content: '';
-  height: 4px;
-  left: 0;
-  position: absolute;
-  top: 14px; /* Ajusta esto si es necesario para alinear con el pseudo-elemento ::before */
-  opacity: 0;
-  visibility: hidden;
-  width: 100%;
-  transform: rotate(90deg);
-  transition: all .2s;
-}
+  input[type="checkbox"]:checked~.nav-links li {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
 
-/* Estilos para el label cuando el checkbox está marcado */
-input[type="checkbox"]:checked + label::after {
-  opacity: 1;
-  visibility: visible;
-  transform: rotate(45deg); /* Rotar para formar una 'X' con ::before */
-}
+  label {
+    background: none transparent;
+    border: 4px solid rgb(255, 80, 80);
+    border-left: 0 solid transparent;
+    border-right: 0 solid transparent;
+    cursor: pointer;
+    display: block;
+    height: 24px;
+    position: absolute;
+    top: 18px;
+    left: 20px;
+    width: 24px;
+    transition: all 0.2s;
+  }
 
-/* Estilos adicionales para la navegación */
-.navbar-responsive {
-  position: relative;
-}
+  label::before {
+    background: rgb(255, 80, 80);
+    content: '';
+    height: 4px;
+    left: 0;
+    position: absolute;
+    top: 6px;
+    width: 24px;
+    transition: all 0.2s;
+  }
 
-.navbar-responsive nav {
-  width: 100%;
-  /* Asegúrate de que el nav sea visible y accesible */
-}
+  label::after {
+    background: rgb(255, 0, 0);
+    content: '';
+    height: 4px;
+    left: 0;
+    position: absolute;
+    top: 14px;
+    /* Ajusta esto si es necesario para alinear con el pseudo-elemento ::before */
+    opacity: 0;
+    visibility: hidden;
+    width: 100%;
+    transform: rotate(90deg);
+    transition: all .2s;
+  }
 
+  /* Estilos para el label cuando el checkbox está marcado */
+  input[type="checkbox"]:checked+label::after {
+    opacity: 1;
+    visibility: visible;
+    transform: rotate(45deg);
+    /* Rotar para formar una 'X' con ::before */
+  }
 
+  /* Estilos adicionales para la navegación */
+  .navbar-responsive {
+    position: relative;
+  }
 
-.navbar-responsive .nav-links {
-  /* Estilos para la lista de navegación, incluyendo la transición y visibilidad */
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: none; /* Ocultar por defecto */
-}
-
-.navbar-responsive input[type="checkbox"]:checked ~ .nav-links {
-  display: block; /* Mostrar cuando el checkbox esté marcado */
-}
-
-
-.navbar{
-  display: none;
-}
-
-.additional-texts{
-  display: none;
-}
-
-.home-container {
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: 0;
-  padding: 10px;
-}
-
-.welcome-text {
-  text-align: center;
-  margin-left: 0;
-}
-
-.welcome-text h1 {
-  margin-top: 5%;
-  margin-left: 0;
-  font-size: 50px; /* Tamaño de fuente ajustado para pantallas pequeñas */
-}
-
-.welcome-text h2 {
-  margin-left: 0;
-  font-size: 16px; /* Tamaño de fuente ajustado para pantallas pequeñas */
-}
-
-.button-container {
-  margin-top: 20px;
-  text-align: center;
-  margin-left: 0;
-}
-
-.additional-texts {
-  flex-direction: row;
-  justify-content: center;
-}
-
-.red-button {
-  font-size: 20px; /* Tamaño de fuente ajustado para pantallas pequeñas */
-}
-
-.experience-section {
-display: none;
-}
-
-.container-responsive {
-  display: flex; /* Muestra el menú responsive */
-  flex-direction: column;
-  align-items: center;
-  background-color: #000; /* Fondo del menú desplegable */
-  position: absolute;
-  top: 60px; /* Ajustar si es necesario */
-  width: 100%;
-  display: none;
-}
-
-.container-responsive a {
-  text-align: center;
-  padding: 10px;
-  border-top: 1px solid #fff; /* Líneas entre opciones */
-}
-
-/*SEVICIOS*/
-.service-item{
-  padding: 10px;
-  max-width: 100%;
-}
-
-.service-title{
-  margin-top: 10px;
-}
-
-.service-description{
-  padding: 10px 10px 10px;
-  margin-bottom: 20%;
-  line-height: 30px;
-}
-
-.service-number{
-  padding: auto;
-  margin-left: 10px;
-  margin-bottom: 36px;
-}
-
-/*FORMULARIO*/
-
-.imagen-inscripcion {
-  flex: 2;
-  background-image: url(/assets/images/fotoInscripcion.jpg);
-  height: 600px;
-  z-index: 1;
-  top: 100%;
-  background-size: cover;
-  background-position: center;
-}
-
-.h1-inscripcion{
-  line-height: 50px;
-  font-size: 50px;
-}
-
-.A-ENTRENAR-YA{
-  color: #ff0000;
-  font-size: 50px;
- }
-
-.p-inscripcion {
-  /* float: left; */
-  margin-right: 10%;
-  /* margin-left: 5%; */
-  font-size: 20px;
-  text-align: left;
-  color: #fff;
-}
-
-button {
-  padding: 7px 20px;
-  border: 2px solid #fff;
-  background-color: transparent;
-  color: #fff;
-  cursor: pointer;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.buttons-container {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-/*CLIENTES*/
-
-.foto-luis {
-  width: 100px;
-  height: 100px;
-  background-image: url(/assets/images/Foto\ Luis.jpg);
-  background-size: cover;
-  background-position: center;
-  border-radius: 100%;
-  margin-right: auto;
-
-}
-
-.foto-jaime{
-  width: 100px;
-  height: 100px;
-  background-image: url(/assets/images/Foto\ Escarcheto.jpg);
-  background-size: cover;
-  background-position: center;
-  border-radius: 100%;
-  margin-right: auto;
- 
-}
-.foto-gabs{
-  width: 100px;
-  height: 100px;
-  background-image: url(/assets/images/Foto\ gabs.jpg);
-  background-size: cover;
-  background-position: center;
-  border-radius: 100%;
-  margin-right: auto;
-}
+  .navbar-responsive nav {
+    width: 100%;
+    /* Asegúrate de que el nav sea visible y accesible */
+  }
 
 
-/*FOTER*/
-.menu-footer {
-  display: grid;
-  grid-template-columns: 1fr; /* Ajusta a 3 columnas en lugar de 1 */
-  justify-content: center;
-  align-items: start; /* Alinea los elementos al inicio */
-  gap: 3rem;
-  padding: 2rem; /* Agrega padding para que no esté pegado a los bordes */
-}
 
-.title-footer {
-  font-size: 1.4rem; /* Aumenta un poco el tamaño si es necesario */
-  text-align: center; /* Asegúrate de que el texto esté centrado */
-  margin-bottom: 1rem; /* Agrega un margen abajo para separarlo de la lista */
-}
+  .navbar-responsive .nav-links {
+    /* Estilos para la lista de navegación, incluyendo la transición y visibilidad */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+    /* Ocultar por defecto */
+  }
 
-ul {
-  list-style: none; /* Remueve los bullets de la lista */
-  padding: 0; /* Remueve el padding por defecto de las listas */
-  margin: 0; /* Remueve el margen por defecto de las listas */
-}
+  .navbar-responsive input[type="checkbox"]:checked~.nav-links {
+    display: block;
+    /* Mostrar cuando el checkbox esté marcado */
+  }
 
-ul li {
-  font-size: 1.2rem;
-  text-align: center; /* Asegura que el texto esté centrado */
-  margin-bottom: 0.5rem; /* Agrega un pequeño margen entre elementos de la lista */
-}
 
-/* Agrupa las clases que comparten las mismas propiedades para evitar repetición */
-.contact-info,
-.information,
-.my-account,
-.familia-coreevolution {
-  display: flex; /* Usa flexbox para mejor control del layout */
-  flex-direction: column;
-  align-items: center;
-  text-align: center; /* Asegura que el texto esté centrado */
-}
+  .navbar {
+    display: none;
+  }
+
+  .additional-texts {
+    display: none;
+  }
+
+  .home-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    padding: 10px;
+  }
+
+  .welcome-text {
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .welcome-text h1 {
+    margin-top: 5%;
+    margin-left: 0;
+    font-size: 50px;
+    /* Tamaño de fuente ajustado para pantallas pequeñas */
+  }
+
+  .welcome-text h2 {
+    margin-left: 0;
+    font-size: 16px;
+    /* Tamaño de fuente ajustado para pantallas pequeñas */
+  }
+
+  .button-container {
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .additional-texts {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .red-button {
+    font-size: 20px;
+    /* Tamaño de fuente ajustado para pantallas pequeñas */
+  }
+
+  .experience-section {
+    display: none;
+  }
+
+  .container-responsive {
+    display: flex;
+    /* Muestra el menú responsive */
+    flex-direction: column;
+    align-items: center;
+    background-color: #000;
+    /* Fondo del menú desplegable */
+    position: absolute;
+    top: 60px;
+    /* Ajustar si es necesario */
+    width: 100%;
+    display: none;
+  }
+
+  .container-responsive a {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #fff;
+    /* Líneas entre opciones */
+  }
+
+  /*SEVICIOS*/
+  .service-item {
+    padding: 10px;
+    max-width: 100%;
+  }
+
+  .service-title {
+    margin-top: 10px;
+  }
+
+  .service-description {
+    padding: 10px 10px 10px;
+    margin-bottom: 20%;
+    line-height: 30px;
+  }
+
+  .service-number {
+    padding: auto;
+    margin-left: 10px;
+    margin-bottom: 36px;
+  }
+
+  /*FORMULARIO*/
+
+  .imagen-inscripcion {
+    flex: 2;
+    background-image: url(/assets/images/fotoInscripcion.jpg);
+    height: 600px;
+    z-index: 1;
+    top: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .h1-inscripcion {
+    line-height: 50px;
+    font-size: 50px;
+  }
+
+  .A-ENTRENAR-YA {
+    color: #ff0000;
+    font-size: 50px;
+  }
+
+  .p-inscripcion {
+    /* float: left; */
+    margin-right: 10%;
+    /* margin-left: 5%; */
+    font-size: 20px;
+    text-align: left;
+    color: #fff;
+  }
+
+  button {
+    padding: 7px 20px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .buttons-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  /*CLIENTES*/
+
+  .foto-luis {
+    width: 100px;
+    height: 100px;
+    background-image: url(/assets/images/Foto\ Luis.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
+    margin-right: auto;
+
+  }
+
+  .foto-jaime {
+    width: 100px;
+    height: 100px;
+    background-image: url(/assets/images/Foto\ Escarcheto.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
+    margin-right: auto;
+
+  }
+
+  .foto-gabs {
+    width: 100px;
+    height: 100px;
+    background-image: url(/assets/images/Foto\ gabs.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
+    margin-right: auto;
+  }
+
+
+  /*FOTER*/
+  .menu-footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* Ajusta a 3 columnas en lugar de 1 */
+    justify-content: center;
+    align-items: start;
+    /* Alinea los elementos al inicio */
+    gap: 3rem;
+    padding: 2rem;
+    /* Agrega padding para que no esté pegado a los bordes */
+  }
+
+  .title-footer {
+    font-size: 1.4rem;
+    /* Aumenta un poco el tamaño si es necesario */
+    text-align: center;
+    /* Asegúrate de que el texto esté centrado */
+    margin-bottom: 1rem;
+    /* Agrega un margen abajo para separarlo de la lista */
+  }
+
+  ul {
+    list-style: none;
+    /* Remueve los bullets de la lista */
+    padding: 0;
+    /* Remueve el padding por defecto de las listas */
+    margin: 0;
+    /* Remueve el margen por defecto de las listas */
+  }
+
+  ul li {
+    font-size: 1.2rem;
+    text-align: center;
+    /* Asegura que el texto esté centrado */
+    margin-bottom: 0.5rem;
+    /* Agrega un pequeño margen entre elementos de la lista */
+  }
+
+  /* Agrupa las clases que comparten las mismas propiedades para evitar repetición */
+  .contact-info,
+  .information,
+  .my-account,
+  .familia-coreevolution {
+    display: flex;
+    /* Usa flexbox para mejor control del layout */
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* Asegura que el texto esté centrado */
+  }
 }
 
 @media (max-width: 425px) {
-    /*SECCION PRIMEA x NAVEGACION*/
-
-body{
-  background-image: url(/assets/images/HOME.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  color: rgb(0, 0, 0);
-  max-height: 70vh;
-   
-}
-
-.navbar-responsive{
-  display: block;
-}
-
-.left-section {
-  min-width: 15px;
-  display: flex;
-  justify-content: right;
-  margin-right: 5%;
-}
-
-.left-section .social-circle {
-  margin-top: 2%;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  margin-right: 5px;
-  /* Ajusta el margen entre los círculos según tus preferencias */
-}
-
-.left-section .social-circle a {
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-  font-size: 20px;
-}
-
-.left-section .social-circle i {
-  margin-top: 3px;
-}
-
-.navbar-responsive nav {
-  background: #000000;
-  border-bottom: 1px solid #ddd;
-  height: 60px;
-  position: relative;
-}
-
-.navbar-responsive .nav-links {
-  display: block;
-  position: absolute;
-  top: 60px;
-  left: 0;
-  width: 100%;
-}
-
-.navbar-responsive .nav-links::before {
-  background: rgba(0, 0, 0, 0.5);
-  content: '';
-  height: 100vh;
-  left: 0;
-  top: 0;
-  position: absolute;
-  opacity: 0;
-  visibility: hidden;
-  width: 100%;
-  transition: all 0.3s;
-}
-
-.navbar-responsive .nav-links li {
-  border-bottom: 1px solid #ddd;
-  opacity: 0;
-  visibility: hidden;
-  transform: translateY(-20px);
-  transition: all 0.3s;
-}
-
-.navbar-responsive .nav-links li a {
-  background: #000000;
-  color: #ffffff;
-  display: block;
-  font-size: 18px;
-  font-weight: 700;
-  padding: 12px 20px;
-  text-align: left;
-  width: 100%;
-  transition: all 0.3s;
-  font-family: "Bebas Neue", sans-serif;
-}
-
-.navbar-responsive .nav-links li a:hover {
-  color: coral;
-}
-
-input[type="checkbox"] {
-  position: absolute;
-  opacity: 0;
-  visibility: hidden;
-}
-
-input[type="checkbox"]:checked + label {
-  border: 4px solid silver;
-  border-radius: 50%;
-  height: 28px;
-  top: 16px;
-  left: 18px;
-  width: 28px;
-  transform: rotate(-135deg);
-}
-
-input[type="checkbox"]:checked + label::before,
-input[type="checkbox"]:checked + label::after {
-  background: silver;
-  top: 8px;
-  left: 4px;
-  width: 12px;
-}
-
-input[type="checkbox"]:checked + label:hover {
-  border-color: rgb(250, 0, 0);
-}
-
-input[type="checkbox"]:checked + label:hover::before,
-input[type="checkbox"]:checked + label:hover::after {
-  background: rgb(255, 0, 0);
-}
-
-input[type="checkbox"]:checked ~ .nav-links::before {
-  opacity: 1;
-  visibility: visible;
-}
-
-input[type="checkbox"]:checked ~ .nav-links li {
-  opacity: 1;
-  visibility: visible;
-  transform: translateY(0);
-}
-
-label {
-  background: none transparent;
-  border: 4px solid rgb(255, 80, 80);
-  border-left: 0 solid transparent;
-  border-right: 0 solid transparent;
-  cursor: pointer;
-  display: block;
-  height: 24px;
-  position: absolute;
-  top: 18px;
-  left: 20px;
-  width: 24px;
-  transition: all 0.2s;
-}
-
-label::before {
-  background: rgb(255, 80, 80);
-  content: '';
-  height: 4px;
-  left: 0;
-  position: absolute;
-  top: 6px;
-  width: 24px;
-  transition: all 0.2s;
-}
-
-label::after {
-  background: rgb(255, 0, 0);
-  content: '';
-  height: 4px;
-  left: 0;
-  position: absolute;
-  top: 14px; /* Ajusta esto si es necesario para alinear con el pseudo-elemento ::before */
-  opacity: 0;
-  visibility: hidden;
-  width: 100%;
-  transform: rotate(90deg);
-  transition: all .2s;
-}
-
-/* Estilos para el label cuando el checkbox está marcado */
-input[type="checkbox"]:checked + label::after {
-  opacity: 1;
-  visibility: visible;
-  transform: rotate(45deg); /* Rotar para formar una 'X' con ::before */
-}
-
-/* Estilos adicionales para la navegación */
-.navbar-responsive {
-  position: relative;
-}
-
-.navbar-responsive nav {
-  width: 100%;
-  /* Asegúrate de que el nav sea visible y accesible */
-}
-
-
-
-.navbar-responsive .nav-links {
-  /* Estilos para la lista de navegación, incluyendo la transición y visibilidad */
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: none; /* Ocultar por defecto */
-}
-
-.navbar-responsive input[type="checkbox"]:checked ~ .nav-links {
-  display: block; /* Mostrar cuando el checkbox esté marcado */
-}
-
-
-.navbar{
-  display: none;
-}
-
-.additional-texts{
-  display: none;
-}
-
-.home-container {
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: 0;
-  padding: 10px;
-}
-
-.welcome-text {
-  text-align: center;
-  margin-left: 0;
-}
-
-.welcome-text h1 {
-  margin-top: 5%;
-  margin-left: 0;
-  font-size: 50px; /* Tamaño de fuente ajustado para pantallas pequeñas */
-}
-
-.welcome-text h2 {
-  margin-left: 0;
-  font-size: 16px; /* Tamaño de fuente ajustado para pantallas pequeñas */
-}
-
-.button-container {
-  margin-top: 20px;
-  text-align: center;
-  margin-left: 0;
-}
-
-.additional-texts {
-  flex-direction: row;
-  justify-content: center;
-}
-
-.red-button {
-  font-size: 20px; /* Tamaño de fuente ajustado para pantallas pequeñas */
-}
-
-.experience-section {
-display: none;
-}
-
-.container-responsive {
-  display: flex; /* Muestra el menú responsive */
-  flex-direction: column;
-  align-items: center;
-  background-color: #000; /* Fondo del menú desplegable */
-  position: absolute;
-  top: 60px; /* Ajustar si es necesario */
-  width: 100%;
-  display: none;
-}
-
-.container-responsive a {
-  text-align: center;
-  padding: 10px;
-  border-top: 1px solid #fff; /* Líneas entre opciones */
-}
-
-/*SEVICIOS*/
-
-.services-grid{
-  display: grid;
-  gap: 20px;
-  grid-template-columns: repeat(1, 1fr);
-}
-
-.service-item{
-  padding: 10px;
-  max-width: 100%;
-}
-
-.service-title{
-  margin-top: 10px;
-}
-
-.service-description{
-  padding: 10px 10px 10px;
-  margin-bottom: 20%;
-  line-height: 30px;
-}
-
-.service-number{
-  padding: auto;
-  margin-left: 10px;
-  margin-bottom: 36px;
-}
-
-/*FORMULARIO*/
-
-.container-inscripcion {
-  display: flex;
-  background-color: #000;
-  margin-top: 40px;
-  flex-direction: column-reverse;
-}
-
-.imagen-inscripcion {
-  flex: 2;
-  background-image: url(/assets/images/fotoInscripcion.jpg);
-  height: 600px;
-  z-index: 1;
-  top: 100%;
-  background-size: cover;
-  background-position: center;
-}
-
-.h1-inscripcion{
-  line-height: 50px;
-  font-size: 50px;
-}
-
-.A-ENTRENAR-YA{
-  color: #ff0000;
-  font-size: 50px;
- }
-
-.p-inscripcion {
-  /* float: left; */
-  margin-right: 10%;
-  /* margin-left: 5%; */
-  font-size: 20px;
-  text-align: left;
-  color: #fff;
-}
-
-.button {
-  padding: 7px 20px;
-  border: 2px solid #fff;
-  background-color: transparent;
-  color: #fff;
-  cursor: pointer;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.buttons-container {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-/*CLIENTES*/
-
-.columna-texto {
-  font-size: 20px;
-  margin: 40px;
-  color: #ffffff;
-}
-
-.primer-parrafo p, .segundo-parrafo p, .tercer-parrafo p {
-  max-width: 100%;
-  margin: 0;
-  text-align: center;
-}
-
-.foto-luis {
-  display: none;
-}
-
-.foto-jaime{
-
-  display: none;
-
-}
-.foto-gabs{
-  display: none;
-}
-
-/*UBICACION*/
-
-.foto-ubicacion {
-  background-image: url(/assets/images/foto-ubicacion.jpg);
-  outline: 3px solid red;
-  outline-offset: 15px;
-  width: 22em;
-  height: 30em;
-}
-
-/*FOTER*/
-.menu-footer {
-  display: grid;
-  grid-template-columns: 1fr; /* Ajusta a 3 columnas en lugar de 1 */
-  justify-content: center;
-  align-items: start; /* Alinea los elementos al inicio */
-  gap: 3rem;
-  padding: 2rem; /* Agrega padding para que no esté pegado a los bordes */
-}
-
-.title-footer {
-  font-size: 1.4rem; /* Aumenta un poco el tamaño si es necesario */
-  text-align: center; /* Asegúrate de que el texto esté centrado */
-  margin-bottom: 1rem; /* Agrega un margen abajo para separarlo de la lista */
-}
-
-ul {
-  list-style: none; /* Remueve los bullets de la lista */
-  padding: 0; /* Remueve el padding por defecto de las listas */
-  margin: 0; /* Remueve el margen por defecto de las listas */
-}
-
-ul li {
-  font-size: 1.2rem;
-  text-align: center; /* Asegura que el texto esté centrado */
-  margin-bottom: 0.5rem; /* Agrega un pequeño margen entre elementos de la lista */
-}
-
-/* Agrupa las clases que comparten las mismas propiedades para evitar repetición */
-.contact-info,
-.information,
-.my-account,
-.familia-coreevolution {
-  display: flex; /* Usa flexbox para mejor control del layout */
-  flex-direction: column;
-  align-items: center;
-  text-align: center; /* Asegura que el texto esté centrado */
-}
+  /*SECCION PRIMEA x NAVEGACION*/
+
+  body {
+    background-image: url(/assets/images/HOME.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: rgb(0, 0, 0);
+    max-height: 70vh;
+
+  }
+
+  .navbar-responsive {
+    display: block;
+  }
+
+  .left-section {
+    min-width: 15px;
+    display: flex;
+    justify-content: right;
+    margin-right: 5%;
+  }
+
+  .left-section .social-circle {
+    margin-top: 2%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+    /* Ajusta el margen entre los círculos según tus preferencias */
+  }
+
+  .left-section .social-circle a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+  }
+
+  .left-section .social-circle i {
+    margin-top: 3px;
+  }
+
+  .navbar-responsive nav {
+    background: #000000;
+    border-bottom: 1px solid #ddd;
+    height: 60px;
+    position: relative;
+  }
+
+  .navbar-responsive .nav-links {
+    display: block;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+  }
+
+  .navbar-responsive .nav-links::before {
+    background: rgba(0, 0, 0, 0.5);
+    content: '';
+    height: 100vh;
+    left: 0;
+    top: 0;
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    width: 100%;
+    transition: all 0.3s;
+  }
+
+  .navbar-responsive .nav-links li {
+    border-bottom: 1px solid #ddd;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-20px);
+    transition: all 0.3s;
+  }
+
+  .navbar-responsive .nav-links li a {
+    background: #000000;
+    color: #ffffff;
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 12px 20px;
+    text-align: left;
+    width: 100%;
+    transition: all 0.3s;
+    font-family: "Bebas Neue", sans-serif;
+  }
+
+  .navbar-responsive .nav-links li a:hover {
+    color: coral;
+  }
+
+  input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  input[type="checkbox"]:checked+label {
+    border: 4px solid silver;
+    border-radius: 50%;
+    height: 28px;
+    top: 16px;
+    left: 18px;
+    width: 28px;
+    transform: rotate(-135deg);
+  }
+
+  input[type="checkbox"]:checked+label::before,
+  input[type="checkbox"]:checked+label::after {
+    background: silver;
+    top: 8px;
+    left: 4px;
+    width: 12px;
+  }
+
+  input[type="checkbox"]:checked+label:hover {
+    border-color: rgb(250, 0, 0);
+  }
+
+  input[type="checkbox"]:checked+label:hover::before,
+  input[type="checkbox"]:checked+label:hover::after {
+    background: rgb(255, 0, 0);
+  }
+
+  input[type="checkbox"]:checked~.nav-links::before {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  input[type="checkbox"]:checked~.nav-links li {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+  label {
+    background: none transparent;
+    border: 4px solid rgb(255, 80, 80);
+    border-left: 0 solid transparent;
+    border-right: 0 solid transparent;
+    cursor: pointer;
+    display: block;
+    height: 24px;
+    position: absolute;
+    top: 18px;
+    left: 20px;
+    width: 24px;
+    transition: all 0.2s;
+  }
+
+  label::before {
+    background: rgb(255, 80, 80);
+    content: '';
+    height: 4px;
+    left: 0;
+    position: absolute;
+    top: 6px;
+    width: 24px;
+    transition: all 0.2s;
+  }
+
+  label::after {
+    background: rgb(255, 0, 0);
+    content: '';
+    height: 4px;
+    left: 0;
+    position: absolute;
+    top: 14px;
+    /* Ajusta esto si es necesario para alinear con el pseudo-elemento ::before */
+    opacity: 0;
+    visibility: hidden;
+    width: 100%;
+    transform: rotate(90deg);
+    transition: all .2s;
+  }
+
+  /* Estilos para el label cuando el checkbox está marcado */
+  input[type="checkbox"]:checked+label::after {
+    opacity: 1;
+    visibility: visible;
+    transform: rotate(45deg);
+    /* Rotar para formar una 'X' con ::before */
+  }
+
+  /* Estilos adicionales para la navegación */
+  .navbar-responsive {
+    position: relative;
+  }
+
+  .navbar-responsive nav {
+    width: 100%;
+    /* Asegúrate de que el nav sea visible y accesible */
+  }
+
+
+
+  .navbar-responsive .nav-links {
+    /* Estilos para la lista de navegación, incluyendo la transición y visibilidad */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+    /* Ocultar por defecto */
+  }
+
+  .navbar-responsive input[type="checkbox"]:checked~.nav-links {
+    display: block;
+    /* Mostrar cuando el checkbox esté marcado */
+  }
+
+
+  .navbar {
+    display: none;
+  }
+
+  .additional-texts {
+    display: none;
+  }
+
+  .home-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    padding: 10px;
+  }
+
+  .welcome-text {
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .welcome-text h1 {
+    margin-top: 5%;
+    margin-left: 0;
+    font-size: 50px;
+    /* Tamaño de fuente ajustado para pantallas pequeñas */
+  }
+
+  .welcome-text h2 {
+    margin-left: 0;
+    font-size: 16px;
+    /* Tamaño de fuente ajustado para pantallas pequeñas */
+  }
+
+  .button-container {
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .additional-texts {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .red-button {
+    font-size: 20px;
+    /* Tamaño de fuente ajustado para pantallas pequeñas */
+  }
+
+  .experience-section {
+    display: none;
+  }
+
+  .container-responsive {
+    display: flex;
+    /* Muestra el menú responsive */
+    flex-direction: column;
+    align-items: center;
+    background-color: #000;
+    /* Fondo del menú desplegable */
+    position: absolute;
+    top: 60px;
+    /* Ajustar si es necesario */
+    width: 100%;
+    display: none;
+  }
+
+  .container-responsive a {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #fff;
+    /* Líneas entre opciones */
+  }
+
+  /*SEVICIOS*/
+
+  .services-grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .service-item {
+    padding: 10px;
+    max-width: 100%;
+  }
+
+  .service-title {
+    margin-top: 10px;
+  }
+
+  .service-description {
+    padding: 10px 10px 10px;
+    margin-bottom: 20%;
+    line-height: 30px;
+  }
+
+  .service-number {
+    padding: auto;
+    margin-left: 10px;
+    margin-bottom: 36px;
+  }
+
+  /*FORMULARIO*/
+
+  .container-inscripcion {
+    display: flex;
+    background-color: #000;
+    margin-top: 40px;
+    flex-direction: column-reverse;
+  }
+
+  .imagen-inscripcion {
+    flex: 2;
+    background-image: url(/assets/images/fotoInscripcion.jpg);
+    height: 600px;
+    z-index: 1;
+    top: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .h1-inscripcion {
+    line-height: 50px;
+    font-size: 50px;
+  }
+
+  .A-ENTRENAR-YA {
+    color: #ff0000;
+    font-size: 50px;
+  }
+
+  .p-inscripcion {
+    /* float: left; */
+    margin-right: 10%;
+    /* margin-left: 5%; */
+    font-size: 20px;
+    text-align: left;
+    color: #fff;
+  }
+
+  .button {
+    padding: 7px 20px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .buttons-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  /*CLIENTES*/
+
+  .columna-texto {
+    font-size: 20px;
+    margin: 40px;
+    color: #ffffff;
+  }
+
+  .primer-parrafo p,
+  .segundo-parrafo p,
+  .tercer-parrafo p {
+    max-width: 100%;
+    margin: 0;
+    text-align: center;
+  }
+
+  .foto-luis {
+    display: none;
+  }
+
+  .foto-jaime {
+
+    display: none;
+
+  }
+
+  .foto-gabs {
+    display: none;
+  }
+
+  /*UBICACION*/
+
+  .foto-ubicacion {
+    background-image: url(/assets/images/foto-ubicacion.jpg);
+    outline: 3px solid red;
+    outline-offset: 15px;
+    width: 22em;
+    height: 30em;
+  }
+
+  /*FOTER*/
+  .menu-footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* Ajusta a 3 columnas en lugar de 1 */
+    justify-content: center;
+    align-items: start;
+    /* Alinea los elementos al inicio */
+    gap: 3rem;
+    padding: 2rem;
+    /* Agrega padding para que no esté pegado a los bordes */
+  }
+
+  .title-footer {
+    font-size: 1.4rem;
+    /* Aumenta un poco el tamaño si es necesario */
+    text-align: center;
+    /* Asegúrate de que el texto esté centrado */
+    margin-bottom: 1rem;
+    /* Agrega un margen abajo para separarlo de la lista */
+  }
+
+  ul {
+    list-style: none;
+    /* Remueve los bullets de la lista */
+    padding: 0;
+    /* Remueve el padding por defecto de las listas */
+    margin: 0;
+    /* Remueve el margen por defecto de las listas */
+  }
+
+  ul li {
+    font-size: 1.2rem;
+    text-align: center;
+    /* Asegura que el texto esté centrado */
+    margin-bottom: 0.5rem;
+    /* Agrega un pequeño margen entre elementos de la lista */
+  }
+
+  /* Agrupa las clases que comparten las mismas propiedades para evitar repetición */
+  .contact-info,
+  .information,
+  .my-account,
+  .familia-coreevolution {
+    display: flex;
+    /* Usa flexbox para mejor control del layout */
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* Asegura que el texto esté centrado */
+  }
 }
 
 
 @media (max-width: 375px) {
   /*SECCION PRIMEA x NAVEGACION*/
 
-body{
-background-image: url(/assets/images/HOME.png);
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-color: rgb(0, 0, 0);
-max-height: 80vh; 
-max-width: 50vh;
-}
-
-.navbar-responsive{
-display: block;
-}
-
-.left-section {
-min-width: 15px;
-display: flex;
-justify-content: right;
-margin-right: 5%;
-}
-
-.left-section .social-circle {
-margin-top: 2%;
-width: 40px;
-height: 40px;
-border-radius: 50%;
-display: flex;
-align-items: center;
-margin-right: 5px;
-/* Ajusta el margen entre los círculos según tus preferencias */
-}
-
-.left-section .social-circle a {
-text-decoration: none;
-color: rgb(255, 255, 255);
-font-size: 20px;
-}
-
-.left-section .social-circle i {
-margin-top: 3px;
-}
-
-.navbar-responsive nav {
-background: #000000;
-border-bottom: 1px solid #ddd;
-height: 60px;
-position: relative;
-}
-
-.navbar-responsive .nav-links {
-display: block;
-position: absolute;
-top: 60px;
-left: 0;
-width: 100%;
-}
-
-.navbar-responsive .nav-links::before {
-background: rgba(0, 0, 0, 0.5);
-content: '';
-height: 100vh;
-left: 0;
-top: 0;
-position: absolute;
-opacity: 0;
-visibility: hidden;
-width: 100%;
-transition: all 0.3s;
-}
-
-.navbar-responsive .nav-links li {
-border-bottom: 1px solid #ddd;
-opacity: 0;
-visibility: hidden;
-transform: translateY(-20px);
-transition: all 0.3s;
-}
-
-.navbar-responsive .nav-links li a {
-background: #000000;
-color: #ffffff;
-display: block;
-font-size: 18px;
-font-weight: 700;
-padding: 12px 20px;
-text-align: left;
-width: 100%;
-transition: all 0.3s;
-font-family: "Bebas Neue", sans-serif;
-}
-
-.navbar-responsive .nav-links li a:hover {
-color: coral;
-}
-
-input[type="checkbox"] {
-position: absolute;
-opacity: 0;
-visibility: hidden;
-}
-
-input[type="checkbox"]:checked + label {
-border: 4px solid silver;
-border-radius: 50%;
-height: 28px;
-top: 16px;
-left: 18px;
-width: 28px;
-transform: rotate(-135deg);
-}
-
-input[type="checkbox"]:checked + label::before,
-input[type="checkbox"]:checked + label::after {
-background: silver;
-top: 8px;
-left: 4px;
-width: 12px;
-}
-
-input[type="checkbox"]:checked + label:hover {
-border-color: rgb(250, 0, 0);
-}
-
-input[type="checkbox"]:checked + label:hover::before,
-input[type="checkbox"]:checked + label:hover::after {
-background: rgb(255, 0, 0);
-}
-
-input[type="checkbox"]:checked ~ .nav-links::before {
-opacity: 1;
-visibility: visible;
-}
-
-input[type="checkbox"]:checked ~ .nav-links li {
-opacity: 1;
-visibility: visible;
-transform: translateY(0);
-}
-
-label {
-background: none transparent;
-border: 4px solid rgb(255, 80, 80);
-border-left: 0 solid transparent;
-border-right: 0 solid transparent;
-cursor: pointer;
-display: block;
-height: 24px;
-position: absolute;
-top: 18px;
-left: 20px;
-width: 24px;
-transition: all 0.2s;
-}
-
-label::before {
-background: rgb(255, 80, 80);
-content: '';
-height: 4px;
-left: 0;
-position: absolute;
-top: 6px;
-width: 24px;
-transition: all 0.2s;
-}
-
-label::after {
-background: rgb(255, 0, 0);
-content: '';
-height: 4px;
-left: 0;
-position: absolute;
-top: 14px; /* Ajusta esto si es necesario para alinear con el pseudo-elemento ::before */
-opacity: 0;
-visibility: hidden;
-width: 100%;
-transform: rotate(90deg);
-transition: all .2s;
-}
-
-/* Estilos para el label cuando el checkbox está marcado */
-input[type="checkbox"]:checked + label::after {
-opacity: 1;
-visibility: visible;
-transform: rotate(45deg); /* Rotar para formar una 'X' con ::before */
-}
-
-/* Estilos adicionales para la navegación */
-.navbar-responsive {
-position: relative;
-}
-
-.navbar-responsive nav {
-width: 100%;
-/* Asegúrate de que el nav sea visible y accesible */
-}
-
-
-
-.navbar-responsive .nav-links {
-/* Estilos para la lista de navegación, incluyendo la transición y visibilidad */
-list-style: none;
-margin: 0;
-padding: 0;
-display: none; /* Ocultar por defecto */
-}
-
-.navbar-responsive input[type="checkbox"]:checked ~ .nav-links {
-display: block; /* Mostrar cuando el checkbox esté marcado */
-}
-
-
-.navbar{
-display: none;
-}
-
-.additional-texts{
-display: none;
-}
-
-.home-container {
-flex-direction: column;
-align-items: center;
-justify-content: center;
-margin-top: 0;
-padding: 10px;
-}
-
-.welcome-text {
-text-align: center;
-margin-left: 0;
-}
-
-.welcome-text h1 {
-margin-top: 5%;
-margin-left: 0;
-font-size: 50px; /* Tamaño de fuente ajustado para pantallas pequeñas */
-}
-
-.welcome-text h2 {
-margin-left: 0;
-font-size: 16px; /* Tamaño de fuente ajustado para pantallas pequeñas */
-}
-
-.button-container {
-margin-top: 20px;
-text-align: center;
-margin-left: 0;
-}
-
-.additional-texts {
-flex-direction: row;
-justify-content: center;
-}
-
-.red-button {
-font-size: 20px; /* Tamaño de fuente ajustado para pantallas pequeñas */
-}
-
-.experience-section {
-display: none;
-}
-
-.container-responsive {
-display: flex; /* Muestra el menú responsive */
-flex-direction: column;
-align-items: center;
-background-color: #000; /* Fondo del menú desplegable */
-position: absolute;
-top: 60px; /* Ajustar si es necesario */
-width: 100%;
-display: none;
-}
-
-.container-responsive a {
-text-align: center;
-padding: 10px;
-border-top: 1px solid #fff; /* Líneas entre opciones */
-}
-
-/*SEVICIOS*/
-
-.services-grid{
-display: grid;
-gap: 20px;
-grid-template-columns: repeat(1, 1fr);
-}
-
-.service-item{
-padding: 10px;
-max-width: 100%;
-}
-
-.service-title{
-margin-top: 10px;
-}
-
-.service-description{
-padding: 10px 10px 10px;
-margin-bottom: 20%;
-line-height: 30px;
-}
-
-.service-number{
-padding: auto;
-margin-left: 10px;
-margin-bottom: 36px;
-}
-
-/*FORMULARIO*/
-
-.container-inscripcion {
-display: flex;
-background-color: #000;
-margin-top: 40px;
-flex-direction: column-reverse;
-}
-
-.imagen-inscripcion {
-flex: 2;
-background-image: url(/assets/images/fotoInscripcion.jpg);
-height: 600px;
-z-index: 1;
-top: 100%;
-background-size: cover;
-background-position: center;
-}
-
-.h1-inscripcion{
-line-height: 50px;
-font-size: 50px;
-}
-
-.A-ENTRENAR-YA{
-color: #ff0000;
-font-size: 50px;
-}
-
-.p-inscripcion {
-/* float: left; */
-margin-right: 10%;
-/* margin-left: 5%; */
-font-size: 20px;
-text-align: left;
-color: #fff;
-}
-
-button {
-padding: 7px 20px;
-border: 2px solid #fff;
-background-color: transparent;
-color: #fff;
-cursor: pointer;
-margin-top: 10px;
-margin-bottom: 10px;
-}
-
-.buttons-container {
-display: flex;
-justify-content: space-between;
-margin-top: 10px;
-margin-bottom: 10px;
-}
-
-/*CLIENTES*/
-
-.columna-texto {
-font-size: 20px;
-margin: 40px;
-color: #ffffff;
-}
-
-.primer-parrafo p, .segundo-parrafo p, .tercer-parrafo p {
-max-width: 100%;
-margin: 0;
-text-align: center;
-}
-
-.foto-luis {
-display: none;
-}
-
-.foto-jaime{
-
-display: none;
-
-}
-.foto-gabs{
-display: none;
-}
-
-/*UBICACION*/
-
-.foto-ubicacion {
-background-image: url(/assets/images/foto-ubicacion.jpg);
-width: 20em;
-height: 20em;
-
-}
-
-/*FOTER*/
-.menu-footer {
-display: grid;
-grid-template-columns: 1fr; /* Ajusta a 3 columnas en lugar de 1 */
-justify-content: center;
-align-items: start; /* Alinea los elementos al inicio */
-gap: 3rem;
-padding: 2rem; /* Agrega padding para que no esté pegado a los bordes */
-}
-
-.title-footer {
-font-size: 1.4rem; /* Aumenta un poco el tamaño si es necesario */
-text-align: center; /* Asegúrate de que el texto esté centrado */
-margin-bottom: 1rem; /* Agrega un margen abajo para separarlo de la lista */
-}
-
-ul {
-list-style: none; /* Remueve los bullets de la lista */
-padding: 0; /* Remueve el padding por defecto de las listas */
-margin: 0; /* Remueve el margen por defecto de las listas */
-}
-
-ul li {
-font-size: 1.2rem;
-text-align: center; /* Asegura que el texto esté centrado */
-margin-bottom: 0.5rem; /* Agrega un pequeño margen entre elementos de la lista */
-}
-
-/* Agrupa las clases que comparten las mismas propiedades para evitar repetición */
-.contact-info,
-.information,
-.my-account,
-.familia-coreevolution {
-display: flex; /* Usa flexbox para mejor control del layout */
-flex-direction: column;
-align-items: center;
-text-align: center; /* Asegura que el texto esté centrado */
-}
+  body {
+    background-image: url(/assets/images/HOME.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: rgb(0, 0, 0);
+    max-height: 80vh;
+    max-width: 50vh;
+  }
+
+  .navbar-responsive {
+    display: block;
+  }
+
+  .left-section {
+    min-width: 15px;
+    display: flex;
+    justify-content: right;
+    margin-right: 5%;
+  }
+
+  .left-section .social-circle {
+    margin-top: 2%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+    /* Ajusta el margen entre los círculos según tus preferencias */
+  }
+
+  .left-section .social-circle a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+  }
+
+  .left-section .social-circle i {
+    margin-top: 3px;
+  }
+
+  .navbar-responsive nav {
+    background: #000000;
+    border-bottom: 1px solid #ddd;
+    height: 60px;
+    position: relative;
+  }
+
+  .navbar-responsive .nav-links {
+    display: block;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+  }
+
+  .navbar-responsive .nav-links::before {
+    background: rgba(0, 0, 0, 0.5);
+    content: '';
+    height: 100vh;
+    left: 0;
+    top: 0;
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    width: 100%;
+    transition: all 0.3s;
+  }
+
+  .navbar-responsive .nav-links li {
+    border-bottom: 1px solid #ddd;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-20px);
+    transition: all 0.3s;
+  }
+
+  .navbar-responsive .nav-links li a {
+    background: #000000;
+    color: #ffffff;
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 12px 20px;
+    text-align: left;
+    width: 100%;
+    transition: all 0.3s;
+    font-family: "Bebas Neue", sans-serif;
+  }
+
+  .navbar-responsive .nav-links li a:hover {
+    color: coral;
+  }
+
+  input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  input[type="checkbox"]:checked+label {
+    border: 4px solid silver;
+    border-radius: 50%;
+    height: 28px;
+    top: 16px;
+    left: 18px;
+    width: 28px;
+    transform: rotate(-135deg);
+  }
+
+  input[type="checkbox"]:checked+label::before,
+  input[type="checkbox"]:checked+label::after {
+    background: silver;
+    top: 8px;
+    left: 4px;
+    width: 12px;
+  }
+
+  input[type="checkbox"]:checked+label:hover {
+    border-color: rgb(250, 0, 0);
+  }
+
+  input[type="checkbox"]:checked+label:hover::before,
+  input[type="checkbox"]:checked+label:hover::after {
+    background: rgb(255, 0, 0);
+  }
+
+  input[type="checkbox"]:checked~.nav-links::before {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  input[type="checkbox"]:checked~.nav-links li {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+  label {
+    background: none transparent;
+    border: 4px solid rgb(255, 80, 80);
+    border-left: 0 solid transparent;
+    border-right: 0 solid transparent;
+    cursor: pointer;
+    display: block;
+    height: 24px;
+    position: absolute;
+    top: 18px;
+    left: 20px;
+    width: 24px;
+    transition: all 0.2s;
+  }
+
+  label::before {
+    background: rgb(255, 80, 80);
+    content: '';
+    height: 4px;
+    left: 0;
+    position: absolute;
+    top: 6px;
+    width: 24px;
+    transition: all 0.2s;
+  }
+
+  label::after {
+    background: rgb(255, 0, 0);
+    content: '';
+    height: 4px;
+    left: 0;
+    position: absolute;
+    top: 14px;
+    /* Ajusta esto si es necesario para alinear con el pseudo-elemento ::before */
+    opacity: 0;
+    visibility: hidden;
+    width: 100%;
+    transform: rotate(90deg);
+    transition: all .2s;
+  }
+
+  /* Estilos para el label cuando el checkbox está marcado */
+  input[type="checkbox"]:checked+label::after {
+    opacity: 1;
+    visibility: visible;
+    transform: rotate(45deg);
+    /* Rotar para formar una 'X' con ::before */
+  }
+
+  /* Estilos adicionales para la navegación */
+  .navbar-responsive {
+    position: relative;
+  }
+
+  .navbar-responsive nav {
+    width: 100%;
+    /* Asegúrate de que el nav sea visible y accesible */
+  }
+
+
+
+  .navbar-responsive .nav-links {
+    /* Estilos para la lista de navegación, incluyendo la transición y visibilidad */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+    /* Ocultar por defecto */
+  }
+
+  .navbar-responsive input[type="checkbox"]:checked~.nav-links {
+    display: block;
+    /* Mostrar cuando el checkbox esté marcado */
+  }
+
+
+  .navbar {
+    display: none;
+  }
+
+  .additional-texts {
+    display: none;
+  }
+
+  .home-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    padding: 10px;
+  }
+
+  .welcome-text {
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .welcome-text h1 {
+    margin-top: 5%;
+    margin-left: 0;
+    font-size: 50px;
+    /* Tamaño de fuente ajustado para pantallas pequeñas */
+  }
+
+  .welcome-text h2 {
+    margin-left: 0;
+    font-size: 16px;
+    /* Tamaño de fuente ajustado para pantallas pequeñas */
+  }
+
+  .button-container {
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .additional-texts {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .red-button {
+    font-size: 20px;
+    /* Tamaño de fuente ajustado para pantallas pequeñas */
+  }
+
+  .experience-section {
+    display: none;
+  }
+
+  .container-responsive {
+    display: flex;
+    /* Muestra el menú responsive */
+    flex-direction: column;
+    align-items: center;
+    background-color: #000;
+    /* Fondo del menú desplegable */
+    position: absolute;
+    top: 60px;
+    /* Ajustar si es necesario */
+    width: 100%;
+    display: none;
+  }
+
+  .container-responsive a {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #fff;
+    /* Líneas entre opciones */
+  }
+
+  /*SEVICIOS*/
+
+  .services-grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .service-item {
+    padding: 10px;
+    max-width: 100%;
+  }
+
+  .service-title {
+    margin-top: 10px;
+  }
+
+  .service-description {
+    padding: 10px 10px 10px;
+    margin-bottom: 20%;
+    line-height: 30px;
+  }
+
+  .service-number {
+    padding: auto;
+    margin-left: 10px;
+    margin-bottom: 36px;
+  }
+
+  /*FORMULARIO*/
+
+  .container-inscripcion {
+    display: flex;
+    background-color: #000;
+    margin-top: 40px;
+    flex-direction: column-reverse;
+  }
+
+  .imagen-inscripcion {
+    flex: 2;
+    background-image: url(/assets/images/fotoInscripcion.jpg);
+    height: 600px;
+    z-index: 1;
+    top: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .h1-inscripcion {
+    line-height: 50px;
+    font-size: 50px;
+  }
+
+  .A-ENTRENAR-YA {
+    color: #ff0000;
+    font-size: 50px;
+  }
+
+  .p-inscripcion {
+    /* float: left; */
+    margin-right: 10%;
+    /* margin-left: 5%; */
+    font-size: 20px;
+    text-align: left;
+    color: #fff;
+  }
+
+  button {
+    padding: 7px 20px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .buttons-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  /*CLIENTES*/
+
+  .columna-texto {
+    font-size: 20px;
+    margin: 40px;
+    color: #ffffff;
+  }
+
+  .primer-parrafo p,
+  .segundo-parrafo p,
+  .tercer-parrafo p {
+    max-width: 100%;
+    margin: 0;
+    text-align: center;
+  }
+
+  .foto-luis {
+    display: none;
+  }
+
+  .foto-jaime {
+
+    display: none;
+
+  }
+
+  .foto-gabs {
+    display: none;
+  }
+
+  /*UBICACION*/
+
+  .foto-ubicacion {
+    background-image: url(/assets/images/foto-ubicacion.jpg);
+    width: 20em;
+    height: 20em;
+
+  }
+
+  /*FOTER*/
+  .menu-footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* Ajusta a 3 columnas en lugar de 1 */
+    justify-content: center;
+    align-items: start;
+    /* Alinea los elementos al inicio */
+    gap: 3rem;
+    padding: 2rem;
+    /* Agrega padding para que no esté pegado a los bordes */
+  }
+
+  .title-footer {
+    font-size: 1.4rem;
+    /* Aumenta un poco el tamaño si es necesario */
+    text-align: center;
+    /* Asegúrate de que el texto esté centrado */
+    margin-bottom: 1rem;
+    /* Agrega un margen abajo para separarlo de la lista */
+  }
+
+  ul {
+    list-style: none;
+    /* Remueve los bullets de la lista */
+    padding: 0;
+    /* Remueve el padding por defecto de las listas */
+    margin: 0;
+    /* Remueve el margen por defecto de las listas */
+  }
+
+  ul li {
+    font-size: 1.2rem;
+    text-align: center;
+    /* Asegura que el texto esté centrado */
+    margin-bottom: 0.5rem;
+    /* Agrega un pequeño margen entre elementos de la lista */
+  }
+
+  /* Agrupa las clases que comparten las mismas propiedades para evitar repetición */
+  .contact-info,
+  .information,
+  .my-account,
+  .familia-coreevolution {
+    display: flex;
+    /* Usa flexbox para mejor control del layout */
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* Asegura que el texto esté centrado */
+  }
 }
 
 @media (max-width:320px) {
@@ -2368,6 +2510,6 @@ text-align: center; /* Asegura que el texto esté centrado */
     background-image: url(/assets/images/foto-ubicacion.jpg);
     width: 15em;
     height: 20em;
-    
-    }
+
+  }
 }

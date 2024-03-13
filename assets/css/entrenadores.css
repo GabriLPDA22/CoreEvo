@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,26 +8,26 @@
 }
 
 body {
-    background: url(https://www.dir.cat/blog/wp-content/uploads/2020/03/micromachismos-gimnasio.jpg) center/cover no-repeat; 
+    background: url(https://www.dir.cat/blog/wp-content/uploads/2020/03/micromachismos-gimnasio.jpg) center/cover no-repeat;
 }
 
 
 .navbar {
-  position: fixed;
-  /* Cambiado de absolute para fijar la navbar */
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 2px 5px;
-  box-sizing: border-box;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #000;
-  /* Cambiado a un color sólido para visualizar la navbar */
-  color: white;
-  z-index: 1000;
-  border-bottom: 1px solid #ffffff;
+    position: fixed;
+    /* Cambiado de absolute para fijar la navbar */
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2px 5px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    /* Cambiado a un color sólido para visualizar la navbar */
+    color: white;
+    z-index: 1000;
+    border-bottom: 1px solid #ffffff;
 }
 
 
@@ -35,46 +35,46 @@ body {
 /* REDES SOCIALES */
 
 .left-section {
-  min-width: 15px;
-  display: flex;
-  justify-content: space-around;
-  margin-right: 5%;
+    min-width: 15px;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 5%;
 }
 
 .left-section .social-circle {
-  margin-top: 2%;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  margin-right: 5px;
-  /* Ajusta el margen entre los círculos según tus preferencias */
+    margin-top: 2%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+    /* Ajusta el margen entre los círculos según tus preferencias */
 }
 
 .left-section .social-circle a {
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-  font-size: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
 }
 
 .left-section .social-circle i {
-  margin-top: 3px;
+    margin-top: 3px;
 }
 
 
 .nav-item {
-  padding: 10px;
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-  font-size: 21px;
-  font-family: Bebas Neue;
-  margin-right: 20px;
-  align-items: right;
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 21px;
+    font-family: "Bebas Neue", sans-serif;
+    margin-right: 20px;
+    align-items: right;
 }
 
 .nav-item.active {
-  color: red;
+    color: red;
 }
 
 .overlay {
@@ -83,33 +83,41 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Cambia el valor (último número) para ajustar la opacidad */    
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Cambia el valor (último número) para ajustar la opacidad */
 }
 
-.text{
+.text {
     text-align: center;
     justify-content: center;
+    font-family: 'Poppins', sans-serif;
 }
+
 .text h1 {
     margin-top: 120px;
-    color: red; /* Cambia el color del texto a blanco */
+    color: red;
+    /* Cambia el color del texto a blanco */
     font-size: 50px;
+    font-family: "Bebas Neue", sans-serif;
 }
+
 
 .stars {
     margin-top: 7px;
 }
-.products_body{
+
+.products_body {
     background: transparent;
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     width: 100%;
     height: 75vh;
 }
-.wrapper{
+
+.wrapper {
     width: 450px;
-    height:500px;
+    height: 500px;
     background: transparent;
     margin: auto;
     position: relative;
@@ -119,28 +127,30 @@ body {
     transition: box-shadow 0.5s, transform 0.5s;
     z-index: 1000;
 }
-.wrapper:hover{
+
+.wrapper:hover {
     transform: scale(1);
-    box-shadow: 5px 20px 30px rgba(0,0,0,0.2);
+    box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
 }
 
-.wrapper .container{
+.wrapper .container {
     width: 100%;
     height: 100%;
 }
 
-.wrapper .container .top{
+.wrapper .container .top {
     height: 80%;
     width: 100%;
     background-size: 100%;
 }
-.wrapper .container .bottom{
+
+.wrapper .container .bottom {
     width: 100%;
     height: 20%;
     transition: transform 0.5s;
 }
 
-.wrapper .container .bottom .left{
+.wrapper .container .bottom .left {
     height: 100%;
     width: 100%;
     background: #b60707;
@@ -148,18 +158,18 @@ body {
     float: left;
 }
 
-.wrapper .container .bottom .left .details{
+.wrapper .container .bottom .left .details {
     padding-left: 20px;
     float: left;
     width: calc(70% - 40px);
 }
 
-.wrapper .container .bottom .left .details .txt_products{
+.wrapper .container .bottom .left .details .txt_products {
     font-size: 25px;
+    font-family: 'Poppins', sans-serif;
 }
 
-
-.wrapper .inside{
+.wrapper .inside {
     z-index: 9;
     background: #b60707;
     width: 140px;
@@ -172,7 +182,7 @@ body {
     overflow: hidden;
 }
 
-.wrapper .inside .icon{
+.wrapper .inside .icon {
     position: absolute;
     right: 85px;
     top: 85px;
@@ -180,89 +190,95 @@ body {
     opacity: 1;
 }
 
-.wrapper .inside:hover{
+.wrapper .inside:hover {
     width: 100%;
     right: 0;
     top: 0;
     border-radius: 0;
     height: 80%;
 }
-.wrapper .inside:hover .icon{
+
+.wrapper .inside:hover .icon {
     opacity: 0;
     right: 15px;
     top: 15px;
 }
-.wrapper .inside:hover .contents{
+
+.wrapper .inside:hover .contents {
     opacity: 1;
     transform: scale(1);
     transform: translateY(0);
 }
 
-.wrapper .inside .contents{
+.wrapper .inside .contents {
     padding: 5%;
     opacity: 0;
     transform: scale(0.5);
     transform: translateY(-200%);
-    transition: opacity 0.2s,transform 0.8s;
+    transition: opacity 0.2s, transform 0.8s;
 }
+
 .wrapper .inside .contents h1,
-.wrapper .inside .contents p{
+.wrapper .inside .contents p {
     color: white;
 }
 
-.wrapper .inside .contents p{
+.wrapper .inside .contents p {
     font-size: 19px;
 }
 
 @media (max-width: 1024px) {
 
     /*SECCION PRIMEA x NAVEGACION*/
-    
-    body{
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center;
-      color: rgb(0, 0, 0);
-      max-height: 500vh; 
-      background-color: #000000;
+
+    body {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        color: rgb(0, 0, 0);
+        max-height: 500vh;
+        background-color: #000000;
 
     }
-    
 
-    
-    .additional-texts{
-      display: none;
+
+
+    .additional-texts {
+        display: none;
     }
 
-    .stars{
+    .stars {
         display: none;
     }
 
 
-}   
+}
 
-@media (max-width: 768px){
-    .navbar-responsive{
+@media (max-width: 768px) {
+    .navbar-responsive {
         display: flex;
     }
 
     body {
-        background: url(https://www.dir.cat/blog/wp-content/uploads/2020/03/micromachismos-gimnasio.jpg) center/cover repeat; 
+        background: url(https://www.dir.cat/blog/wp-content/uploads/2020/03/micromachismos-gimnasio.jpg) center/cover repeat;
     }
 
     .overlay {
         display: none;
     }
 
-    .navbar{display: none;}
-    
+    .navbar {
+        display: none;
+    }
+
     .products_body {
         display: grid;
-        grid-template-columns: 1fr; /* Ajusta a 3 columnas en lugar de 1 */
+        grid-template-columns: 1fr;
+        /* Ajusta a 3 columnas en lugar de 1 */
         justify-content: center;
     }
 
-    .txt_products{
+    .txt_products {
         margin-top: 20px;
     }
 }

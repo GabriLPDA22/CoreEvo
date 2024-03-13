@@ -1,10 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-body,
 html {
   margin: 0;
   height: 100%;
-  font-family: Arial, sans-serif;
-
 }
 
 body {
@@ -12,7 +10,6 @@ body {
   padding: 0;
   height: 100vh;
   background: url(https://www.dir.cat/blog/wp-content/uploads/2020/03/micromachismos-gimnasio.jpg) center/cover no-repeat;
-  /* Ajusta la URL y las propiedades según tu imagen de fondo */
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -22,7 +19,6 @@ body {
 
 .navbar {
   position: fixed;
-  /* Cambiado de absolute para fijar la navbar */
   top: 0;
   left: 0;
   width: 100%;
@@ -32,7 +28,6 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: #000;
-  /* Cambiado a un color sólido para visualizar la navbar */
   color: white;
   z-index: 1000;
   border-bottom: 1px solid #ffffff;
@@ -56,7 +51,6 @@ body {
   display: flex;
   align-items: center;
   margin-right: 5px;
-  /* Ajusta el margen entre los círculos según tus preferencias */
 }
 
 .left-section .social-circle a {
@@ -75,7 +69,7 @@ body {
   text-decoration: none;
   color: rgb(255, 255, 255);
   font-size: 21px;
-  font-family: Bebas Neue;
+  font-family: "Bebas Neue", sans-serif;
   margin-right: 20px;
   align-items: right;
 }
@@ -90,55 +84,65 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.9); /* Cambia el valor (último número) para ajustar la opacidad */
+  background-color: rgba(0, 0, 0, 0.9);
   z-index: -1;
 }
+
 .container {
   display: flex;
   height: 100%;
 }
+
 .container-izq {
   color: white;
-  flex-basis: 50%; /* Ocupa el 50% del contenedor principal */
-  padding: 20px; /* Espaciado interior para el texto */
+  flex-basis: 50%;
+  /* Ocupa el 50% del contenedor principal */
+  padding: 20px;
 }
+
 h1 {
   text-align: center;
-  margin-top: 5%; 
+  margin-top: 5%;
   font-family: 'Bebas Neue', sans-serif;
   font-size: 50px;
- }
+}
 
- p {
-  float: left; /* Hace que el texto flote hacia la izquierda */
+p {
+  float: left;
   margin-right: 10%;
   margin-left: 5%;
-  font-size: 26px; /* Aumenta el tamaño de la letra  */
-  text-align: justify; /* Justifica el texto*/
+  font-size: 26px;
+  text-align: justify;
+  font-family: 'Poppins', sans-serif;
 
 }
-.NUTRICIONALES{
+
+.NUTRICIONALES {
   color: red;
 }
+
 h2 {
   color: red;
   font-size: 50px;
   margin-top: 30%;
   text-align: center;
+  font-family: "Bebas Neue", sans-serif;
 }
- 
+
 .container-derch {
-  flex-basis: 50%; /* Ocupa el 50% del contenedor principal */
-  background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+  flex-basis: 50%;
+  /* Ocupa el 50% del contenedor principal */
+  background-size: cover;
 }
+
 .imagen-fototienda {
   background-image: url('/assets/images/fototienda.jpg');
   position: absolute;
   width: 20%;
   height: 60%;
-  z-index: 1; /* Añadido para asegurarse de que esté encima del overlay y el contenido */
-  top: 20%; 
-  right: 11%;  
+  z-index: 1;
+  top: 20%;
+  right: 11%;
   background-size: cover;
   background-position: center;
 }
@@ -149,24 +153,24 @@ h2 {
   width: 23%;
   height: 65%;
   border: 1px solid rgb(255, 0, 0);
-  z-index: 1; /* Añadido para asegurarse de que esté encima del overlay y el contenido */
-  top: 10%; 
-  right: 13%;  
+  z-index: 1;
+  top: 10%;
+  right: 13%;
 }
+
 .rectangulo2 {
   position: absolute;
   width: 23%;
   height: 65%;
   border: 1px solid rgb(83, 83, 83);
-  z-index: 1; /* Añadido para asegurarse de que esté encima del overlay y el contenido */
-  top: 30%; 
-  right: 7%;  
+  z-index: 1;
+  top: 30%;
+  right: 7%;
 }
 
 .boton {
   color: white;
   border: 2px solid red;
-  /* Grosor fino y color rojo */
   padding: 20px 20px;
   text-align: center;
   text-decoration: none;
@@ -176,13 +180,14 @@ h2 {
   cursor: pointer;
   background: transparent;
   border-radius: 5%;
+  font-family: 'Poppins', sans-serif;
 }
 
 
 /*MEDIDA 768px */
 @media (max-width: 768px) {
-  
-  .navbar{
+
+  .navbar {
     display: none;
   }
 
@@ -192,50 +197,61 @@ h2 {
     left: 0;
     width: 100%;
     height: 111%;
-    background-color: rgba(0, 0, 0, 0.9); 
+    background-color: rgba(0, 0, 0, 0.9);
     z-index: -1;
   }
+
   .container {
     flex-direction: column;
     align-items: center;
   }
+
   .container-izq {
     width: 100%;
-    padding: 5px; 
-   
+    padding: 5px;
+
   }
-  h1 {  
-    font-size: 60px; 
+
+  h1 {
+    font-size: 60px;
     margin: 0 auto;
-    text-align: center; 
+    text-align: center;
   }
+
   p {
     margin-top: 45px;
-    float: none; /* Anula el flotamiento del texto */
-    margin: 25 auto; /* Centra el párrafo horizontalmente */
-    width: 70%; /* Controla el ancho del párrafo */
-    font-size: 18px; /* Ajusta el tamaño del texto para que sea legible */
+    float: none;
+    /* Anula el flotamiento del texto */
+    margin: 25 auto;
+    /* Centra el párrafo horizontalmente */
+    width: 70%;
+    /* Controla el ancho del párrafo */
+    font-size: 18px;
+    /* Ajusta el tamaño del texto para que sea legible */
     width: 91%;
   }
- 
+
   .container-derch {
     flex-direction: column;
     align-items: center;
   }
+
   .imagen-fototienda {
     background-image: url('/assets/images/suplementos.jpg');
     position: absolute;
     width: 60%;
     height: 60%;
-    z-index: 1; /* Añadido para asegurarse de que esté encima del overlay y el contenido */
-    top: 40%; 
-    right: 11%;  
+    z-index: 1;
+    /* Añadido para asegurarse de que esté encima del overlay y el contenido */
+    top: 40%;
+    right: 11%;
     background-size: cover;
     background-position: center;
   }
-  
 
-  .rectangulo, .rectangulo2 {
+
+  .rectangulo,
+  .rectangulo2 {
     display: none;
   }
 }

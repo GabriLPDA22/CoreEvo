@@ -1,4 +1,5 @@
-body,
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 html {
   margin: 0;
   height: 100%;
@@ -89,7 +90,7 @@ body {
   text-decoration: none;
   color: rgb(255, 255, 255);
   font-size: 21px;
-  font-family: Bebas Neue;
+  font-family: "Bebas Neue", sans-serif;
   margin-right: 20px;
   align-items: right;
 }
@@ -105,7 +106,6 @@ body {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.9);
-  /* Cambia el valor (último número) para ajustar la opacidad */
   z-index: -1;
 }
 
@@ -119,7 +119,6 @@ body {
   flex-basis: 50%;
   /* Ocupa el 50% del contenedor principal */
   padding: 20px;
-  /* Espaciado interior para el texto */
 }
 
 h1 {
@@ -131,14 +130,11 @@ h1 {
 
 p {
   float: left;
-  /* Hace que el texto flote hacia la izquierda */
   margin-right: 10%;
   margin-left: 5%;
   font-size: 26px;
-  /* Aumenta el tamaño de la letra  */
   text-align: justify;
-  /* Justifica el texto*/
-
+  font-family: 'Poppins', sans-serif;
 }
 
 h2 {
@@ -146,13 +142,12 @@ h2 {
   font-size: 50px;
   margin-top: 30%;
   text-align: center;
+  font-family: 'Poppins', sans-serif;
 }
 
 .container-derch {
   flex-basis: 50%;
-  /* Ocupa el 50% del contenedor principal */
   background-size: cover;
-  /* Asegura que la imagen cubra todo el contenedor */
 }
 
 .imagen-lateral-dieta {
@@ -161,7 +156,6 @@ h2 {
   width: 20%;
   height: 60%;
   z-index: 1;
-  /* Añadido para asegurarse de que esté encima del overlay y el contenido */
   top: 20%;
   right: 11%;
   background-size: cover;
@@ -170,6 +164,7 @@ h2 {
 
 ul {
   font-size: 25px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .rectangulo {
@@ -178,7 +173,6 @@ ul {
   height: 65%;
   border: 1px solid rgb(255, 0, 0);
   z-index: 1;
-  /* Añadido para asegurarse de que esté encima del overlay y el contenido */
   top: 10%;
   right: 13%;
 }
@@ -189,7 +183,6 @@ ul {
   height: 65%;
   border: 1px solid rgb(83, 83, 83);
   z-index: 1;
-  /* Añadido para asegurarse de que esté encima del overlay y el contenido */
   top: 30%;
   right: 7%;
 }
@@ -197,7 +190,6 @@ ul {
 .boton {
   color: white;
   border: 2px solid red;
-  /* Grosor fino y color rojo */
   padding: 20px 20px;
   text-align: center;
   text-decoration: none;
@@ -207,69 +199,78 @@ ul {
   cursor: pointer;
   background: transparent;
   border-radius: 5%;
+  font-family: 'Poppins', sans-serif;
 }
 
-  /*MEDIDA 768px */
-  @media (max-width: 768px) {
-    body {
-      height: 90vh;
-    }
-
-    .navbar{
-      display: none;
-    }
-    .overlay {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 111%;
-      background-color: rgba(0, 0, 0, 0.9); 
-      z-index: -1;
-    }
-    .container {
-      flex-direction: column;
-      align-items: center;
-    }
-    .container-izq {
-      width: 100%;
-      padding: 5px; 
-     
-    }
-    h1 {  
-      font-size: 60px; 
-      margin: 0 auto;
-      text-align: center; 
-    }
-    p {
-      margin-top: 45px;
-      float: none; /* Anula el flotamiento del texto */
-      margin: 25 auto; /* Centra el párrafo horizontalmente */
-      width: 70%; /* Controla el ancho del párrafo */
-      font-size: 18px; /* Ajusta el tamaño del texto para que sea legible */
-      width: 91%;
-    }
-    h2 {
-      color: red;
-      font-size: 50px;
-      margin-top: 8%;
-      text-align: center;
-    }
-    ul {
-      font-size: 18px;
-      margin-left: 26px;
-    }
-    .container-derch {
-      flex-direction: column;
-      align-items: center;
-    }
-    .imagen-lateral-dieta {
-     display: none;
-    }
-  
-    .rectangulo, .rectangulo2 {
-      display: none;
-    }
+/*MEDIDA 768px */
+@media (max-width: 768px) {
+  body {
+    height: 90vh;
   }
 
+  .navbar {
+    display: none;
+  }
 
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 101%;
+    height: 111%;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: -1;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container-izq {
+    width: 100%;
+    padding: 5px;
+
+  }
+
+  h1 {
+    font-size: 60px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  p {
+    margin-top: 45px;
+    float: none;
+    margin: 25 auto;
+    width: 70%;
+    font-size: 18px;
+    width: 91%;
+  }
+
+  h2 {
+    color: red;
+    font-size: 50px;
+    margin-top: 8%;
+    text-align: center;
+  }
+
+  ul {
+    font-size: 18px;
+    margin-left: 26px;
+  }
+
+  .container-derch {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .imagen-lateral-dieta {
+    display: none;
+  }
+
+  .rectangulo,
+  .rectangulo2 {
+    display: none;
+  }
+}

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 body {
   background-color: black;
   color: white;
@@ -74,7 +76,7 @@ body {
   text-decoration: none;
   color: rgb(255, 255, 255);
   font-size: 21px;
-  font-family: Bebas Neue;
+  font-family: "Bebas Neue", sans-serif;
   margin-right: 20px;
   align-items: right;
 }
@@ -86,34 +88,41 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  padding-left: 10%; /* Ajusta el padding según tus necesidades */
+  padding-left: 10%;
   padding-right: 10%;
 }
 
 .row {
   display: flex;
-  margin-bottom: 20px; /* Ajusta el margin-bottom según necesites espacio entre las filas */
+  margin-bottom: 20px;
 }
 
 .columna-imagen {
   flex: 1;
   display: flex;
-  justify-content: center; /* Centra la imagen en su columna */
+  justify-content: center;
   align-items: center;
-  height: 220px; /* Establece una altura para las columnas de imágenes */
+  height: 220px;
 }
 
 .columna-texto {
   flex: 1;
-  margin-left: 20px; /* Ajusta según la separación deseada entre texto e imagen */
+  margin-left: 20px;
+
 }
 
-.foto-1, .foto-2, .foto-3 {
-  width: 80%; /* Las imágenes ocuparán el ancho completo de su contenedor */
-  height: 100%; /* Las imágenes ocuparán la altura completa de su contenedor */
-  background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+.foto-1,
+.foto-2,
+.foto-3 {
+  width: 80%;
+  /* Las imágenes ocuparán el ancho completo de su contenedor */
+  height: 100%;
+  /* Las imágenes ocuparán la altura completa de su contenedor */
+  background-size: cover;
+  /* Asegura que la imagen cubra todo el contenedor */
   background-repeat: no-repeat;
-  background-position: center; /* Centra la imagen en su contenedor */
+  background-position: center;
+  /* Centra la imagen en su contenedor */
 }
 
 /* Asegúrate de que las rutas de las imágenes sean correctas */
@@ -133,42 +142,51 @@ body {
 .columna-texto p {
   text-align: justify;
   font-size: 30px;
-  line-height: 1.5; /* Ajusta el interlineado para una mejor legibilidad */
+  line-height: 1.5;
+  /* Ajusta el interlineado para una mejor legibilidad */
   margin: 0;
 }
 
 
 
-@media (max-width: 1440px){
-  .container{
+@media (max-width: 1440px) {
+  .container {
     width: 100%;
     height: 100%;
     padding-left: 2px;
   }
-  .encabezado h1{
+
+  .encabezado h1 {
     width: 80%;
-  
+
   }
-  .foto-1, .foto-2, .foto-3 {
+
+  .foto-1,
+  .foto-2,
+  .foto-3 {
     width: 100%;
     height: 100%;
   }
-  .columna-texto p{
+
+  .columna-texto p {
     font-size: 1.2em;
   }
 }
-@media (max-width: 1024px){
-  .container{
+
+@media (max-width: 1024px) {
+  .container {
     width: 100%;
     height: 100%;
   }
-  .encabezado{
+
+  .encabezado {
     width: 115%;
   }
 
 }
 
-@media (max-width: 768px){
-  .navbar{display: none;}
+@media (max-width: 768px) {
+  .navbar {
+    display: none;
+  }
 }
-
