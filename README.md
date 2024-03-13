@@ -54,7 +54,7 @@ Agradecemos a los siguientes colaboradores:
 - [Alexlana21](https://github.com/Alexlana21)
 - [CoroAlfonso](https://github.com/CoroAlfonso)
 - [Narwhal21](https://github.com/Narwhal21)
-- [victorsierra](https://github.com/victorsierra)
+- [victorsierrra](https://github.com/victorsierrra)
 - [GabriLPDA22](https://github.com/GabriLPDA22)
 
 ## 🛠️ Stack Tecnológico
