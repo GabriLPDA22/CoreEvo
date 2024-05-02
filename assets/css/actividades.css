@@ -203,7 +203,6 @@ ul {
   }
 
   .overlay {
-    position: absolute;
     top: 0;
     left: 0;
     width: 101%;
@@ -244,10 +243,9 @@ ul {
 
   .imagen-lateral-bici {
     background-image: url('/assets/images/fotobici.jpg');
-    position: absolute;
     width: 40%;
     height: 55%;
-    z-index: 1;
+    z-index: -1;
     top: 53%;
     right: 50%;
     background-size: cover;
@@ -257,10 +255,9 @@ ul {
 
   .imagen-lateral-pesa {
     background-image: url('/assets/images/fotopesa.jpg');
-    position: absolute;
     width: 40%;
     height: 55%;
-    z-index: 1;
+    z-index: -1;
     top: 50%;
     right: 8%;
     background-size: cover;
@@ -303,10 +300,9 @@ ul {
 
   .imagen-lateral-bici {
     background-image: url('/assets/images/fotobici.jpg');
-    position: absolute;
     width: 35%;
     height: 45%;
-    z-index: 1;
+    z-index: -1;
     top: 45%;
     right: 50%;
     background-size: cover;
@@ -315,10 +311,9 @@ ul {
 
   .imagen-lateral-pesa {
     background-image: url('/assets/images/fotopesa.jpg');
-    position: absolute;
     width: 35%;
     height: 45%;
-    z-index: 1;
+    z-index: -1;
     top: 45%;
     right: 8%;
     background-size: cover;

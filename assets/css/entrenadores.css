@@ -246,6 +246,12 @@ body {
 
     }
 
+    .products_body {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* Ajusta a 3 columnas en lugar de 1 */
+        justify-content: center;
+    }
 
 
     .additional-texts {
@@ -260,8 +266,8 @@ body {
 }
 
 @media (max-width: 768px) {
-    .navbar-responsive {
-        display: flex;
+    .navbar {
+        display: none;
     }
 
     .text h1 {
@@ -282,7 +288,7 @@ body {
 
     .products_body {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
         /* Ajusta a 3 columnas en lugar de 1 */
         justify-content: center;
     }

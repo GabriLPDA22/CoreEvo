@@ -190,12 +190,10 @@ h2 {
     width: 35%;
     height: 60%;
     margin-left: -55px;
-    position: absolute;
     margin-top: 50px;
   }
 
   .overlay {
-    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
