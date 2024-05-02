@@ -43,7 +43,7 @@ body {
     font-weight: 600;
     cursor: pointer;
     text-decoration: none;
-    margin-left: 10px;
+    margin-left: 11px;
 }
 
 .nav-menu ul {
@@ -231,6 +231,7 @@ header {
 
 }
 
+/*Comit para todas las medidas de 510 para abajo tanto para movil*/
 @media (max-width:510px) {
     .form-box {
         margin-bottom: 300px;
